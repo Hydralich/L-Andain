@@ -1,0 +1,590 @@
+{
+  "arrival": {
+    "title": "1. Uw aankomst",
+    "body": [],
+    "topics": {
+      "times": {
+        "title": "Aankomst- en vertrektijden",
+        "body": [
+          "Aankomst: vanaf 15.00 uur",
+          "Vertrek: vóór 11.00 uur"
+        ]
+      },
+      "parking": {
+        "title": "Parkeren",
+        "body": [
+          "Direct voor het vakantieverblijf ligt een eigen oprit met grind, uitsluitend bestemd voor de gasten van L'Andain.",
+          "U kunt er gratis twee auto's achter elkaar parkeren en ze gedurende uw hele verblijf laten staan."
+        ]
+      },
+      "keys": {
+        "title": "Toegang tot het vakantieverblijf",
+        "body": [
+          "U kunt zelfstandig inchecken via het sleutelkastje bij de ingang.",
+          "Voor uw aankomst ontvangt u de toegangscode in een bericht.",
+          "Haal de sleutel uit het kastje om de deur te openen.",
+          "Vergeet niet het sleutelkastje na gebruik goed te sluiten."
+        ]
+      }
+    }
+  },
+  "bathroom": {
+    "title": "2. De badkamer",
+    "body": [],
+    "topics": {
+      "bath": {
+        "title": "Het bubbelbad",
+        "body": [
+          "Zin in een ontspannend bubbelbad na een dag wandelen? Het bad is uitgerust met waterjets.",
+          "Hoe gebruikt u het?",
+          "Belangrijk: gebruik de jets uitsluitend met helder water, zonder badproducten.",
+          "1. Vul het bad met schoon water tot het niveau dat nodig is om de jets te gebruiken.",
+          "2. Controleer of alle jets volledig onder water staan.",
+          "3. Druk op de knop op de badrand, aan het voeteneinde, om de bubbelfunctie in te schakelen.",
+          "4. Druk nogmaals op dezelfde knop om de functie uit te schakelen.",
+          "Voeg geen zeep, badschuim, olie of andere producten toe zolang u de jets gebruikt. Die kunnen het mechanisme beschadigen.",
+          "U mag natuurlijk een gewoon bad nemen met uw vertrouwde badproducten, zolang u de jets niet inschakelt.",
+          "Gebruik het systeem nooit wanneer de jets onvoldoende onder water staan."
+        ]
+      },
+      "towel": {
+        "title": "De elektrische handdoekradiator",
+        "body": [
+          "De elektrische handdoekradiator verwarmt de badkamer snel en helpt uw handdoeken te drogen.",
+          "Om energie te besparen, vragen we u hem alleen te gebruiken wanneer dat nodig is en nadien uit te schakelen.",
+          "Laat hem niet voortdurend aanstaan en schakel hem ook uit wanneer u langere tijd weggaat.",
+          "Let op: leg geen handdoeken of andere voorwerpen op het bovenste rooster van het toestel."
+        ]
+      }
+    }
+  },
+  "bedroom": {
+    "title": "3. De slaapkamer",
+    "body": [],
+    "topics": {
+      "bed": {
+        "title": "Bed en opbergruimte",
+        "body": [
+          "De slaapkamer beschikt over een bed, twee nachtkastjes en een kleerkast.",
+          "Ter herinnering: beddengoed is niet inbegrepen. Bent u iets vergeten of hebt u daardoor een probleem, laat het ons weten. Dan zoeken we samen een oplossing."
+        ]
+      },
+      "charging": {
+        "title": "Apparaten opladen",
+        "body": [
+          "Onder de nachtkastjes bevinden zich USB- en USB-C-aansluitingen om telefoons en andere kleine apparaten op te laden."
+        ]
+      },
+      "bedheating": {
+        "title": "Verwarming",
+        "body": [
+          "De wandradiator werkt niet, omdat het vakantieverblijf geen centrale verwarming heeft.",
+          "De pelletkachel in de woonkamer is de belangrijkste warmtebron."
+        ]
+      },
+      "gardenaccess": {
+        "title": "Toegang tot de tuin",
+        "body": [
+          "Vanuit de slaapkamer hebt u rechtstreeks toegang tot de privétuin. Let op de opstap: die is vrij hoog.",
+          "Met een schakelaar kunt u ook de buitenverlichting aan de gevel bedienen. Standaard is er een timer ingesteld die de verlichting 's avonds automatisch in- en uitschakelt."
+        ]
+      }
+    }
+  },
+  "living": {
+    "title": "4. De woonkamer",
+    "body": [],
+    "topics": {
+      "stove": {
+        "title": "Pelletkachel – CADEL CRISTAL3 7.0 UP",
+        "body": [
+          "De pelletkachel verwarmt het vakantieverblijf. Hij warmt de kamers snel op en zorgt voor een gezellige sfeer, ook wanneer het weer wat minder meezit.",
+          "De kachel aanzetten",
+          "1. Controleer of de glazen deur en het deksel van het pelletreservoir goed gesloten zijn.",
+          "2. Houd de knop P1 (aan/uit) op het bedieningspaneel enkele ogenblikken ingedrukt.",
+          "3. Op het scherm verschijnt “ON”, samen met een knipperend vlamsymbool.",
+          "4. De kachel start automatisch de ontstekingscyclus. Het duurt doorgaans enkele minuten voordat er een vlam zichtbaar is.",
+          "Wacht rustig tot de cyclus voltooid is en druk niet opnieuw op de knop.",
+          "De temperatuur instellen",
+          "1. Druk op + of − om de instellingen te openen.",
+          "2. Selecteer “Conf T. Amb” met de pijltjestoetsen.",
+          "3. Bevestig met de knop Menu.",
+          "4. Stel de gewenste temperatuur in met + en −.",
+          "5. Bevestig met Menu en verlaat het scherm met ESC.",
+          "De kachel past zijn werking automatisch aan de gekozen temperatuur aan.",
+          "De kachel uitzetten",
+          "1. Houd P1 enkele ogenblikken ingedrukt.",
+          "2. De kachel start automatisch de uitschakelcyclus.",
+          "3. De vlam dooft geleidelijk, terwijl de ventilatoren nog blijven draaien om het toestel af te koelen.",
+          "Trek nooit de stekker uit het stopcontact om de kachel uit te zetten. De afkoelcyclus is essentieel voor een veilige werking.",
+          "Pellets bijvullen",
+          "Tijdens uw verblijf zijn zakken pellets beschikbaar.",
+          "1. Vul het reservoir bij voorkeur bij wanneer de kachel uit staat en voldoende is afgekoeld.",
+          "2. Open het deksel van het reservoir boven op het toestel.",
+          "3. Giet de pellets voorzichtig in het reservoir en houd de zak weg van hete onderdelen.",
+          "4. Sluit het deksel zorgvuldig en controleer of er geen pellets tussen de afdichting zitten.",
+          "Gebruik uitsluitend de pellets die wij ter beschikking stellen. Het deksel moet gesloten blijven wanneer de kachel werkt.",
+          "Enkele voorzorgsmaatregelen",
+          "Zet geen voorwerpen op de kachel of dicht bij hete oppervlakken.",
+          "Blokkeer de uitblaasopeningen voor warme lucht nooit.",
+          "Schakel de kachel uit wanneer u het verblijf voor langere tijd verlaat.",
+          "Raak de as of interne onderdelen niet aan.",
+          "Neem bij een alarm, ongebruikelijke rook of een ontstekingsprobleem contact met ons op. Probeer niet herhaaldelijk opnieuw te starten.",
+          "De kachel heeft ingebouwde beveiligingen. Laat het ons bij problemen weten in plaats van zelf herstellingen uit te voeren."
+        ]
+      },
+      "tv": {
+        "title": "Televisie",
+        "body": [
+          "Kabeltelevisie is beschikbaar via de VOO-decoder op HDMI1 (NOG TE BEVESTIGEN).",
+          "Gebruik de afstandsbediening van de decoder om door de zenders en programma's te navigeren."
+        ]
+      },
+      "playstation": {
+        "title": "PlayStation 4",
+        "body": [
+          "Er staat een PlayStation 4 klaar voor spelletjes- en filmavonden. Druk op de centrale PS-knop van de controller om de console aan te zetten en kies HDMI4 als bron op de televisie.",
+          "U kunt de controller opladen met een kabel die u aansluit op de USB-poort aan de voorkant van de console.",
+          "Gamen",
+          "U kunt het profiel “L'Andain” gebruiken dat speciaal voor het vakantieverblijf is aangemaakt.",
+          "Er zijn verschillende spellen beschikbaar die op de console kunnen worden geïnstalleerd.",
+          "U mag ook met uw eigen PlayStation-account inloggen. Vergeet dan niet om vóór uw vertrek uit te loggen.",
+          "Films en series kijken",
+          "Op de PlayStation zijn apps beschikbaar voor Netflix, Amazon Prime Video, Disney+, HBO en andere compatibele streamingdiensten.",
+          "Ga op de console naar Media en kies de gewenste app.",
+          "Abonnementen op deze diensten zijn niet inbegrepen. Om content te bekijken, moet u met uw eigen account inloggen.",
+          "Vergeet voor uw eigen veiligheid niet om vóór uw vertrek uit te loggen bij de streamingdiensten."
+        ]
+      }
+    }
+  },
+  "kitchen": {
+    "title": "5. De keuken",
+    "body": [
+      "De keuken is uitgerust om tijdens uw verblijf zelf maaltijden te bereiden."
+    ],
+    "topics": {
+      "oven": {
+        "title": "Traditionele Bosch-oven",
+        "body": [
+          "De oven is geschikt voor gewone bereidingen en beschikt over verschillende functies.",
+          "Gebruiksaanwijzing nog aan te vullen zodra het exacte model en de bediening bekend zijn.",
+          "Vergeet de oven niet uit te schakelen na gebruik en laat hem afkoelen voordat u hem schoonmaakt."
+        ]
+      },
+      "microwave": {
+        "title": "Magnetron",
+        "body": [
+          "De magnetron bevindt zich in de kast boven de traditionele oven.",
+          "Gebruik uitsluitend magnetronbestendige schalen en bakjes."
+        ]
+      },
+      "induction": {
+        "title": "Inductiekookplaat",
+        "body": [
+          "De kookplaat werkt met inductie. U hebt dus geschikte potten en pannen nodig. Die vindt u in de keukenkasten.",
+          "Instructies voor inschakelen, vermogen regelen en ontgrendelen nog aan te vullen.",
+          "Let op: de kookplaat kan na gebruik nog warm zijn."
+        ]
+      },
+      "coffee": {
+        "title": "Dolce Gusto-koffiemachine",
+        "body": [
+          "Er staat een Dolce Gusto-koffiemachine klaar, met enkele capsules om uw verblijf goed te beginnen.",
+          "Het gebruik is eenvoudig:",
+          "1. Vul indien nodig het waterreservoir.",
+          "2. Plaats een geschikte Dolce Gusto-capsule.",
+          "3. De machine schakelt automatisch in.",
+          "4. Bereid uw drankje met de bedieningstoetsen van de machine.",
+          "5. Verwijder de gebruikte capsule na afloop.",
+          "Er is geen aan-uitknop: de machine schakelt automatisch uit."
+        ]
+      },
+      "dishwasher": {
+        "title": "Vaatwasser",
+        "body": [
+          "Er staat een vaatwasser ter beschikking, samen met enkele vaatwastabletten.",
+          "Gebruik hem gerust, ook vlak voor uw vertrek. Zo helpt u ons het vakantieverblijf klaar te maken voor de volgende gasten."
+        ]
+      },
+      "otherappliances": {
+        "title": "Andere apparaten",
+        "body": [
+          "In de kasten vindt u ook:",
+          "Een broodrooster",
+          "Een waterkoker",
+          "Een raclettegrill",
+          "Een friteuse met frituurvet",
+          "Gebruik de friteuse bij voorkeur onder de dampkap om geurtjes in het verblijf te beperken."
+        ]
+      },
+      "waste": {
+        "title": "Afval sorteren",
+        "body": [
+          "De afvalbak in de keuken heeft twee vakken:",
+          "PMD: plastic verpakkingen, metalen verpakkingen en drankkartons",
+          "Restafval: het overige gewone huishoudelijke afval",
+          "Papier en karton kunt u in de doos in de lade onder de gootsteen leggen.",
+          "Aan het einde van uw verblijf",
+          "Als de vuilnisbakken niet vol zijn, mag u ze laten staan. Wij legen ze na uw vertrek.",
+          "Als de vuilnisbakken tijdens uw verblijf vol raken, kunt u dichtgebonden zakken restafval in de zwarte containers op de privéoprit van ons huis deponeren. De gele container is voor papier en karton. Gesloten PMD-zakken mogen naast de containers worden gezet."
+        ]
+      }
+    }
+  },
+  "outdoor": {
+    "title": "6. De tuin en buitenruimte",
+    "body": [],
+    "topics": {
+      "garden": {
+        "title": "Privétuin",
+        "body": [
+          "De tuin vóór het vakantieverblijf is volledig voor u gereserveerd.",
+          "Let op: de tuin is niet omheind.",
+          "De tuin grenst aan een dorpsstraat waar maximaal 30 km/u gereden mag worden. Reist u met uw viervoeter, houd hem dan goed in de gaten."
+        ]
+      },
+      "smoking": {
+        "title": "Buiten roken",
+        "body": [
+          "L'Andain is een rookvrij vakantieverblijf.",
+          "Buiten mag u roken. Er staat een asbak naast de voordeur.",
+          "Een tweede asbak vindt u in een keukenkast.",
+          "Gebruik de asbakken en gooi geen sigarettenpeuken in de tuin."
+        ]
+      },
+      "lighting": {
+        "title": "Buitenverlichting",
+        "body": [
+          "Een lamp aan de gevel verlicht de tuin.",
+          "De schakelaar bevindt zich in de slaapkamer.",
+          "Schakel het licht uit wanneer u het niet meer nodig hebt."
+        ]
+      }
+    }
+  },
+  "safety": {
+    "title": "7. Veiligheid",
+    "body": [
+      "In de kleine berging naast de keuken hangen een blusdeken en een brandblusser.",
+      "Bij brand staan uw eigen veiligheid en die van de andere aanwezigen altijd voorop.",
+      "Ontstaat er brand, verlaat het verblijf dan onmiddellijk en bel 112. Breng ons daarna ook even op de hoogte :D",
+      "Probeer geen brand te blussen die u niet veilig onder controle kunt houden.",
+      "Als een toestel defect lijkt of zich ongewoon gedraagt, stop dan met het gebruik en neem contact met ons op."
+    ],
+    "topics": {}
+  },
+  "departure": {
+    "title": "8. Voor uw vertrek",
+    "body": [
+      "Om de volgende gasten zo goed mogelijk te kunnen ontvangen, vragen we u vóór uw vertrek nog even deze punten na te kijken.",
+      "Schakel de pelletkachel en alle nog werkende elektrische apparaten uit.",
+      "Controleer of de kookplaat en de oven uitgeschakeld zijn.",
+      "Doe de afwas of start de vaatwasser voordat u vertrekt.",
+      "Controleer de vuilnisbakken en zet de zakken indien nodig buiten.",
+      "Log uit bij uw persoonlijke accounts op de PlayStation en streamingapps.",
+      "Sluit en vergrendel alle ramen.",
+      "Doe de verlichting uit.",
+      "Doe de voordeur op slot.",
+      "Leg de sleutel terug in het sleutelkastje met code en sluit het goed af.",
+      "Vertrek uiterlijk om 11.00 uur."
+    ],
+    "topics": {
+      "reviews": {
+        "title": "Hebt u genoten van uw verblijf?",
+        "body": [
+          "Dan zouden we een kleine beoordeling op Airbnb of Google enorm waarderen!",
+          "L'Andain is een nieuw avontuur. Met uw feedback kunnen we groeien, ons verbeteren en ons stukje Wallonië aan andere reizigers laten ontdekken."
+        ]
+      }
+    }
+  },
+  "nearby_intro": {
+    "title": "Wat is er in de buurt te doen?",
+    "body": [
+      "Welkom in de vallei van de Molignée!",
+      "Met kasteelruïnes, abdijen, karaktervolle dorpjes, bospaden en lekker eten valt er in onze streek genoeg te beleven. Het fijne aan L'Andain is dat sommige ontdekkingen gewoon aan het eind van de straat beginnen.",
+      "Hieronder vindt u een selectie van plekken en activiteiten die we u graag aanraden om ons stukje Wallonië te ontdekken."
+    ],
+    "topics": {}
+  },
+  "ruins": {
+    "title": "1. Een reis terug in de tijd: kastelen en ruïnes",
+    "body": [],
+    "topics": {
+      "montaigle": {
+        "title": "Kasteel van Montaigle",
+        "body": [
+          "Op een rotsachtige uitloper, waar de Molignée en de Flavion samenvloeien, lijken de ruïnes van Montaigle zo uit een middeleeuws verhaal te komen.",
+          "Het ooit machtige kasteel werd in 1554 verwoest door de troepen van de Franse koning Hendrik II. Het werd nooit heropgebouwd, maar de overblijfselen zijn nog altijd indrukwekkend!",
+          "Wij houden vooral van de sfeer van deze plek, met de oude stenen en de bossen eromheen. Een mooi bezoek om te combineren met een wandeling in de vallei.",
+          "Praktische informatie",
+          "Adres: rue du Marteau 10, 5522 Falaën",
+          "Telefoon: +32 (0)82 69 95 85",
+          "Alternatief contact: +32 (0)478 06 30 68",
+          "E-mail: info@chateau-fort-de-montaigle.be",
+          "Website: https://chateau-fort-de-montaigle.be"
+        ]
+      },
+      "poilvache": {
+        "title": "Vesting Poilvache",
+        "body": [
+          "Hoog boven de Maas lag Poilvache ooit als een volledige versterkte stad, met een kasteel, stadswallen en woningen.",
+          "Vandaag nemen de ruïnes u mee naar de middeleeuwen en bieden ze vooral een prachtig panorama op de Maasvallei.",
+          "Neem hier gerust de tijd. De resten zijn indrukwekkend, maar het uitzicht alleen al maakt het uitstapje de moeite waard.",
+          "Praktische informatie",
+          "Toegang: chemin de Poilvache, 5530 Houx (Yvoir)",
+          "Telefoon ter plaatse: +32 (0)460 95 91 64",
+          "Informatie: +32 (0)82 61 36 82",
+          "E-mail: info@poilvache.com",
+          "Website: https://poilvache.com",
+          "Seizoensgebonden openingsuren: controleer de uren voor uw bezoek. Honden zijn welkom aan de leiband."
+        ]
+      }
+    }
+  },
+  "abbeys": {
+    "title": "2. Abdijen: erfgoed, tradities en lekkernijen",
+    "body": [],
+    "topics": {
+      "maredsous": {
+        "title": "Abdij van Maredsous",
+        "body": [
+          "Een verblijf in de vallei van de Molignée is niet compleet zonder Maredsous te ontdekken!",
+          "Deze grote benedictijnenabdij uit de 19e eeuw ligt in een groene omgeving. De neogotische basiliek maakt indruk met zowel haar afmetingen als haar architectuur.",
+          "Ga na uw bezoek ook langs in bezoekerscentrum Saint-Joseph om de specialiteiten van de abdij te proeven: kaas, bier en andere lekkernijen.",
+          "Onze tip: neem ook de tijd voor de wandelpaden rond de abdij en wandel verder naar Maredret als u houdt van charmante dorpen en mooie natuurstenen gebouwen.",
+          "Praktische informatie",
+          "Adres: rue de Maredsous 11, 5537 Denée (Anhée)",
+          "Telefoon: +32 (0)82 69 82 11",
+          "E-mail: info@maredsous.com",
+          "Website: https://www.maredsous.com"
+        ]
+      },
+      "leffe": {
+        "title": "Abdij Notre-Dame de Leffe",
+        "body": [
+          "In Dinant is de abdij van Leffe in de eerste plaats een plaats van gemeenschapsleven en spiritualiteit, waar al eeuwenlang norbertijnen wonen.",
+          "Haar geschiedenis is nauw verbonden met het bekende Leffe-bier, al is de abdij zelf geen toeristische brouwerij.",
+          "De kerk kan bezocht worden en op bepaalde momenten zijn er rondleidingen door de abdij.",
+          "Praktische informatie",
+          "Adres: place de l'Abbaye 1, 5500 Dinant",
+          "Telefoon: +32 (0)82 22 23 77",
+          "E-mail: secretariat@abbaye-de-leffe.be",
+          "Website: https://www.abbaye-de-leffe.be"
+        ]
+      },
+      "maisonleffe": {
+        "title": "Maison Leffe",
+        "body": [
+          "Wilt u de geschiedenis van Leffe-bier ontdekken? Dan moet u hier zijn!",
+          "Maison Leffe bevindt zich in een voormalig klooster dat tot hotel werd omgebouwd. U beleeft er een interactieve tentoonstelling over biererfgoed, tradities en de verschillende Leffe-bieren.",
+          "Bij het bezoek hoort ook een proeverij, met een mooi uitzicht over Dinant en de Maas.",
+          "Praktische informatie",
+          "Adres: charreau des Capucins 23, 5500 Dinant",
+          "Telefoon: +32 (0)82 22 91 91",
+          "E-mail: hotel@infiniti-resort.be",
+          "Website: https://www.leffe.com/fr-be/maison-leffe",
+          "Reserveren is aanbevolen."
+        ]
+      }
+    }
+  },
+  "activities": {
+    "title": "3. Zin in actie? Toeristische activiteiten",
+    "body": [],
+    "topics": {
+      "draisines": {
+        "title": "De railbikes van de Molignée",
+        "body": [
+          "Dit is een originele manier om de vallei te ontdekken!",
+          "Stap op een klein voertuig met pedalen dat over de sporen van een oude spoorlijn rijdt en fiets door bossen, dorpen en de landschappen van de Molignée.",
+          "Er zijn verschillende trajecten, waaronder een heen-en-terugrit tussen Falaën en het voormalige station van Maredsous.",
+          "Een leuke en toegankelijke manier om de streek eens anders te bekijken. Een beetje trappen hoort er wel bij!",
+          "Praktische informatie",
+          "Vertrek Falaën: rue de la Gare 82, 5522 Falaën",
+          "Ander vertrekpunt: rue de la Molignée 116, 5537 Warnant",
+          "Telefoon: +32 (0)82 69 90 79",
+          "E-mail: info@draisines.online",
+          "Reserveren: https://draisines.online",
+          "Vooraf reserveren is sterk aanbevolen. Sommige trajecten zijn seizoensgebonden."
+        ]
+      },
+      "dinantevasion": {
+        "title": "Dinant Évasion",
+        "body": [
+          "Voor wie liever avontuur beleeft dan oude stenen bekijkt, biedt Dinant Évasion allerlei activiteiten in de buurt.",
+          "U kunt met de kajak de Lesse afvaren, avonturenparcours uitproberen of een boottocht op de Maas maken.",
+          "Zo ontdekt u de streek vanuit een andere hoek: vanop het water of wat hoger in de lucht!",
+          "Praktische informatie",
+          "Onthaal en kajaks: rue du Vélodrome 15, 5500 Anseremme",
+          "Avonturenpark: rue de la Carrière 1, 5500 Dinant",
+          "Boottochten: avenue Winston Churchill, 5500 Dinant",
+          "Telefoon: +32 (0)82 22 43 97",
+          "E-mail: info@dinant-evasion.be",
+          "Website: https://www.dinant-evasion.be",
+          "De beschikbaarheid hangt af van de activiteit, het seizoen en soms het weer."
+        ]
+      },
+      "dinant": {
+        "title": "Dinant en zijn citadel",
+        "body": [
+          "Dinant ligt op een korte autorit en is zeker een bezoek waard.",
+          "Wandel langs de Maas, bewonder de bekende collegiale kerk, beklim de citadel voor het uitzicht en neem de tijd voor een terrasje.",
+          "Fotografieliefhebbers zullen er zeker genoeg onderwerpen vinden om hun telefoon mee te vullen!"
+        ]
+      }
+    }
+  },
+  "hikes": {
+    "title": "4. Wandelingen en trektochten: wandelschoenen aan!",
+    "body": [
+      "De vallei van de Molignée is een klein paradijs voor wandelaars. Velden, bossen, beekjes en dorpjes wisselen elkaar af langs vaak heerlijk rustige paden.",
+      "Verschillende routes vertrekken rechtstreeks vanuit Sommière!"
+    ],
+    "topics": {
+      "tokyowalk": {
+        "title": "De wandeling van Tokyo 😉",
+        "body": [
+          "Vertrek: aan het vakantieverblijf",
+          "Achter de huizen aan de overkant van de straat liggen paden en weiden. U kunt er achter de huizen om een korte lus van ongeveer 30 minuten rond de velden maken. Verlaat het vakantieverblijf, sla linksaf, wandel 150 meter en steek over aan het zebrapad (dezelfde vertrekroute als voor Les Fonds de Vau).",
+          "Afstand: 2 km of meer",
+          "Duur: ongeveer 30 minuten",
+          "Moeilijkheidsgraad: gemakkelijk",
+          "Vertrek en aankomst: Sommière"
+        ]
+      },
+      "fondsvau": {
+        "title": "Les Fonds de Vau – 5 km",
+        "body": [
+          "Vertrek: place du Jeu de Balle, Sommière",
+          "Een mooie, toegankelijke lus om de omgeving van ons dorp te verkennen.",
+          "De route loopt vooral over landelijke paden, langs de oude Romeinse weg en Chestruvin, en keert daarna terug naar Sommière.",
+          "Afstand: 5 km",
+          "Duur: ongeveer 1 uur 30 minuten",
+          "Moeilijkheidsgraad: gemakkelijk",
+          "Vertrek en aankomst: Sommière",
+          "Route: https://fr-fr.trails-viewer.com/trail-fnrf3/ONHAYE-SOMMIERE-Les-fonds-de-Vau/"
+        ]
+      },
+      "weillen": {
+        "title": "De Flavionvallei en het kasteel van Weillen – 8,3 km",
+        "body": [
+          "Vertrek: Sommière",
+          "Een iets langere lus door het golvende landschap van de streek, via de Flavionvallei in de richting van Weillen.",
+          "Een mooie wandeling om te genieten van het platteland en de paden in onze gemeente.",
+          "Afstand: 8,3 km",
+          "Duur: ongeveer 2 uur 15 minuten",
+          "Moeilijkheidsgraad: gemiddeld",
+          "Vertrek en aankomst: Sommière",
+          "Zoek de route op Komoot: https://www.komoot.com/fr-fr/guide/654129/hiking-around-onhaye"
+        ]
+      },
+      "flavionmontaigle": {
+        "title": "De Flavionvallei en Montaigle – 14 km",
+        "body": [
+          "Vertrek: Sommière",
+          "Voor wandelaars die graag wat verder stappen en meerdere uren buiten willen doorbrengen.",
+          "Deze rondwandeling voert door de Flavionvallei en langs de omgeving van het kasteel van Montaigle, over landelijke wegen en door bossen.",
+          "Afstand: 14 km",
+          "Duur: ongeveer 3 uur 50 minuten",
+          "Moeilijkheidsgraad: gemiddeld",
+          "Vertrek en aankomst: Sommière",
+          "Zoek de route op Komoot: https://www.komoot.com/fr-fr/guide/654129/hiking-around-onhaye"
+        ]
+      },
+      "falaenwalk": {
+        "title": "Falaën en de ruïnes van Montaigle – ongeveer 9 km",
+        "body": [
+          "Vertrek: de Sint-Légerkerk in Falaën",
+          "Een van onze tips om zowel het dorpserfgoed als het landschap van de vallei te ontdekken.",
+          "Na een wandeling door Falaën, dat tot de Mooiste Dorpen van Wallonië behoort, leiden de paden naar de middeleeuwse vesting Montaigle.",
+          "Afstand: ongeveer 9 km",
+          "Duur: ongeveer 2 uur 40 minuten",
+          "Moeilijkheidsgraad: gemiddeld",
+          "Vertrek en aankomst: Falaën",
+          "Route: https://fr.ardennes-etape.be/experience/balade/promenade-vers-les-ruines-de-montaigle",
+          "Onze tip: draag stevige schoenen, zeker na regen. Wandelt uw viervoeter mee, houd hem dan aan de leiband in de buurt van wegen, vee en op plaatsen waar dat verplicht is."
+        ]
+      }
+    }
+  },
+  "food": {
+    "title": "5. Gastronomie: onze favoriete adresjes",
+    "body": [
+      "Na een mooie dag op stap hoort natuurlijk ook een lekkere maaltijd. Hier zijn enkele adressen die we graag met u delen."
+    ],
+    "topics": {
+      "vitoulet": {
+        "title": "Au Vitoulet",
+        "body": [
+          "Een verblijf in België zonder lekkere frieten? Dat kan natuurlijk niet!",
+          "Au Vitoulet is de frituur van het dorp, met klassiekers, huisbereide specialiteiten en bij mooi weer een klein terras.",
+          "Een eenvoudige, gezellige plek voor een snelle hap of om iets lekkers mee te nemen naar het vakantieverblijf.",
+          "Praktische informatie",
+          "Adres: rue Abbé Hector Dujardin 3, 5520 Onhaye",
+          "Telefoon: +32 (0)82 61 56 43",
+          "E-mail: julietalmasse@live.be",
+          "Gewoonlijk open: dinsdag, woensdag, vrijdag, zaterdag en zondag, 's middags en 's avonds",
+          "Gesloten: maandag en donderdag",
+          "De openingsuren kunnen veranderen. Controleer ze voor vertrek."
+        ]
+      },
+      "walhere": {
+        "title": "Le Walhère Roi",
+        "body": [
+          "In het hart van Onhaye serveert Le Walhère Roi royale, verzorgde brasseriegerechten met aandacht voor lokale producten en seizoenssuggesties.",
+          "Een warme plek om lekker te eten, met een terras op mooie dagen.",
+          "Mis in de winter hun “Chalet Roi” niet, waar bergspecialiteiten zoals raclette, fondue en andere hartverwarmende gerechten centraal staan.",
+          "Praktische informatie",
+          "Adres: place Henri Collignon 11, 5520 Onhaye",
+          "Telefoon: +32 (0)82 69 97 19",
+          "E-mail: info@le-walhere-roi.be",
+          "Website: https://www.le-walhere-roi.be",
+          "Reserveren is aanbevolen. De openingsuren verschillen per dag; kijk op de website voordat u langsgaat."
+        ]
+      },
+      "artiste": {
+        "title": "L'Artiste de Falaën",
+        "body": [
+          "Een mooi adres om uzelf eens te verwennen!",
+          "In het voormalige station van Falaën brengt L'Artiste creatieve gastronomische gerechten, met zorgvuldig gekozen ingrediënten en verrassende smaakcombinaties.",
+          "De zaak heeft een heel eigen sfeer: elegant en tegelijk gastvrij. Een fijne keuze voor een diner met z'n tweeën of een bijzondere gelegenheid.",
+          "Ontdek bij mooi weer ook hun lossere concept “Ceci n'est pas l'Artiste”, met gerechten om te delen.",
+          "Praktische informatie",
+          "Adres: rue de la Gare 85, 5522 Falaën",
+          "Telefoon: +32 (0)82 71 19 98",
+          "E-mail: lartistedefalaen@gmail.com",
+          "Website: https://www.lartistedefalaen.be",
+          "Reserveren is aanbevolen. Gesloten op maandag en dinsdag en doorgaans op zondagavond."
+        ]
+      },
+      "forgetoi": {
+        "title": "Forge-Toi",
+        "body": [
+          "Een andere plek, een andere sfeer, maar minstens evenveel redenen om gezellig aan tafel te gaan!",
+          "Forge-Toi bevindt zich in de voormalige dorpssmederij van Falaën. Hier staan seizoensproducten en regionale specialiteiten centraal in een verzorgde, royale keuken.",
+          "Een authentieke zaak waar lokale ingrediënten en lekker tafelen centraal staan.",
+          "Het restaurant biedt ook een lunch op weekdagen.",
+          "Praktische informatie",
+          "Adres: rue de Chertin 2, 5522 Falaën",
+          "Telefoon: +32 (0)82 69 92 79",
+          "Gsm: +32 (0)475 68 59 73",
+          "E-mail: info@traiteurlawaree.be",
+          "Website: https://www.forge-toi.be",
+          "Let op: open van maandag tot vrijdag, gesloten in het weekend. Telefonisch reserveren."
+        ]
+      }
+    }
+  },
+  "outro": {
+    "title": "En er valt nog zoveel meer te ontdekken…",
+    "body": [
+      "Deze kleine gids probeert natuurlijk niet alles op te sommen wat onze streek te bieden heeft!",
+      "Laat u verrassen door de dorpen onderweg, de uitzichten achter een bocht of de lokale producenten die u tegenkomt.",
+      "En ontdekt u een adres dat hier zeker thuishoort? Vertel het ons! We breiden onze verzameling tips graag verder uit.",
+      "Veel ontdekkingsplezier en geniet van de streek!"
+    ],
+    "topics": {}
+  }
+}

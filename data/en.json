@@ -1,0 +1,590 @@
+{
+  "arrival": {
+    "title": "1. Your arrival",
+    "body": [],
+    "topics": {
+      "times": {
+        "title": "Check-in and check-out",
+        "body": [
+          "Check-in: from 3:00 pm",
+          "Check-out: before 11:00 am"
+        ]
+      },
+      "parking": {
+        "title": "Parking",
+        "body": [
+          "A gravel driveway is reserved for guests of L'Andain, right in front of the cottage.",
+          "You may park two cars there free of charge, one behind the other, and leave them there throughout your stay."
+        ]
+      },
+      "keys": {
+        "title": "Access to the cottage",
+        "body": [
+          "You can check in independently using the key lockbox near the entrance.",
+          "We will send you the access code in a message before you arrive.",
+          "Simply collect the key to open the accommodation.",
+          "Please close the lockbox properly after using it."
+        ]
+      }
+    }
+  },
+  "bathroom": {
+    "title": "2. The bathroom",
+    "body": [],
+    "topics": {
+      "bath": {
+        "title": "The whirlpool bath",
+        "body": [
+          "Fancy relaxing in a whirlpool bath after a day out walking? The bathtub is equipped with water jets.",
+          "How to use it",
+          "Important: the jets must only be used with clear water, without bath products.",
+          "1. Fill the bathtub with clean water to the level required for the jets to operate.",
+          "2. Make sure all the jets are fully submerged.",
+          "3. Press the button on the rim of the bath, at the foot end, to switch on the jets.",
+          "4. Press the same button again to switch them off.",
+          "Do not add soap, bubble bath, oil or any other product while using the jets. These products could damage the mechanism.",
+          "You are, of course, welcome to take an ordinary bath with your usual products, as long as you do not activate the jets.",
+          "Never operate the system unless the jets are sufficiently submerged."
+        ]
+      },
+      "towel": {
+        "title": "The heated towel rail",
+        "body": [
+          "The electric towel rail can quickly warm up the bathroom and dry your towels.",
+          "To save energy, please use it only when needed and switch it off afterwards.",
+          "Avoid leaving it on continuously or when you are away from the cottage for an extended period.",
+          "Warning: do not place towels or other objects on the upper grille of the appliance."
+        ]
+      }
+    }
+  },
+  "bedroom": {
+    "title": "3. The bedroom",
+    "body": [],
+    "topics": {
+      "bed": {
+        "title": "Bed and storage",
+        "body": [
+          "The bedroom has a bed, two bedside tables and a wardrobe.",
+          "Please remember that bed linen is not provided. If you have forgotten yours or have any difficulty with this, let us know and we will find a solution."
+        ]
+      },
+      "charging": {
+        "title": "Charging your devices",
+        "body": [
+          "USB and USB-C sockets are fitted beneath the bedside tables for charging phones and other small devices."
+        ]
+      },
+      "bedheating": {
+        "title": "Heating",
+        "body": [
+          "The wall radiator is not operational because the cottage does not have central heating.",
+          "The main source of heat is the pellet stove in the living room."
+        ]
+      },
+      "gardenaccess": {
+        "title": "Garden access",
+        "body": [
+          "The bedroom opens directly onto the private garden. Please mind the step: it is quite high.",
+          "A switch also controls the outdoor light mounted on the façade. By default, a timer turns this light on and off automatically in the evening."
+        ]
+      }
+    }
+  },
+  "living": {
+    "title": "4. The living room",
+    "body": [],
+    "topics": {
+      "stove": {
+        "title": "Pellet stove – CADEL CRISTAL3 7.0 UP",
+        "body": [
+          "The pellet stove heats the cottage. It warms up the rooms quickly and creates a cosy atmosphere, even when the weather is less inviting.",
+          "Switching on the stove",
+          "1. Check that the glass door and pellet hopper lid are properly closed.",
+          "2. Press and hold the P1 (on/off) button on the control panel for a few moments.",
+          "3. “ON” appears on the display alongside a flashing flame symbol.",
+          "4. The stove starts its automatic ignition cycle. It normally takes several minutes for the flame to appear.",
+          "Please wait during this process without pressing the button again.",
+          "Setting the temperature",
+          "1. Press + or − to access the settings.",
+          "2. Use the arrows to select “Conf T. Amb”.",
+          "3. Confirm with the Menu button.",
+          "4. Set the desired temperature using + and −.",
+          "5. Confirm with Menu, then exit with ESC.",
+          "The stove automatically adjusts its operation according to the temperature selected.",
+          "Switching off the stove",
+          "1. Press and hold P1 for a few moments.",
+          "2. The stove automatically starts its shutdown cycle.",
+          "3. The flame gradually goes out while the fans continue running to cool the appliance.",
+          "Never unplug the stove to switch it off. Its cooling cycle is essential for safe operation.",
+          "Adding pellets",
+          "Bags of pellets are provided for the duration of your stay.",
+          "1. Ideally, refill the stove when it is switched off and has cooled sufficiently.",
+          "2. Open the hopper lid on top of the appliance.",
+          "3. Carefully pour in the pellets, keeping the bag away from hot surfaces.",
+          "4. Close the lid securely, ensuring that no pellets interfere with the seal.",
+          "Only use the pellets provided. The lid must remain closed while the stove is running.",
+          "A few precautions",
+          "Do not put anything on the stove or close to hot surfaces.",
+          "Never obstruct the hot-air outlets.",
+          "Please turn the stove off if you leave the cottage for an extended period.",
+          "Do not handle the ashes or internal components.",
+          "In the event of an alarm, unusual smoke or ignition problem, contact us. Do not attempt repeated restarts.",
+          "The stove has built-in safety devices. If there is a problem, please let us know rather than attempting repairs yourself."
+        ]
+      },
+      "tv": {
+        "title": "Television",
+        "body": [
+          "Cable TV channels are available through the VOO set-top box, on the HDMI1 input (TO BE CONFIRMED).",
+          "Use the set-top box remote control to browse channels and programmes."
+        ]
+      },
+      "playstation": {
+        "title": "PlayStation 4",
+        "body": [
+          "A PlayStation 4 is available for gaming and movie nights. To switch it on, press the central PS button on the controller and select HDMI4 as the TV input.",
+          "The controller can be charged by connecting its cable to a USB port on the front of the console.",
+          "Playing games",
+          "You can use the “L'Andain” profile created for the cottage.",
+          "Several games are available and can be installed on the console.",
+          "You may also sign in with your own PlayStation account if you wish. Just remember to sign out before leaving.",
+          "Watching films and series",
+          "The PlayStation offers apps for Netflix, Amazon Prime Video, Disney+, HBO and other compatible platforms.",
+          "On the console, go to Media and select the app you wish to use.",
+          "Subscriptions to these services are not included in the rental. You will need to sign in using your own account to watch content.",
+          "For your security, please sign out of your streaming accounts before checking out."
+        ]
+      }
+    }
+  },
+  "kitchen": {
+    "title": "5. The kitchen",
+    "body": [
+      "The kitchen has everything you need to prepare meals during your stay."
+    ],
+    "topics": {
+      "oven": {
+        "title": "Bosch conventional oven",
+        "body": [
+          "The oven supports standard cooking and offers several operating modes.",
+          "Instructions to be completed after identifying the exact model and controls.",
+          "Remember to switch off the oven after use and allow it to cool before cleaning."
+        ]
+      },
+      "microwave": {
+        "title": "Microwave",
+        "body": [
+          "The microwave is in the cupboard above the conventional oven.",
+          "Use only microwave-safe containers."
+        ]
+      },
+      "induction": {
+        "title": "Induction hob",
+        "body": [
+          "The hob uses induction technology, so compatible pans and saucepans are required. These are provided in the kitchen cupboards.",
+          "Instructions for switching on, adjusting the power and unlocking the controls to be completed.",
+          "Please note that the cooking surface may remain hot after use."
+        ]
+      },
+      "coffee": {
+        "title": "Dolce Gusto coffee machine",
+        "body": [
+          "A Dolce Gusto coffee machine is provided, along with a few capsules to get your stay off to a good start.",
+          "It's easy to use:",
+          "1. Fill the water tank if needed.",
+          "2. Insert a compatible Dolce Gusto capsule.",
+          "3. The machine switches on automatically.",
+          "4. Prepare your drink using the machine's controls.",
+          "5. Remove the used capsule afterwards.",
+          "There is no on/off button: the machine switches off automatically."
+        ]
+      },
+      "dishwasher": {
+        "title": "Dishwasher",
+        "body": [
+          "A dishwasher is available, along with a few dishwasher tablets.",
+          "Please feel free to use it, especially before leaving, to help us prepare the cottage for the next guests."
+        ]
+      },
+      "otherappliances": {
+        "title": "Other appliances",
+        "body": [
+          "You will also find the following in the cupboards:",
+          "A toaster",
+          "An electric kettle",
+          "A raclette grill",
+          "A deep-fat fryer",
+          "Please use the deep-fat fryer under the extractor hood whenever possible to reduce cooking odours."
+        ]
+      },
+      "waste": {
+        "title": "Sorting waste",
+        "body": [
+          "The kitchen bin has two compartments:",
+          "PMC: plastic packaging, metal packaging and drink cartons",
+          "Residual household waste: other everyday waste",
+          "Paper and cardboard can be placed in the box in the drawer beneath the sink.",
+          "At the end of your stay",
+          "If the bins are not full, you can leave them as they are: we will empty them after your departure.",
+          "If the bins fill up during your stay, please put closed bags of residual waste into the black bins in the private driveway of our house. The yellow bin is for paper and cardboard. Closed PMC bags can be left beside the bins."
+        ]
+      }
+    }
+  },
+  "outdoor": {
+    "title": "6. The garden and outdoor areas",
+    "body": [],
+    "topics": {
+      "garden": {
+        "title": "Private garden",
+        "body": [
+          "The garden in front of the cottage is reserved exclusively for you.",
+          "Please note that the garden is not fenced.",
+          "It faces a village street with a 30 km/h speed limit. If you are staying with your four-legged companion, please keep a close eye on them."
+        ]
+      },
+      "smoking": {
+        "title": "Smoking outside",
+        "body": [
+          "L'Andain is a non-smoking property.",
+          "You may smoke outside. An ashtray is available beside the entrance door.",
+          "A second ashtray is kept in a kitchen cupboard.",
+          "Please use the ashtrays and do not throw cigarette ends into the garden."
+        ]
+      },
+      "lighting": {
+        "title": "Outdoor lighting",
+        "body": [
+          "A light mounted on the façade illuminates the garden.",
+          "Its switch is in the bedroom.",
+          "Please turn it off when it is no longer needed."
+        ]
+      }
+    }
+  },
+  "safety": {
+    "title": "7. Safety",
+    "body": [
+      "A fire blanket and fire extinguisher are installed in the small storage room beside the kitchen.",
+      "In the event of a fire, always put your own safety and that of other occupants first.",
+      "If a fire develops, leave the property immediately and call 112. Then please let us know too :D",
+      "Do not attempt to put out a fire that you cannot safely control.",
+      "If an appliance seems faulty or behaves unusually, stop using it and contact us."
+    ],
+    "topics": {}
+  },
+  "departure": {
+    "title": "8. Before you leave",
+    "body": [
+      "To help us welcome the next guests in the best possible conditions, please check a few things before your departure.",
+      "Switch off the pellet stove and any electrical appliances still running.",
+      "Check that the hob and oven are switched off.",
+      "Wash the dishes or start the dishwasher before leaving.",
+      "Check the bins and take out the bags if necessary.",
+      "Sign out of your personal accounts on the PlayStation and streaming apps.",
+      "Close and lock all windows.",
+      "Turn off the lights.",
+      "Lock the entrance door.",
+      "Put the key back in the coded lockbox and close it securely.",
+      "Check-out is by 11:00 am at the latest."
+    ],
+    "topics": {
+      "reviews": {
+        "title": "If you enjoyed your stay…",
+        "body": [
+          "We would really appreciate a little review on Airbnb or Google!",
+          "L'Andain is a new adventure, and your feedback helps us grow, improve and introduce our corner of Wallonia to other travellers."
+        ]
+      }
+    }
+  },
+  "nearby_intro": {
+    "title": "What to do in the area?",
+    "body": [
+      "Welcome to the Molignée Valley!",
+      "Between ruined castles, abbeys, characterful villages, woodland trails and good food, there is plenty to keep you busy for a few days. One of the lovely things about L'Andain is that some adventures begin right at the end of the street.",
+      "Here is a selection of places and activities we recommend to help you discover our little corner of Wallonia."
+    ],
+    "topics": {}
+  },
+  "ruins": {
+    "title": "1. A journey back in time: castles and ruins",
+    "body": [],
+    "topics": {
+      "montaigle": {
+        "title": "Montaigle Castle",
+        "body": [
+          "Perched on a rocky spur where the Molignée and Flavion rivers meet, the ruins of Montaigle look as if they belong in a medieval tale.",
+          "Once a formidable fortress, the castle was destroyed in 1554 by the troops of King Henry II of France. It was never rebuilt, but the ruins are still a magnificent sight!",
+          "We particularly love the atmosphere here, with its ancient stones and surrounding woods. A lovely visit to combine with a walk in the valley.",
+          "Practical information",
+          "Address: rue du Marteau 10, 5522 Falaën",
+          "Phone: +32 (0)82 69 95 85",
+          "Alternative contact: +32 (0)478 06 30 68",
+          "Email: info@chateau-fort-de-montaigle.be",
+          "Website: https://chateau-fort-de-montaigle.be"
+        ]
+      },
+      "poilvache": {
+        "title": "Poilvache Fortress",
+        "body": [
+          "Overlooking the Meuse from high above, Poilvache was once an entire fortified town, complete with castle, ramparts and houses.",
+          "Today, its ruins offer a journey into the Middle Ages and, above all, wonderful views of the Meuse Valley.",
+          "Take your time here. The remains are impressive, but the scenery alone is worth the trip.",
+          "Practical information",
+          "Access: chemin de Poilvache, 5530 Houx (Yvoir)",
+          "On-site phone: +32 (0)460 95 91 64",
+          "Information: +32 (0)82 61 36 82",
+          "Email: info@poilvache.com",
+          "Website: https://poilvache.com",
+          "Seasonal opening: check opening hours before visiting. Dogs are welcome on a lead."
+        ]
+      }
+    }
+  },
+  "abbeys": {
+    "title": "2. Abbeys: heritage, traditions and tasty treats",
+    "body": [],
+    "topics": {
+      "maredsous": {
+        "title": "Maredsous Abbey",
+        "body": [
+          "You simply can't stay in the Molignée Valley without discovering Maredsous!",
+          "This large Benedictine abbey, built in the 19th century, stands in lush green surroundings. Its neo-Gothic basilica impresses both with its size and its architecture.",
+          "After your visit, stop at the Saint-Joseph visitor centre to sample the abbey's specialities: cheeses, beers and other delicious treats.",
+          "Our tip: take time to explore the paths around the abbey, then carry on to Maredret if you enjoy charming villages and beautiful stone buildings.",
+          "Practical information",
+          "Address: rue de Maredsous 11, 5537 Denée (Anhée)",
+          "Phone: +32 (0)82 69 82 11",
+          "Email: info@maredsous.com",
+          "Website: https://www.maredsous.com"
+        ]
+      },
+      "leffe": {
+        "title": "Our Lady of Leffe Abbey",
+        "body": [
+          "In Dinant, Leffe Abbey is first and foremost a place of community life and spirituality, home to Premonstratensian canons for centuries.",
+          "Its history is closely linked to the famous Leffe beer, although the abbey itself is not a tourist brewery.",
+          "The church can be visited, and guided tours of the abbey are organised at certain times.",
+          "Practical information",
+          "Address: place de l'Abbaye 1, 5500 Dinant",
+          "Phone: +32 (0)82 22 23 77",
+          "Email: secretariat@abbaye-de-leffe.be",
+          "Website: https://www.abbaye-de-leffe.be"
+        ]
+      },
+      "maisonleffe": {
+        "title": "Maison Leffe",
+        "body": [
+          "If you want to discover the story behind Leffe beer, this is the place to go!",
+          "Housed in a former monastery converted into a hotel, Maison Leffe offers an interactive experience devoted to brewing heritage, traditions and the brand's different beers.",
+          "The visit also includes a tasting, with lovely views over Dinant and the Meuse.",
+          "Practical information",
+          "Address: charreau des Capucins 23, 5500 Dinant",
+          "Phone: +32 (0)82 22 91 91",
+          "Email: hotel@infiniti-resort.be",
+          "Website: https://www.leffe.com/fr-be/maison-leffe",
+          "Booking recommended."
+        ]
+      }
+    }
+  },
+  "activities": {
+    "title": "3. Ready for some action? Tourist activities",
+    "body": [],
+    "topics": {
+      "draisines": {
+        "title": "The Molignée rail bikes",
+        "body": [
+          "Here's a rather unusual way to discover the valley!",
+          "Hop onto a pedal-powered vehicle running along the tracks of an old railway, and travel through the woods, villages and landscapes of the Molignée.",
+          "Several routes are available, including a return trip between Falaën and the former Maredsous station.",
+          "It's a fun and accessible way to see the area differently. You will still have to do a little pedalling, though!",
+          "Practical information",
+          "Falaën departure: rue de la Gare 82, 5522 Falaën",
+          "Other departure: rue de la Molignée 116, 5537 Warnant",
+          "Phone: +32 (0)82 69 90 79",
+          "Email: info@draisines.online",
+          "Booking: https://draisines.online",
+          "Booking is strongly recommended. Some routes operate seasonally."
+        ]
+      },
+      "dinantevasion": {
+        "title": "Dinant Évasion",
+        "body": [
+          "For those who prefer adventure to old stones, Dinant Évasion offers a range of activities nearby.",
+          "You can kayak down the Lesse, try adventure courses or take a river cruise on the Meuse.",
+          "A chance to discover the region from another angle, on the water or a little higher up in the air!",
+          "Practical information",
+          "Reception and kayaks: rue du Vélodrome 15, 5500 Anseremme",
+          "Adventure park: rue de la Carrière 1, 5500 Dinant",
+          "River cruises: avenue Winston Churchill, 5500 Dinant",
+          "Phone: +32 (0)82 22 43 97",
+          "Email: info@dinant-evasion.be",
+          "Website: https://www.dinant-evasion.be",
+          "Availability depends on the activity, season and sometimes the weather."
+        ]
+      },
+      "dinant": {
+        "title": "Dinant and its citadel",
+        "body": [
+          "Just a short drive away, Dinant deserves some of your time.",
+          "Stroll beside the Meuse, admire its famous collegiate church, climb up to the citadel for the views and take a break on a terrace.",
+          "Photography lovers will certainly find plenty to fill their phones!"
+        ]
+      }
+    }
+  },
+  "hikes": {
+    "title": "4. Walks and hikes: lace up your boots!",
+    "body": [
+      "The Molignée Valley is a little paradise for walkers. Fields, forests, streams and villages follow one another along often wonderfully peaceful paths.",
+      "Several circuits start directly in Sommière!"
+    ],
+    "topics": {
+      "tokyowalk": {
+        "title": "Tokyo's walk 😉",
+        "body": [
+          "Starting point: the cottage",
+          "Just behind the houses across the street, there are paths and meadows where you can make a quick 30-minute loop around the fields, behind the houses. Simply leave the cottage, turn left, walk 150 metres and cross at the pedestrian crossing (the same starting direction as the Fonds de Vau walk).",
+          "Distance: 2 km or more",
+          "Duration: about 30 minutes",
+          "Difficulty: easy",
+          "Start and finish: Sommière"
+        ]
+      },
+      "fondsvau": {
+        "title": "Les Fonds de Vau – 5 km",
+        "body": [
+          "Starting point: place du Jeu de Balle, Sommière",
+          "A lovely, easy loop for discovering the landscapes around our village.",
+          "The route mainly follows country paths, passing the old Roman road and Chestruvin before returning to Sommière.",
+          "Distance: 5 km",
+          "Duration: about 1 hour 30 minutes",
+          "Difficulty: easy",
+          "Start and finish: Sommière",
+          "Route: https://fr-fr.trails-viewer.com/trail-fnrf3/ONHAYE-SOMMIERE-Les-fonds-de-Vau/"
+        ]
+      },
+      "weillen": {
+        "title": "The Flavion Valley and Weillen Castle – 8.3 km",
+        "body": [
+          "Starting point: Sommière",
+          "A slightly longer loop through the rolling landscape of the area, passing through the Flavion Valley towards Weillen.",
+          "A lovely option for exploring the countryside and paths around our municipality.",
+          "Distance: 8.3 km",
+          "Duration: about 2 hours 15 minutes",
+          "Difficulty: moderate",
+          "Start and finish: Sommière",
+          "Find the route on Komoot: https://www.komoot.com/fr-fr/guide/654129/hiking-around-onhaye"
+        ]
+      },
+      "flavionmontaigle": {
+        "title": "The Flavion Valley and Montaigle – 14 km",
+        "body": [
+          "Starting point: Sommière",
+          "For walkers who fancy a longer outing and a few hours outdoors.",
+          "This circular walk heads towards the Flavion Valley and Montaigle Castle, combining country tracks and wooded sections.",
+          "Distance: 14 km",
+          "Duration: about 3 hours 50 minutes",
+          "Difficulty: moderate",
+          "Start and finish: Sommière",
+          "Find the route on Komoot: https://www.komoot.com/fr-fr/guide/654129/hiking-around-onhaye"
+        ]
+      },
+      "falaenwalk": {
+        "title": "Falaën and the ruins of Montaigle – around 9 km",
+        "body": [
+          "Starting point: Saint-Léger Church in Falaën",
+          "One of our suggestions for discovering both the village's heritage and the landscapes of the valley.",
+          "After passing through Falaën, officially listed among the Most Beautiful Villages of Wallonia, the paths lead towards the medieval fortress of Montaigle.",
+          "Distance: around 9 km",
+          "Duration: about 2 hours 40 minutes",
+          "Difficulty: moderate",
+          "Start and finish: Falaën",
+          "Route: https://fr.ardennes-etape.be/experience/balade/promenade-vers-les-ruines-de-montaigle",
+          "Our tip: bring suitable shoes, especially after rain. If your four-legged friend is joining you, keep them on a lead near roads, livestock and wherever the rules require it."
+        ]
+      }
+    }
+  },
+  "food": {
+    "title": "5. Food and drink: our favourite places",
+    "body": [
+      "Because a lovely day out deserves a good meal, here are a few places we would love to share with you."
+    ],
+    "topics": {
+      "vitoulet": {
+        "title": "Au Vitoulet",
+        "body": [
+          "A stay in Belgium wouldn't be complete without some good chips!",
+          "Au Vitoulet is the village chip shop, serving the classics, house specialities and offering a little terrace in good weather.",
+          "A simple, friendly option for a quick bite or for bringing something tasty back to enjoy at the cottage.",
+          "Practical information",
+          "Address: rue Abbé Hector Dujardin 3, 5520 Onhaye",
+          "Phone: +32 (0)82 61 56 43",
+          "Email: julietalmasse@live.be",
+          "Usually open: Tuesday, Wednesday, Friday, Saturday and Sunday, lunchtime and evening",
+          "Closed: Monday and Thursday",
+          "Opening hours may change, so please check before heading over."
+        ]
+      },
+      "walhere": {
+        "title": "Le Walhère Roi",
+        "body": [
+          "In the heart of Onhaye village, Le Walhère Roi serves generous, carefully prepared brasserie food, highlighting local produce and seasonal specials.",
+          "A warm and welcoming place for a good meal, with a terrace in fine weather.",
+          "In winter, don't miss the “Chalet Roi”, with mountain-inspired favourites such as raclette, fondue and other comforting dishes.",
+          "Practical information",
+          "Address: place Henri Collignon 11, 5520 Onhaye",
+          "Phone: +32 (0)82 69 97 19",
+          "Email: info@le-walhere-roi.be",
+          "Website: https://www.le-walhere-roi.be",
+          "Booking recommended. Opening hours vary, so please consult the website before visiting."
+        ]
+      },
+      "artiste": {
+        "title": "L'Artiste de Falaën",
+        "body": [
+          "A lovely address for treating yourself!",
+          "Located in Falaën's former railway station, L'Artiste offers creative fine dining, based on carefully chosen ingredients and inspired flavour combinations.",
+          "The setting has a distinct identity, elegant yet welcoming. A great idea for dinner for two or a special occasion.",
+          "In warmer weather, look out for their more relaxed “Ceci n'est pas l'Artiste” concept, built around dishes to share.",
+          "Practical information",
+          "Address: rue de la Gare 85, 5522 Falaën",
+          "Phone: +32 (0)82 71 19 98",
+          "Email: lartistedefalaen@gmail.com",
+          "Website: https://www.lartistedefalaen.be",
+          "Booking recommended. Closed on Mondays and Tuesdays, and usually on Sunday evenings."
+        ]
+      },
+      "forgetoi": {
+        "title": "Forge-Toi",
+        "body": [
+          "A different setting and atmosphere, but just as many reasons to sit down for a meal!",
+          "Located in the former village forge in Falaën, Forge-Toi showcases seasonal produce and regional specialities through carefully prepared, generous cooking.",
+          "An authentic place that celebrates local ingredients and the pleasure of a good meal.",
+          "The restaurant also offers a weekday lunch menu.",
+          "Practical information",
+          "Address: rue de Chertin 2, 5522 Falaën",
+          "Phone: +32 (0)82 69 92 79",
+          "Mobile: +32 (0)475 68 59 73",
+          "Email: info@traiteurlawaree.be",
+          "Website: https://www.forge-toi.be",
+          "Please note: open Monday to Friday, closed at weekends. Book by phone."
+        ]
+      }
+    }
+  },
+  "outro": {
+    "title": "And plenty more to discover…",
+    "body": [
+      "This little guide certainly doesn't claim to cover everything our region has to offer!",
+      "Allow yourself to be surprised by the villages you pass through, the views around the next bend or the local producers you come across.",
+      "And if you discover somewhere that deserves a mention here, do tell us! We would love to keep adding to our collection of tips.",
+      "Happy exploring, and enjoy the region!"
+    ],
+    "topics": {}
+  }
+}

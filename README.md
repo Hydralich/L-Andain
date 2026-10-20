@@ -1,0 +1,50 @@
+# L’Andain — Guide d’accueil numérique (V1)
+
+Site statique **mobile-first** pour GitHub Pages, sans framework ni coût d’hébergement.
+
+## Mise en ligne
+
+1. Créer un dépôt GitHub **public** nommé `andain-guide` (ou utiliser un dépôt existant).
+2. Ajouter **tous les fichiers et dossiers** du présent dossier à la racine du dépôt (`index.html`, `styles.css`, `app.js`, `assets/`, `data/`).
+3. Dans **Settings → Pages**, choisir **Deploy from a branch**, `main`, `/(root)`.
+4. Attendre la publication, puis ouvrir `https://VOTRE-NOM.github.io/andain-guide/`.
+
+## QR codes
+
+Les URLs utilisent `#` pour assurer le bon fonctionnement de la navigation directe sur GitHub Pages. Ces liens sont conçus pour rester stables :
+
+- Accueil : `https://VOTRE-NOM.github.io/andain-guide/#/fr/home`
+- Arrivée : `https://VOTRE-NOM.github.io/andain-guide/#/fr/arrival`
+- Départ : `https://VOTRE-NOM.github.io/andain-guide/#/fr/departure`
+- Poêle : `https://VOTRE-NOM.github.io/andain-guide/#/fr/guide/stove`
+- Baignoire : `https://VOTRE-NOM.github.io/andain-guide/#/fr/guide/bath`
+- TV : `https://VOTRE-NOM.github.io/andain-guide/#/fr/guide/tv`
+- PlayStation : `https://VOTRE-NOM.github.io/andain-guide/#/fr/guide/playstation`
+- Cuisine (rubrique) : `https://VOTRE-NOM.github.io/andain-guide/#/fr/room/kitchen`
+- Café : `https://VOTRE-NOM.github.io/andain-guide/#/fr/guide/coffee`
+- Sorties : `https://VOTRE-NOM.github.io/andain-guide/#/fr/discover`
+
+Les langues `en` et `nl` remplacent `fr` dans le lien. Le sélecteur change de langue en conservant la fiche consultée.
+
+## Contenus et illustrations
+
+- Textes : `data/fr.json`, `data/en.json`, `data/nl.json` ; issus des guides Word fournis.
+- Illustration de couverture : `assets/valley.svg`, dessin décoratif de la vallée **et non une photographie du gîte**.
+- Fiches : emplacements explicites « Photo à ajouter ». La V1 n’intègre pas encore vos photos réelles ou les schémas du panneau CADEL.
+- Modification rapide : les textes des fiches sont dans les tableaux `body` des fichiers JSON. Chaque thème a un identifiant stable, par ex. `stove`.
+- Les formulations laissées « à compléter » dans le document d’origine restent à compléter.
+
+## Sécurité
+
+Le site GitHub Pages est **public**. Ne jamais inscrire les codes de la boîte à clés, le mot de passe Wi-Fi, les contacts personnels privés ni les données des voyageurs dans les fichiers du dépôt.
+
+## Tester sur l’ordinateur
+
+Les fichiers JSON sont chargés via `fetch`, ce qui nécessite un petit serveur HTTP en local. Dans le dossier du site, lancez `python -m http.server 8000`, puis ouvrez `http://localhost:8000`. Le simple double-clic sur `index.html` peut bloquer le chargement des textes à cause des protections du navigateur.
+
+## Prochaines améliorations
+
+- Remplacer les illustrations génériques par vos photographies et annoter le panneau du poêle.
+- Ajouter des vidéos brèves aux fiches.
+- Mettre en place les QR codes finaux après publication.
+- Tester les liens des promenades et mettre à jour les coordonnées et horaires des établissements.

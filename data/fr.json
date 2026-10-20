@@ -1,0 +1,588 @@
+{
+  "arrival": {
+    "title": "1. Votre arrivée",
+    "body": [],
+    "topics": {
+      "times": {
+        "title": "Horaires",
+        "body": [
+          "Arrivée : à partir de 15 h",
+          "Départ : avant 11 h"
+        ]
+      },
+      "parking": {
+        "title": "Stationnement",
+        "body": [
+          "Une allée en gravier est réservée aux voyageurs de l'Andain, juste devant le gîte.",
+          "Vous pouvez y garer gratuitement deux voitures, l'une derrière l'autre, et les laisser stationnées pendant toute la durée de votre séjour."
+        ]
+      },
+      "keys": {
+        "title": "Accès au gîte",
+        "body": [
+          "L'arrivée se fait en autonomie grâce à une boîte à clés située près de l'entrée.",
+          "Vous recevrez le code d'ouverture dans un message avant votre arrivée.",
+          "Il vous suffira de récupérer la clé pour accéder au logement.",
+          "Pensez à bien refermer la boîte après utilisation."
+        ]
+      }
+    }
+  },
+  "bathroom": {
+    "title": "2. La salle de bain",
+    "body": [],
+    "topics": {
+      "bath": {
+        "title": "La baignoire balnéo",
+        "body": [
+          "Envie de profiter d'un bain à remous après une journée de balade ? La baignoire est équipée d'un système de jets.",
+          "Comment l'utiliser ?\nImportant : les remous fonctionnent uniquement à l'eau claire.",
+          "Remplissez la baignoire avec de l'eau claire, jusqu'au niveau nécessaire au fonctionnement des jets.",
+          "Assurez-vous que les buses sont bien immergées.",
+          "Appuyez sur le bouton situé sur le rebord de la baignoire, côté pieds, pour activer les remous.",
+          "Appuyez à nouveau sur ce bouton pour les arrêter.",
+          "N'ajoutez pas de savon, bain moussant, huile ou autre produit dans l'eau lorsque le système de jets est utilisé. Ces produits risquent d'endommager le mécanisme.",
+          "Vous pouvez bien entendu prendre un bain classique avec vos produits habituels, à condition de ne pas activer les remous.",
+          "N'actionnez jamais le système lorsque les buses ne sont pas suffisamment immergées."
+        ]
+      },
+      "towel": {
+        "title": "Le sèche-serviettes",
+        "body": [
+          "Le sèche-serviettes électrique permet de réchauffer rapidement la salle de bain et de sécher vos serviettes.",
+          "Pour limiter la consommation d'énergie, merci de l'utiliser uniquement lorsque c'est nécessaire et de l'éteindre après utilisation.",
+          "Évitez de le laisser fonctionner en permanence ou lorsque vous quittez le gîte pour une longue période.",
+          "Attention : ne déposez pas de serviettes ou d'objets sur la grille supérieure de l'appareil."
+        ]
+      }
+    }
+  },
+  "bedroom": {
+    "title": "3. La chambre",
+    "body": [],
+    "topics": {
+      "bed": {
+        "title": "Le lit et les rangements",
+        "body": [
+          "La chambre dispose d'un lit, de deux tables de nuit et d'une penderie.",
+          "Pour rappel, le linge de lit n'est pas fourni. Si vous avez un oubli ou un problème à ce niveau-là, prévenez-nous et nous trouverons une solution."
+        ]
+      },
+      "charging": {
+        "title": "Recharger vos appareils",
+        "body": [
+          "Des prises USB et USB-C sont disponibles sous les tables de nuit pour recharger vos téléphones et autres petits appareils."
+        ]
+      },
+      "bedheating": {
+        "title": "Chauffage",
+        "body": [
+          "Le radiateur mural n'est pas fonctionnel, car le gîte ne dispose pas de chauffage central.",
+          "Le chauffage principal du logement est assuré par le poêle à pellets installé dans le salon."
+        ]
+      },
+      "gardenaccess": {
+        "title": "Accès au jardin",
+        "body": [
+          "La chambre donne directement accès au jardin privatif, attention à la marche elle est haute.",
+          "Un interrupteur permet également d'allumer et d’éteindre l'éclairage extérieur installé sur la façade. Par défaut, une minuterie est réglée pour l’allumage et l’extinction automatique en soirée."
+        ]
+      }
+    }
+  },
+  "living": {
+    "title": "4. Le salon",
+    "body": [],
+    "topics": {
+      "stove": {
+        "title": "Le poêle à pellets – CADEL CRISTAL3 7.0 UP",
+        "body": [
+          "Le poêle à pellets assure le chauffage du gîte. Il chauffe rapidement les pièces et permet de profiter d'une ambiance chaleureuse, même lorsque la météo est moins clémente.",
+          "Allumer le poêle",
+          "Vérifiez que la porte vitrée et le couvercle du réservoir à pellets sont bien fermés.",
+          "Sur le panneau de commande, maintenez le bouton P1 (marche/arrêt) enfoncé quelques instants.",
+          "Le message « ON » apparaît, accompagné d'une flamme clignotante.",
+          "Le poêle démarre automatiquement son cycle d'allumage. L'apparition de la flamme prend généralement plusieurs minutes.",
+          "Patientez pendant ce processus, sans appuyer à nouveau sur le bouton.",
+          "Régler la température",
+          "Appuyez sur les touches + ou − pour accéder aux réglages.",
+          "Sélectionnez « Conf T. Amb » à l'aide des flèches.",
+          "Validez avec la touche Menu.",
+          "Réglez la température souhaitée avec + et −.",
+          "Validez avec Menu, puis quittez avec ESC.",
+          "Le poêle adapte automatiquement son fonctionnement en fonction de la température demandée.",
+          "Éteindre le poêle",
+          "Maintenez le bouton P1 enfoncé quelques instants.",
+          "Le poêle lance automatiquement son cycle d'arrêt.",
+          "La flamme s'éteint progressivement, tandis que les ventilateurs continuent de fonctionner pour refroidir l'appareil.",
+          "Ne débranchez jamais le poêle pour l'éteindre. Le cycle de refroidissement est indispensable à son bon fonctionnement.",
+          "Ajouter des pellets",
+          "Des sacs de pellets sont à votre disposition pour la durée du séjour.",
+          "Privilégiez le remplissage lorsque le poêle est éteint et suffisamment refroidi.",
+          "Ouvrez le couvercle du réservoir situé au-dessus de l'appareil.",
+          "Versez délicatement les pellets, sans laisser le sac toucher les parties chaudes.",
+          "Refermez soigneusement le couvercle, en veillant à ce qu'aucun pellet ne gêne le joint.",
+          "Utilisez uniquement les pellets fournis. Le couvercle doit rester fermé lorsque le poêle fonctionne.",
+          "Quelques précautions",
+          "Ne posez aucun objet sur le poêle ou à proximité des surfaces chaudes.",
+          "Ne bloquez jamais les sorties d'air chaud.",
+          "Pensez à éteindre le poêle lorsque vous quittez le gîte pour une longue période.",
+          "Ne manipulez pas les cendres ou les éléments internes.",
+          "En cas d'alarme, de fumée inhabituelle ou de problème d'allumage, contactez-nous. Ne tentez pas de redémarrages répétés.",
+          "Le poêle est équipé de dispositifs de sécurité. En cas de problème, mieux vaut nous prévenir plutôt que d'essayer de le réparer vous-même."
+        ]
+      },
+      "tv": {
+        "title": "La télévision",
+        "body": [
+          "Les chaînes de télévision par câble sont accessibles via le décodeur VOO, sur la source HDM1 (A COMPLETER)",
+          "Utilisez la télécommande du décodeur pour naviguer entre les chaînes et les programmes."
+        ]
+      },
+      "playstation": {
+        "title": "La PlayStation 4",
+        "body": [
+          "Une PlayStation 4 est à votre disposition pour les soirées jeux vidéo et cinéma.\nPour l’allumer, appuyez sur le bouton central de la manette (PS), et réglez la source de la télévision sur HDMI4.\nLa manette peut se recharger avec un câble branché depuis la manette vers la prise USB de la face avant de la console.",
+          "Pour jouer",
+          "Vous pouvez utiliser le profil « L'Andain » créé pour le gîte.",
+          "Plusieurs jeux sont disponibles et peuvent être installés sur la console.",
+          "Vous pouvez également vous connecter avec votre propre compte PlayStation si vous le souhaitez. Pensez simplement à vous déconnecter avant votre départ.",
+          "Pour regarder des films et séries",
+          "La PlayStation donne accès aux applications Netflix, Amazon Prime Video, Disney+, HBO et autres plateformes compatibles.",
+          "Depuis la console, rendez-vous dans la rubrique Média, puis sélectionnez l'application souhaitée.",
+          "Les abonnements aux plateformes ne sont pas compris dans la location. Vous devrez utiliser vos propres identifiants pour accéder aux contenus.",
+          "Pour votre sécurité, pensez à vous déconnecter de vos comptes de streaming avant de quitter le gîte."
+        ]
+      }
+    }
+  },
+  "kitchen": {
+    "title": "5. La cuisine",
+    "body": [
+      "La cuisine est équipée pour vous permettre de préparer vos repas pendant le séjour."
+    ],
+    "topics": {
+      "oven": {
+        "title": "Le four traditionnel Bosch",
+        "body": [
+          "Le four permet les cuissons classiques et dispose de plusieurs modes de fonctionnement.",
+          "Instructions à compléter après identification du modèle et de ses commandes.",
+          "Pensez à éteindre le four après utilisation et à le laisser refroidir avant de le nettoyer."
+        ]
+      },
+      "microwave": {
+        "title": "Le micro-ondes",
+        "body": [
+          "Le micro-ondes se trouve dans l'armoire située au-dessus du four traditionnel.",
+          "Utilisez uniquement des récipients adaptés au micro-ondes."
+        ]
+      },
+      "induction": {
+        "title": "Les plaques à induction",
+        "body": [
+          "Les plaques de cuisson fonctionnent par induction. Elles nécessitent donc des casseroles et poêles compatibles. Elles sont fournies dans les armoires.",
+          "Instructions d'allumage, de réglage de la puissance et de déverrouillage à compléter.",
+          "Attention, la surface peut rester chaude après utilisation."
+        ]
+      },
+      "coffee": {
+        "title": "La machine à café Dolce Gusto",
+        "body": [
+          "Une machine Dolce Gusto est à votre disposition, avec quelques capsules pour bien commencer le séjour.",
+          "Son fonctionnement est simple :",
+          "Remplissez le réservoir d'eau si nécessaire.",
+          "Insérez une capsule compatible Dolce Gusto.",
+          "La machine s'allume automatiquement.",
+          "Préparez votre boisson à l'aide des commandes de la machine.",
+          "Retirez la capsule usagée après utilisation.",
+          "Il n'y a pas de bouton marche/arrêt : la machine s'éteint automatiquement."
+        ]
+      },
+      "dishwasher": {
+        "title": "Le lave-vaisselle",
+        "body": [
+          "Un lave-vaisselle est à votre disposition, ainsi que quelques capsules de lavage.",
+          "N'hésitez pas à l'utiliser, notamment avant votre départ, pour nous aider à préparer le gîte pour les prochains voyageurs."
+        ]
+      },
+      "otherappliances": {
+        "title": "Les autres équipements",
+        "body": [
+          "Vous trouverez également dans les armoires :",
+          "Un grille-pain",
+          "Une bouilloire électrique",
+          "Un appareil à raclette",
+          "Une friteuse à graisse",
+          "Pour la friteuse, merci de privilégier une utilisation sous la hotte afin de limiter les odeurs dans le logement."
+        ]
+      },
+      "waste": {
+        "title": "Le tri des déchets",
+        "body": [
+          "Les poubelles de la cuisine comportent deux compartiments :",
+          "PMC : emballages plastiques, métalliques et cartons à boissons",
+          "Déchets ménagers résiduels : les autres déchets habituels",
+          "Les cartons et papiers peuvent être déposés dans la boîte prévue à cet effet, située dans le tiroir sous l'évier.",
+          "En fin de séjour",
+          "Si les poubelles ne sont pas pleines, vous pouvez les laisser telles quelles, nous les viderons après votre départ.",
+          "Si durant votre séjour les poubelles venaient à être remplies, vous pouvez déposer les déchets résiduels sacs fermés dans les conteneurs noirs qui se trouvent dans l’allée privée de notre maison. Le conteneur jaune est prévu pour les papiers/cartons. Les sacs PMC fermés peuvent être déposés à côté des conteneurs."
+        ]
+      }
+    }
+  },
+  "outdoor": {
+    "title": "6. Le jardin et les extérieurs",
+    "body": [],
+    "topics": {
+      "garden": {
+        "title": "Le jardin privatif",
+        "body": [
+          "Le jardin situé devant le gîte vous est entièrement réservé.",
+          "Attention : le jardin n'est pas clôturé.",
+          "Il donne sur une rue de village limitée à 30 km/h. Si vous voyagez avec votre poilu, veillez donc à le garder sous surveillance."
+        ]
+      },
+      "smoking": {
+        "title": "Fumer à l'extérieur",
+        "body": [
+          "L'Andain est un logement non-fumeur.",
+          "Vous pouvez fumer à l'extérieur, où un cendrier est disponible près de la porte d'entrée.",
+          "Un second cendrier est rangé dans une armoire de la cuisine.",
+          "Merci de les utiliser et de ne pas jeter vos mégots dans le jardin."
+        ]
+      },
+      "lighting": {
+        "title": "Éclairage extérieur",
+        "body": [
+          "Un éclairage de façade permet d'illuminer le jardin.",
+          "Son interrupteur se trouve dans la chambre à coucher.",
+          "Pensez à l'éteindre lorsque vous n'en avez plus besoin."
+        ]
+      }
+    }
+  },
+  "safety": {
+    "title": "7. Sécurité",
+    "body": [
+      "Une couverture anti-feu et un extincteur sont installés dans le petit débarras situé à côté de la cuisine.",
+      "En cas de départ de feu, privilégiez toujours votre sécurité et celle des autres occupants.",
+      "Si un incendie se développe, évacuez immédiatement le logement et appelez le 112, puis prévenez-nous quand même :D",
+      "Ne tentez pas d'éteindre un incendie que vous ne pouvez pas maîtriser en toute sécurité.",
+      "Si un appareil semble défectueux ou présente un comportement inhabituel, cessez de l'utiliser et contactez-nous."
+    ],
+    "topics": {}
+  },
+  "departure": {
+    "title": "8. Avant de partir",
+    "body": [
+      "Pour nous aider à accueillir les prochains voyageurs dans les meilleures conditions, voici quelques petites choses à vérifier avant votre départ.",
+      "Éteindre le poêle à pellets et les appareils électriques en fonctionnement.",
+      "Vérifier que les plaques de cuisson et le four sont éteints.",
+      "Faire la vaisselle ou lancer le lave-vaisselle avant de partir.",
+      "Vérifier les poubelles et déposer les sacs à l'extérieur si nécessaire.",
+      "Se déconnecter des comptes personnels sur la PlayStation et les applications de streaming.",
+      "Fermer et verrouiller toutes les fenêtres.",
+      "Éteindre les éclairages.",
+      "Verrouiller la porte d'entrée.",
+      "Remettre la clé dans sa boîte à code et bien refermer celle-ci.",
+      "Le départ est prévu pour 11 h au plus tard."
+    ],
+    "topics": {
+      "reviews": {
+        "title": "Et si vous avez apprécié votre séjour…",
+        "body": [
+          "Un petit avis sur Airbnb ou Google nous ferait vraiment plaisir !",
+          "L'Andain est une jeune aventure et vos retours nous aident à la faire grandir, à nous améliorer et à faire découvrir notre petit coin de Wallonie à d'autres voyageurs."
+        ]
+      }
+    }
+  },
+  "nearby_intro": {
+    "title": "Que faire dans le coin ?",
+    "body": [
+      "Bienvenue dans la vallée de la Molignée !",
+      "Entre châteaux en ruine, abbayes, villages de caractère, sentiers forestiers et plaisirs de la table, notre région a de quoi occuper quelques journées. Et l'avantage de l'Andain, c'est que certaines découvertes commencent directement au bout de la rue.",
+      "Voici une sélection de lieux et d'activités que nous vous conseillons pour découvrir notre petit coin de Wallonie."
+    ],
+    "topics": {}
+  },
+  "ruins": {
+    "title": "1. Un voyage dans le temps : châteaux et ruines",
+    "body": [],
+    "topics": {
+      "montaigle": {
+        "title": "Le château fort de Montaigle",
+        "body": [
+          "Perchées sur un éperon rocheux, au confluent de la Molignée et du Flavion, les ruines de Montaigle semblent tout droit sorties d'un récit médiéval.",
+          "Autrefois imposante forteresse, le château fut détruit en 1554 par les troupes du roi Henri II de France. Il n'a jamais été reconstruit, mais ses vestiges ont conservé une sacrée allure !",
+          "Nous aimons particulièrement l'atmosphère du lieu, avec ses vieilles pierres et les bois qui l'entourent. Une belle découverte à combiner avec une promenade dans la vallée.",
+          "Informations pratiques",
+          "Adresse : rue du Marteau 10, 5522 Falaën",
+          "Téléphone : +32 (0)82 69 95 85",
+          "Autre contact : +32 (0)478 06 30 68",
+          "E-mail : info@chateau-fort-de-montaigle.be",
+          "Site : https://chateau-fort-de-montaigle.be"
+        ]
+      },
+      "poilvache": {
+        "title": "La forteresse de Poilvache",
+        "body": [
+          "Accrochée aux hauteurs de la Meuse, Poilvache était autrefois une véritable ville fortifiée, avec son château, ses remparts et ses habitations.",
+          "Aujourd'hui, ses ruines offrent un voyage dans le Moyen Âge et surtout un panorama magnifique sur la vallée de la Meuse.",
+          "C'est un endroit où nous vous conseillons de prendre votre temps. Les vestiges sont impressionnants, mais le paysage mérite presque à lui seul le déplacement.",
+          "Informations pratiques",
+          "Accès : chemin de Poilvache, 5530 Houx (Yvoir)",
+          "Téléphone sur place : +32 (0)460 95 91 64",
+          "Informations : +32 (0)82 61 36 82",
+          "E-mail : info@poilvache.com",
+          "Site : https://poilvache.com",
+          "Ouverture saisonnière : vérifiez les horaires avant votre visite. Les chiens tenus en laisse sont acceptés."
+        ]
+      }
+    }
+  },
+  "abbeys": {
+    "title": "2. Les abbayes : patrimoine, traditions et gourmandises",
+    "body": [],
+    "topics": {
+      "maredsous": {
+        "title": "L'abbaye de Maredsous",
+        "body": [
+          "Impossible de séjourner dans la vallée de la Molignée sans découvrir Maredsous !",
+          "Cette grande abbaye bénédictine, construite au XIXe siècle, domine un environnement verdoyant. Sa basilique néogothique impressionne autant par ses dimensions que par son architecture.",
+          "Après la visite, faites un détour par le centre d'accueil Saint-Joseph pour goûter aux spécialités de l'abbaye : fromages, bières et autres plaisirs gourmands.",
+          "Notre conseil : prenez le temps de découvrir également les sentiers autour de l'abbaye, et poursuivez jusqu'à Maredret si vous aimez les petits villages et les belles pierres.",
+          "Informations pratiques",
+          "Adresse : rue de Maredsous 11, 5537 Denée (Anhée)",
+          "Téléphone : +32 (0)82 69 82 11",
+          "E-mail : info@maredsous.com",
+          "Site : https://www.maredsous.com"
+        ]
+      },
+      "leffe": {
+        "title": "L'abbaye Notre-Dame de Leffe",
+        "body": [
+          "À Dinant, l'abbaye de Leffe est avant tout un lieu de vie et de spiritualité, occupé depuis des siècles par une communauté de chanoines prémontrés.",
+          "Son histoire est intimement liée à celle de la célèbre bière Leffe, même si l'abbaye elle-même n'est pas une brasserie touristique.",
+          "L'église peut être visitée, et des visites guidées de l'abbaye sont organisées à certaines périodes.",
+          "Informations pratiques",
+          "Adresse : place de l'Abbaye 1, 5500 Dinant",
+          "Téléphone : +32 (0)82 22 23 77",
+          "E-mail : secretariat@abbaye-de-leffe.be",
+          "Site : https://www.abbaye-de-leffe.be"
+        ]
+      },
+      "maisonleffe": {
+        "title": "La Maison Leffe",
+        "body": [
+          "Pour découvrir l'histoire de la bière Leffe, c'est ici qu'il faut venir !",
+          "Installée dans un ancien monastère transformé en hôtel, la Maison Leffe propose une expérience interactive autour du patrimoine brassicole, des traditions et des différentes bières de la marque.",
+          "La visite comprend également une dégustation, avec une jolie vue sur Dinant et la Meuse.",
+          "Informations pratiques",
+          "Adresse : charreau des Capucins 23, 5500 Dinant",
+          "Téléphone : +32 (0)82 22 91 91",
+          "E-mail : hotel@infiniti-resort.be",
+          "Site : https://www.leffe.com/fr-be/maison-leffe",
+          "Réservation conseillée."
+        ]
+      }
+    }
+  },
+  "activities": {
+    "title": "3. Envie de bouger ? Les activités touristiques",
+    "body": [],
+    "topics": {
+      "draisines": {
+        "title": "Les draisines de la Molignée",
+        "body": [
+          "Voilà une manière plutôt originale de découvrir la vallée !",
+          "Installez-vous sur un véhicule à pédales, posé sur les rails d'une ancienne voie ferrée, et partez à travers les bois, les villages et les paysages de la Molignée.",
+          "Plusieurs parcours sont proposés, dont un aller-retour entre Falaën et l'ancienne gare de Maredsous.",
+          "C'est une activité amusante, accessible et qui permet de découvrir la région autrement. Il faudra tout de même donner quelques coups de pédale !",
+          "Informations pratiques",
+          "Départ de Falaën : rue de la Gare 82, 5522 Falaën",
+          "Autre départ : rue de la Molignée 116, 5537 Warnant",
+          "Téléphone : +32 (0)82 69 90 79",
+          "E-mail : info@draisines.online",
+          "Réservation : https://draisines.online",
+          "Réservation vivement conseillée. Certains parcours sont saisonniers."
+        ]
+      },
+      "dinantevasion": {
+        "title": "Dinant Évasion",
+        "body": [
+          "Pour ceux qui préfèrent l'aventure aux vieilles pierres, Dinant Évasion propose plusieurs activités dans les environs.",
+          "Vous pourrez notamment descendre la Lesse en kayak, participer à des parcours d'aventure ou embarquer pour une croisière sur la Meuse.",
+          "De quoi découvrir la région sous un autre angle, au fil de l'eau ou un peu plus haut dans les airs !",
+          "Informations pratiques",
+          "Accueil et kayaks : rue du Vélodrome 15, 5500 Anseremme",
+          "Parc aventure : rue de la Carrière 1, 5500 Dinant",
+          "Croisières : avenue Winston Churchill, 5500 Dinant",
+          "Téléphone : +32 (0)82 22 43 97",
+          "E-mail : info@dinant-evasion.be",
+          "Site : https://www.dinant-evasion.be",
+          "Les disponibilités dépendent de l'activité, de la saison et parfois des conditions météorologiques."
+        ]
+      },
+      "dinant": {
+        "title": "Dinant et sa citadelle",
+        "body": [
+          "À quelques minutes de voiture, Dinant mérite qu'on lui consacre du temps.",
+          "Flânez le long de la Meuse, admirez sa célèbre collégiale, montez à la citadelle pour profiter du panorama et prenez le temps de vous arrêter en terrasse.",
+          "Les amateurs de photographie trouveront de quoi remplir leur téléphone !"
+        ]
+      }
+    }
+  },
+  "hikes": {
+    "title": "4. Balades et randonnées : enfilez vos chaussures !",
+    "body": [
+      "La vallée de la Molignée est un petit paradis pour les marcheurs. Campagnes, forêts, ruisseaux et villages se succèdent au fil de chemins parfois très tranquilles.",
+      "Plusieurs circuits démarrent directement à Sommière !"
+    ],
+    "topics": {
+      "tokyowalk": {
+        "title": "La balade de Tokyo",
+        "body": [
+          "Départ : du gite",
+          "Juste derrière les maisons de l’autre côté de la rue, des chemins et prairies sont accessibles, il est possible de passer derrière les habitations et de faire une rapide boucle de 30 min autour des champs. Il suffit de sortir du gite, de prendre à gauche pendant 150m et de traverser le passage pour piétons. (même départ que pour Les Fonds de Vau).",
+          "Distance : 2 ou + km",
+          "Durée : Environ 30 min",
+          "Difficulté : facile",
+          "Départ et arrivée : Sommière"
+        ]
+      },
+      "fondsvau": {
+        "title": "Les Fonds de Vau – 5 km",
+        "body": [
+          "Départ : place du Jeu de Balle, Sommière",
+          "Une jolie boucle accessible, idéale pour découvrir les paysages autour de notre village.",
+          "L'itinéraire traverse principalement les chemins de campagne, passe par l'ancienne chaussée romaine et Chestruvin, avant de revenir vers Sommière.",
+          "Distance : 5 km",
+          "Durée : environ 1 h 30",
+          "Difficulté : facile",
+          "Départ et arrivée : Sommière",
+          "Itinéraire : https://fr-fr.trails-viewer.com/trail-fnrf3/ONHAYE-SOMMIERE-Les-fonds-de-Vau/"
+        ]
+      },
+      "weillen": {
+        "title": "La vallée du Flavion et le château de Weillen – 8,3 km",
+        "body": [
+          "Départ : Sommière",
+          "Une boucle un peu plus longue, qui traverse les paysages vallonnés de la région et passe par la vallée du Flavion, en direction de Weillen.",
+          "Une belle option pour profiter de la campagne et des chemins de notre commune.",
+          "Distance : 8,3 km",
+          "Durée : environ 2 h 15",
+          "Difficulté : modérée",
+          "Départ et arrivée : Sommière",
+          "Itinéraire à retrouver sur Komoot : https://www.komoot.com/fr-fr/guide/654129/hiking-around-onhaye"
+        ]
+      },
+      "flavionmontaigle": {
+        "title": "La vallée du Flavion et Montaigle – 14 km",
+        "body": [
+          "Départ : Sommière",
+          "Pour les marcheurs qui ont envie de prendre un peu plus de hauteur et de passer plusieurs heures dehors.",
+          "Cette boucle rejoint la vallée du Flavion et les environs du château de Montaigle, en alternant chemins de campagne et passages boisés.",
+          "Distance : 14 km",
+          "Durée : environ 3 h 50",
+          "Difficulté : modérée",
+          "Départ et arrivée : Sommière",
+          "Itinéraire à retrouver sur Komoot : https://www.komoot.com/fr-fr/guide/654129/hiking-around-onhaye"
+        ]
+      },
+      "falaenwalk": {
+        "title": "Falaën et les ruines de Montaigle – environ 9 km",
+        "body": [
+          "Départ : église Saint-Léger de Falaën",
+          "Une de nos suggestions pour découvrir à la fois le patrimoine du village et les paysages de la vallée.",
+          "Après avoir traversé Falaën, classé parmi les Plus Beaux Villages de Wallonie, les chemins vous emmènent vers la forteresse médiévale de Montaigle.",
+          "Distance : environ 9 km",
+          "Durée : environ 2 h 40",
+          "Difficulté : moyenne",
+          "Départ et arrivée : Falaën",
+          "Itinéraire : https://fr.ardennes-etape.be/experience/balade/promenade-vers-les-ruines-de-montaigle",
+          "Notre conseil : prévoyez des chaussures adaptées, particulièrement après la pluie. Et si votre compagnon à quatre pattes vous accompagne, gardez-le en laisse près des routes, des troupeaux et dans les zones qui l'exigent."
+        ]
+      }
+    }
+  },
+  "food": {
+    "title": "5. Gastronomie : nos bonnes adresses",
+    "body": [
+      "Parce qu'une belle journée de visite mérite aussi un bon repas, voici deux tables de Falaën que nous avions envie de partager avec vous."
+    ],
+    "topics": {
+      "vitoulet": {
+        "title": "Au Vitoulet",
+        "body": [
+          "Parce qu'un séjour en Belgique mérite aussi de bonnes frites !",
+          "Au Vitoulet, c'est la friterie du village, avec ses incontournables, ses spécialités maison et une petite terrasse pour profiter des beaux jours.",
+          "Une adresse simple et conviviale, parfaite pour manger sur le pouce ou rapporter de quoi se régaler tranquillement au gîte.",
+          "Informations pratiques",
+          "Adresse : rue Abbé Hector Dujardin 3, 5520 Onhaye",
+          "Téléphone : +32 (0)82 61 56 43",
+          "E-mail : julietalmasse@live.be",
+          "Ouverture habituelle : mardi, mercredi, vendredi, samedi et dimanche, midi et soir",
+          "Fermé le lundi et le jeudi",
+          "Les horaires peuvent varier : mieux vaut les vérifier avant de vous déplacer."
+        ]
+      },
+      "walhere": {
+        "title": "Le Walhère Roi",
+        "body": [
+          "Au cœur du village d'Onhaye, Le Walhère Roi propose une cuisine de brasserie généreuse et soignée, mettant à l'honneur les produits locaux et les suggestions de saison.",
+          "Une adresse chaleureuse pour un bon repas, avec une terrasse aux beaux jours.",
+          "En hiver, ne manquez pas leur « Chalet Roi », qui fait la part belle aux spécialités montagnardes : raclettes, fondues et autres plats réconfortants.",
+          "Informations pratiques",
+          "Adresse : place Henri Collignon 11, 5520 Onhaye",
+          "Téléphone : +32 (0)82 69 97 19",
+          "E-mail : info@le-walhere-roi.be",
+          "Site : https://www.le-walhere-roi.be",
+          "Réservation conseillée. Les horaires varient selon les jours : consultez le site avant votre visite."
+        ]
+      },
+      "artiste": {
+        "title": "L'Artiste de Falaën",
+        "body": [
+          "Une belle adresse pour se faire plaisir !",
+          "Installé dans l'ancienne gare de Falaën, L'Artiste propose une cuisine gastronomique créative, portée par des produits soigneusement sélectionnés et de belles associations de saveurs.",
+          "Le lieu possède une identité bien à lui, à la fois élégante et chaleureuse. Une adresse à envisager pour un dîner à deux ou une occasion un peu spéciale.",
+          "Aux beaux jours, découvrez également leur concept plus décontracté, « Ceci n'est pas l'Artiste », autour de plats à partager.",
+          "Informations pratiques",
+          "Adresse : rue de la Gare 85, 5522 Falaën",
+          "Téléphone : +32 (0)82 71 19 98",
+          "E-mail : lartistedefalaen@gmail.com",
+          "Site : https://www.lartistedefalaen.be",
+          "Réservation conseillée. Fermé le lundi et le mardi, et généralement le dimanche soir."
+        ]
+      },
+      "forgetoi": {
+        "title": "Forge-Toi",
+        "body": [
+          "Autre cadre, autre ambiance, mais tout autant de bonnes raisons de passer à table !",
+          "Installé dans l'ancienne forge du village de Falaën, Forge-Toi met en valeur les produits de saison et les spécialités régionales avec une cuisine soignée et généreuse.",
+          "Une maison à l'atmosphère authentique, où l'on retrouve le goût des produits locaux et le plaisir d'une bonne table.",
+          "Le restaurant propose également un lunch en semaine.",
+          "Informations pratiques",
+          "Adresse : rue de Chertin 2, 5522 Falaën",
+          "Téléphone : +32 (0)82 69 92 79",
+          "GSM : +32 (0)475 68 59 73",
+          "E-mail : info@traiteurlawaree.be",
+          "Site : https://www.forge-toi.be",
+          "Attention : ouvert du lundi au vendredi, fermé le week-end. Réservation par téléphone."
+        ]
+      }
+    }
+  },
+  "outro": {
+    "title": "Et encore plein d'autres découvertes…",
+    "body": [
+      "Ce petit guide ne prétend évidemment pas recenser tout ce que la région a à offrir !",
+      "N'hésitez pas à vous laisser surprendre par les villages traversés, les points de vue rencontrés au détour d'un chemin ou les producteurs locaux.",
+      "Et si vous découvrez une adresse qui mérite de figurer ici, racontez-nous ! Nous serons ravis d'enrichir notre carnet de bonnes idées.",
+      "Bonnes découvertes et profitez bien de la région !"
+    ],
+    "topics": {}
+  }
+}
