@@ -48,3 +48,16 @@ Les fichiers JSON sont chargés via `fetch`, ce qui nécessite un petit serveur 
 - Ajouter des vidéos brèves aux fiches.
 - Mettre en place les QR codes finaux après publication.
 - Tester les liens des promenades et mettre à jour les coordonnées et horaires des établissements.
+
+
+## V2 (octobre 2026)
+- Palette ocre / bordeaux inspirée des pièces du gîte, avec saturation adoucie.
+- Navigation basse : Accueil, Le logement, À découvrir.
+- Page d'accueil épurée : arrivée, départ, sécurité, Wi-Fi (code affiché sur place), téléphone de François et découverte locale.
+- Dans Le logement, choisir d'abord une pièce, puis un équipement. Recherche optionnelle.
+- Fil d'Ariane sur les fiches et retour explicite à la pièce.
+- URLs des équipements identiques à la V1, compatibles avec les futurs QR codes.
+- Aucun mot de passe ni code de boîte à clés publié.
+- Photos réelles à intégrer ultérieurement.
+
+Pour mettre à jour le dépôt GitHub, transférer le contenu de ce dossier à la racine, en remplaçant les fichiers déjà présents.
