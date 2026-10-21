@@ -82,3 +82,5 @@ Les 11 photographies sont au format WebP et redimensionnées pour l'affichage da
 V5 : intégration des photos détaillées des équipements, nouveaux visuels par pièce et menu mobile stabilisé.
 
 V6 : galeries/carrousels pour les sites touristiques et harmonisation des images au même format.
+
+V7.1 : second contact Émilie and cleaning included note on checkout page (FR/EN/NL).
