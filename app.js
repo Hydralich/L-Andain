@@ -240,6 +240,26 @@ function stoveBodyHTML(arr) {
   return `<div class="stoveGuide">${introHTML}${stoveFiguresHTML()}${sectionsHTML}</div>`;
 }
 
+function bathBodyHTML(arr) {
+  // Preserve the original multilingual text while presenting the four actions as a sequence.
+  const lines = (arr || []).flatMap(part => String(part).split('\n')).map(x => x.trim()).filter(Boolean);
+  const intro = lines[0] || '';
+  const heading = lines[1] || '';
+  const important = lines[2] || '';
+  const steps = lines.slice(3, 7).map(line => line.replace(/^\d+[.)]\s*/, ''));
+  const advice = lines.slice(7);
+  return `<div class="bathGuide"><p class="bathIntro">${linkify(intro)}</p>
+    <section class="bathImportant" role="note" aria-label="${escapeHTML(important.split(':')[0])}">
+      <span class="bathImportantIcon" aria-hidden="true">!</span>
+      <p><strong>${escapeHTML(important.split(':')[0])} :</strong>${linkify(important.includes(':') ? important.slice(important.indexOf(':') + 1) : '')}</p>
+    </section>
+    <section class="stoveSequence bathSequence"><h3>${escapeHTML(heading)}</h3><div class="stepSequence">
+      ${steps.map((step, index) => `<div class="step stepFlow"><span class="stepNumber">${index + 1}</span><div class="stepContent"><p>${linkify(step)}</p></div></div>`).join('')}
+    </div></section>
+    <section class="bathAdvice">${advice.map((line, i) => `<p class="${i === 0 || i === advice.length - 1 ? 'bathCaution' : ''}">${linkify(line)}</p>`).join('')}</section>
+  </div>`;
+}
+
 function bodyHTML(arr) {
   return (arr || []).map(line => {
     const txt = line.trim();
@@ -423,7 +443,7 @@ function detailPage(id) {
   const images = topicPhotos(id, group);
   return pathnav([[parent, href(groupIsDiscover ? 'discover' : 'house')], [cleanTitle(state.data[group].title), backTarget], [cleanTitle(topic.title), null]]) +
     pageTitle(cleanTitle(topic.title)) +
-    `<div class="detailLayout detailFocus"><div>${galleryHTML(images, itemIcon[id] || 'sparkle', cleanTitle(topic.title))}<div class="paper article ${id === 'stove' ? 'manualArticle' : ''}">${id === 'stove' ? stoveBodyHTML(topic.body) : bodyHTML(topic.body)}</div><a class="backRoom pressable" href="${backTarget}">${iconText('back',17)} ${escapeHTML(t.backTo)} ${escapeHTML(cleanTitle(state.data[group].title))}</a>${related.length ? `<div class="morelist"><h3>${escapeHTML(w.quick)}</h3><div class="list">${related.map(([key, value]) => listrow(cleanTitle(value.title), '', itemIcon[key], href('guide', key), groupIsDiscover ? topicPhoto(key, group) : '')).join('')}</div></div>` : ''}</div></div>`;
+    `<div class="detailLayout detailFocus"><div>${galleryHTML(images, itemIcon[id] || 'sparkle', cleanTitle(topic.title))}<div class="paper article ${id === 'stove' ? 'manualArticle' : ''}">${id === 'stove' ? stoveBodyHTML(topic.body) : id === 'bath' ? bathBodyHTML(topic.body) : bodyHTML(topic.body)}</div><a class="backRoom pressable" href="${backTarget}">${iconText('back',17)} ${escapeHTML(t.backTo)} ${escapeHTML(cleanTitle(state.data[group].title))}</a>${related.length ? `<div class="morelist"><h3>${escapeHTML(w.quick)}</h3><div class="list">${related.map(([key, value]) => listrow(cleanTitle(value.title), '', itemIcon[key], href('guide', key), groupIsDiscover ? topicPhoto(key, group) : '')).join('')}</div></div>` : ''}</div></div>`;
 }
 
 function departureChecklist() {

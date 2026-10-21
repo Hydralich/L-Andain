@@ -30,3 +30,19 @@
   .stepSequence::before{left:13px}
   .stoveTips{padding-left:14px}
 }
+
+
+/* V7.3 – Baignoire : attention et gestes successifs */
+.bathGuide .bathIntro{font-size:15px;line-height:1.75;margin:0 0 20px}
+.bathImportant{display:flex;gap:14px;align-items:flex-start;background:#fff0d7;border:2px solid #ba8641;border-radius:17px;padding:18px 20px;margin:20px 0 28px;box-shadow:0 5px 20px rgba(112,69,24,.06)}
+.bathImportantIcon{display:grid;place-items:center;flex:none;width:34px;height:34px;border-radius:50%;background:#9c5639;color:white;font-size:23px;font-weight:800;line-height:1}
+.bathImportant p{margin:1px 0 0;line-height:1.55;color:#542a25;font-size:15px}
+.bathImportant strong{font-weight:850}
+.bathSequence{margin-top:12px}
+.bathSequence h3{font-size:19px}
+.bathGuide .stepSequence{gap:14px}
+.bathGuide .stepFlow{border-left:0}
+.bathAdvice{display:grid;gap:11px;margin-top:25px}
+.bathAdvice p{margin:0;padding:13px 16px;border-radius:13px;background:#faf6ee;line-height:1.65}
+.bathAdvice .bathCaution{background:#fff3df;border-left:3px solid #b48a40}
+@media(max-width:760px){.bathImportant{padding:14px;gap:11px}.bathImportantIcon{width:30px;height:30px;font-size:20px}}

@@ -84,3 +84,5 @@ V5 : intégration des photos détaillées des équipements, nouveaux visuels par
 V6 : galeries/carrousels pour les sites touristiques et harmonisation des images au même format.
 
 V7.1 : second contact Émilie and cleaning included note on checkout page (FR/EN/NL).
+
+V7.3 : présentation séquentielle de la baignoire balnéo (FR/EN/NL), avertissement eau claire mis en évidence.
