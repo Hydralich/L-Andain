@@ -241,13 +241,13 @@ function stoveBodyHTML(arr) {
 }
 
 function bathBodyHTML(arr) {
-  // Preserve the original multilingual text while presenting the four actions as a sequence.
+  // Preserve the original multilingual text while presenting the five actions as a sequence.
   const lines = (arr || []).flatMap(part => String(part).split('\n')).map(x => x.trim()).filter(Boolean);
   const intro = lines[0] || '';
   const heading = lines[1] || '';
   const important = lines[2] || '';
-  const steps = lines.slice(3, 7).map(line => line.replace(/^\d+[.)]\s*/, ''));
-  const advice = lines.slice(7);
+  const steps = lines.slice(3, 8).map(line => line.replace(/^\d+[.)]\s*/, ''));
+  const advice = lines.slice(8);
   return `<div class="bathGuide"><p class="bathIntro">${linkify(intro)}</p>
     <section class="bathImportant" role="note" aria-label="${escapeHTML(important.split(':')[0])}">
       <span class="bathImportantIcon" aria-hidden="true">!</span>
