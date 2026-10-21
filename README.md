@@ -77,3 +77,6 @@ Pour mettre à jour le dépôt GitHub, transférer le contenu de ce dossier à l
 ## V4 light — images optimisées
 
 Les 11 photographies sont au format WebP et redimensionnées pour l'affichage dans les cartes et en-têtes. Les chemins `assets/photos/*.webp` doivent être conservés à la racine du dépôt. Les URL de navigation `#/fr/...` ne changent pas.
+
+
+V5 : intégration des photos détaillées des équipements, nouveaux visuels par pièce et menu mobile stabilisé.

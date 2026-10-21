@@ -37,7 +37,7 @@ const words = {
     exploreSub:'Balades, patrimoine et bonnes adresses.', go:'Voir les idées de sorties', arrival:'Mon arrivée', house:'Le logement', discover:'Découvrir', departure:'Mon départ', all:'Tout voir',
     search:'Rechercher un équipement ou une activité…', quick:'Accès rapide', tips:'Besoin d’aide ?', tipsText:'Si un appareil ne fonctionne pas comme prévu, contactez-nous plutôt que de tenter une réparation.',
     back:'Retour', share:'Copier le lien de cette fiche', copied:'Lien copié !', photolater:'Photo à ajouter', areas:'Les pièces et équipements', stays:'Pour bien commencer…', nearby:'Autour de l’Andain',
-    open:'Consulter la fiche', noresults:'Aucun résultat. Essayez un autre mot.', source:'Version 4 · Photos intégrées', general:'Informations générales', activities:'Sites & activités', trails:'Balades et randonnées',
+    open:'Consulter la fiche', noresults:'Aucun résultat. Essayez un autre mot.', source:'Version 5 · Équipements illustrés', general:'Informations générales', activities:'Sites & activités', trails:'Balades et randonnées',
     restaurants:'Nos adresses gourmandes', intro:'Un petit guide pensé pour les voyageurs, pas une notice technique.'
   },
   en: {
@@ -46,7 +46,7 @@ const words = {
     exploreSub:'Walks, heritage and our favourite places.', go:'Explore the area', arrival:'Check-in', house:'The cottage', discover:'Explore', departure:'Check-out', all:'See all',
     search:'Search for an appliance or activity…', quick:'Quick access', tips:'Need a hand?', tipsText:'If something is not working as expected, please contact us rather than trying to repair it.',
     back:'Back', share:'Copy link to this guide', copied:'Link copied!', photolater:'Photo coming soon', areas:'Rooms and appliances', stays:'Make yourself at home…', nearby:'Around L’Andain',
-    open:'Open guide', noresults:'No results. Try another search.', source:'Version 4 · Photos added', general:'General information', activities:'Places & activities', trails:'Walks and hikes',
+    open:'Open guide', noresults:'No results. Try another search.', source:'Version 5 · Equipment photos added', general:'General information', activities:'Places & activities', trails:'Walks and hikes',
     restaurants:'Our favourite restaurants', intro:'A friendly guide for guests, not a technical manual.'
   },
   nl: {
@@ -55,7 +55,7 @@ const words = {
     exploreSub:'Wandelingen, erfgoed en onze favoriete adresjes.', go:'Ontdek de streek', arrival:'Aankomst', house:'Het verblijf', discover:'Ontdekken', departure:'Vertrek', all:'Alles bekijken',
     search:'Zoek een toestel of activiteit…', quick:'Snelle toegang', tips:'Hulp nodig?', tipsText:'Werkt er iets niet zoals verwacht? Neem dan contact op in plaats van zelf te repareren.',
     back:'Terug', share:'Link naar deze fiche kopiëren', copied:'Link gekopieerd!', photolater:'Foto volgt', areas:'Kamers en toestellen', stays:'Geniet van uw verblijf…', nearby:'Rond L’Andain',
-    open:'Open de fiche', noresults:'Geen resultaten. Probeer een andere zoekterm.', source:'Versie 4 · Foto’s geïntegreerd', general:'Praktische informatie', activities:'Bezienswaardigheden & activiteiten', trails:'Wandelingen',
+    open:'Open de fiche', noresults:'Geen resultaten. Probeer een andere zoekterm.', source:'Versie 5 · Foto’s van toestellen toegevoegd', general:'Praktische informatie', activities:'Bezienswaardigheden & activiteiten', trails:'Wandelingen',
     restaurants:'Onze eetadresjes', intro:'Een gastvriendelijke gids, geen technische handleiding.'
   }
 };
@@ -74,32 +74,42 @@ const REVIEW_LINKS = {
 const ROOM_ORDER = [['bathroom','bath'],['bedroom','bed'],['living','flame'],['kitchen','utensils'],['outdoor','tree'],['safety','shield']];
 const DISCOVER_GROUPS = [['ruins','home'],['abbeys','home'],['activities','sparkle'],['hikes','foot'],['food','utensils']];
 
-const ROOM_IMAGES = {
-  bathroom:'./assets/photos/bathroom-main.webp',
+const ROOM_TILE_IMAGES = {
+  bathroom:'./assets/photos/bathroom-button.webp',
   bedroom:'./assets/photos/bedroom-main.webp',
-  living:'./assets/photos/living-main.webp',
+  living:'./assets/photos/living-button.webp',
+  kitchen:'./assets/photos/kitchen-main.webp',
+  outdoor:'./assets/photos/outdoor-button.webp',
+  safety:'./assets/photos/safety-main.webp'
+};
+
+const ROOM_HEADER_IMAGES = {
+  bathroom:'./assets/photos/bathroom-header.webp',
+  bedroom:'./assets/photos/bedroom-header.webp',
+  living:'./assets/photos/living-header.webp',
   kitchen:'./assets/photos/kitchen-main.webp',
   outdoor:'./assets/photos/outdoor-main.webp',
-  safety:'./assets/photos/living-main.webp'
+  safety:'./assets/photos/safety-main.webp'
 };
 
 const TOPIC_IMAGES = {
+  safety:'./assets/photos/safety-main.webp',
   bath:'./assets/photos/bathroom-bath.webp',
-  towel:'./assets/photos/bathroom-main.webp',
+  towel:'./assets/photos/bathroom-towel.webp',
   bed:'./assets/photos/bedroom-bed.webp',
   charging:'./assets/photos/bedroom-main.webp',
   bedheating:'./assets/photos/bedroom-bed.webp',
   gardenaccess:'./assets/photos/bedroom-main.webp',
-  stove:'./assets/photos/living-main.webp',
-  tv:'./assets/photos/living-main.webp',
-  playstation:'./assets/photos/living-sofa.webp',
-  oven:'./assets/photos/kitchen-main.webp',
+  stove:'./assets/photos/living-stove.webp',
+  tv:'./assets/photos/living-tv.webp',
+  playstation:'./assets/photos/living-playstation.webp',
+  oven:'./assets/photos/kitchen-oven.webp',
   microwave:'./assets/photos/kitchen-main.webp',
   induction:'./assets/photos/kitchen-main.webp',
-  coffee:'./assets/photos/kitchen-detail.webp',
-  dishwasher:'./assets/photos/kitchen-main.webp',
+  coffee:'./assets/photos/kitchen-coffee.webp',
+  dishwasher:'./assets/photos/kitchen-dishwasher.webp',
   otherappliances:'./assets/photos/kitchen-detail.webp',
-  waste:'./assets/photos/kitchen-main.webp',
+  waste:'./assets/photos/kitchen-waste.webp',
   garden:'./assets/photos/outdoor-garden.webp',
   smoking:'./assets/photos/outdoor-door.webp',
   lighting:'./assets/photos/outdoor-main.webp'
@@ -121,7 +131,8 @@ const cleanTitle = t => String(t || '').replace(/^\d+\.\s*/, '').replace(/\s*[�
 const sectionIcon = id => ROOM_ORDER.find(([section]) => section === id)?.[1] || 'home';
 const isDiscoverGroup = group => ['ruins','abbeys','activities','hikes','food'].includes(group);
 const labelTopics = () => state.lang === 'fr' ? 'équipements et infos' : state.lang === 'nl' ? 'onderwerpen' : 'topics';
-const roomPhoto = id => ROOM_IMAGES[id] || '';
+const roomTilePhoto = id => ROOM_TILE_IMAGES[id] || ROOM_HEADER_IMAGES[id] || '';
+const roomPhoto = id => ROOM_HEADER_IMAGES[id] || ROOM_TILE_IMAGES[id] || '';
 const topicPhoto = (id, group) => TOPIC_IMAGES[id] || roomPhoto(group);
 const photoStyle = (path, overlay='dark') => {
   if (!path) return '';
@@ -284,7 +295,7 @@ function housePage() {
   const w = words[state.lang];
   const d = state.data;
   return pageTitle(w.house, v3[state.lang].roomsHelp) +
-    `<div class="roomsGrid">${ROOM_ORDER.filter(([section]) => section !== 'safety').map(([section, ico]) => `<a class="roomTile photoTile pressable room-${section}" href="${href('room',section)}" ${photoStyle(roomPhoto(section))}><span class="roomIcon">${iconText(ico,35)}</span><strong>${escapeHTML(d[section].title.replace(/^\d+\.\s*/,''))}</strong><small>${Object.keys(d[section].topics).length} ${labelTopics()}</small>${iconText('arrow',18)}</a>`).join('')}</div><div class="sectionhead"><div><h2>${state.lang === 'fr' ? 'Vous cherchez quelque chose ?' : state.lang === 'nl' ? 'Op zoek naar iets?' : 'Looking for something?'}</h2></div></div><input class="search" id="search" placeholder="${escapeHTML(w.search)}" value="${escapeHTML(state.query)}"><div class="list" id="results">${state.query ? houseResults() : ''}</div>`;
+    `<div class="roomsGrid">${ROOM_ORDER.filter(([section]) => section !== 'safety').map(([section, ico]) => `<a class="roomTile photoTile pressable room-${section}" href="${href('room',section)}" ${photoStyle(roomTilePhoto(section))}><span class="roomIcon">${iconText(ico,35)}</span><strong>${escapeHTML(d[section].title.replace(/^\d+\.\s*/,''))}</strong><small>${Object.keys(d[section].topics).length} ${labelTopics()}</small>${iconText('arrow',18)}</a>`).join('')}</div><div class="sectionhead"><div><h2>${state.lang === 'fr' ? 'Vous cherchez quelque chose ?' : state.lang === 'nl' ? 'Op zoek naar iets?' : 'Looking for something?'}</h2></div></div><input class="search" id="search" placeholder="${escapeHTML(w.search)}" value="${escapeHTML(state.query)}"><div class="list" id="results">${state.query ? houseResults() : ''}</div>`;
 }
 
 function discoverPage() {
