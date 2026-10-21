@@ -117,10 +117,10 @@ const TOPIC_IMAGES = {
 
 const DISCOVER_GALLERIES = {
   montaigle:['./assets/photos/montaigle-1.webp','./assets/photos/montaigle-2.webp','./assets/photos/montaigle-3.webp'],
-  poilvache:['./assets/photos/poilvache-1.webp'],
+  poilvache:['./assets/photos/poilvache-1.webp','./assets/photos/poilvache-2.webp'],
   maredsous:['./assets/photos/maredsous-1.webp','./assets/photos/maredsous-2.webp','./assets/photos/maredsous-3.webp'],
-  leffe:['./assets/photos/leffe-1.webp','./assets/photos/leffe-2.webp','./assets/photos/leffe-3.webp'],
-  maisonleffe:['./assets/photos/maisonleffe-1.webp','./assets/photos/maisonleffe-2.webp'],
+  leffe:['./assets/photos/leffe-1.webp','./assets/photos/leffe-2.webp'],
+  maisonleffe:['./assets/photos/leffe-3.webp','./assets/photos/maisonleffe-1.webp','./assets/photos/maisonleffe-2.webp'],
   draisines:['./assets/photos/draisines-1.webp','./assets/photos/draisines-2.webp','./assets/photos/draisines-3.webp'],
   dinantevasion:['./assets/photos/dinantevasion-1.webp','./assets/photos/dinantevasion-2.webp','./assets/photos/dinantevasion-3.webp'],
   dinant:['./assets/photos/dinant-1.webp']
@@ -153,6 +153,8 @@ const photoStyle = (path, overlay='dark') => {
     : 'linear-gradient(180deg, rgba(39,17,20,0.16), rgba(39,17,20,0.78))';
   return `style="background-image:${gradient}, url('${path}');"`;
 };
+
+const thumbStyle = path => path ? `style="background-image:linear-gradient(180deg, rgba(39,17,20,0.14), rgba(39,17,20,0.48)), url('${path}');"` : '';
 
 function galleryHTML(images, iconName, label) {
   if (!images.length) {
@@ -256,8 +258,11 @@ function pageTitle(title, subtitle='') {
   return `<div class="pagehead"><h1>${escapeHTML(title)}</h1>${subtitle ? `<p>${escapeHTML(subtitle)}</p>` : ''}</div>`;
 }
 
-function listrow(title, description, ico, url) {
-  return `<a class="listrow pressable" href="${url}"><div class="listicon">${iconText(ico)}</div><div style="flex:1"><strong>${escapeHTML(title)}</strong>${description ? `<span>${escapeHTML(description)}</span>` : ''}</div><span class="chevron">${iconText('chevron',18)}</span></a>`;
+function listrow(title, description, ico, url, thumb='') {
+  const media = thumb
+    ? `<div class="listicon listthumb" ${thumbStyle(thumb)} aria-hidden="true"></div>`
+    : `<div class="listicon">${iconText(ico)}</div>`;
+  return `<a class="listrow pressable" href="${url}">${media}<div style="flex:1"><strong>${escapeHTML(title)}</strong>${description ? `<span>${escapeHTML(description)}</span>` : ''}</div><span class="chevron">${iconText('chevron',18)}</span></a>`;
 }
 
 function roomPage(id) {
@@ -328,7 +333,7 @@ function discoverPage() {
   const content = sel === 'all'
     ? cards
     : `<button class="backCategory pressable" data-filter="all">${iconText('back',17)} ${escapeHTML(t.discoverHelp)}</button><div class="selectedCategory">${escapeHTML(cleanTitle(d[sel]?.title || ''))}</div>`;
-  const groups = sel === 'all' ? '' : `<div class="topicGroups">${DISCOVER_GROUPS.filter(([group]) => sel === group).map(([group, ico]) => `<div class="list">${Object.entries(d[group].topics).map(([id, v]) => listrow(cleanTitle(v.title), v.body[0]?.slice(0,95), itemIcon[id] || ico, href('guide', id))).join('')}</div>`).join('')}</div>`;
+  const groups = sel === 'all' ? '' : `<div class="topicGroups">${DISCOVER_GROUPS.filter(([group]) => sel === group).map(([group, ico]) => `<div class="list">${Object.entries(d[group].topics).map(([id, v]) => listrow(cleanTitle(v.title), v.body[0]?.slice(0,95), itemIcon[id] || ico, href('guide', id), topicPhoto(id, group))).join('')}</div>`).join('')}</div>`;
   return pageTitle(d.nearby_intro.title, t.discoverHelp) + content + groups;
 }
 
@@ -355,7 +360,7 @@ function detailPage(id) {
   const images = topicPhotos(id, group);
   return pathnav([[parent, href(groupIsDiscover ? 'discover' : 'house')], [cleanTitle(state.data[group].title), backTarget], [cleanTitle(topic.title), null]]) +
     pageTitle(cleanTitle(topic.title)) +
-    `<div class="detailLayout detailFocus"><div>${galleryHTML(images, itemIcon[id] || 'sparkle', cleanTitle(topic.title))}<div class="paper article">${bodyHTML(topic.body)}</div><a class="backRoom pressable" href="${backTarget}">${iconText('back',17)} ${escapeHTML(t.backTo)} ${escapeHTML(cleanTitle(state.data[group].title))}</a>${related.length ? `<div class="morelist"><h3>${escapeHTML(w.quick)}</h3><div class="list">${related.map(([key, value]) => listrow(cleanTitle(value.title), '', itemIcon[key], href('guide', key))).join('')}</div></div>` : ''}</div></div>`;
+    `<div class="detailLayout detailFocus"><div>${galleryHTML(images, itemIcon[id] || 'sparkle', cleanTitle(topic.title))}<div class="paper article">${bodyHTML(topic.body)}</div><a class="backRoom pressable" href="${backTarget}">${iconText('back',17)} ${escapeHTML(t.backTo)} ${escapeHTML(cleanTitle(state.data[group].title))}</a>${related.length ? `<div class="morelist"><h3>${escapeHTML(w.quick)}</h3><div class="list">${related.map(([key, value]) => listrow(cleanTitle(value.title), '', itemIcon[key], href('guide', key), groupIsDiscover ? topicPhoto(key, group) : '')).join('')}</div></div>` : ''}</div></div>`;
 }
 
 function departureChecklist() {
