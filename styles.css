@@ -2,3 +2,31 @@
 
 /* V7.1 : contacts and departure note */
 .practicalItem a+a{display:flex;margin-top:9px}.cleaningNote{padding:15px 18px;border-radius:16px;background:#f4e8d3;border:1px solid #e6d1ab;color:var(--ink);line-height:1.6;font-weight:600}
+
+
+/* V7.2 : stove manual figures and step-by-step layout */
+.manualArticle{padding-top:20px}
+.manualFigures{display:grid;gap:14px;margin:18px 0 24px}
+.manualFigure{margin:0;background:#fffdf9;border:1px solid var(--line);border-radius:20px;padding:14px 14px 12px;box-shadow:var(--shadow)}
+.manualFigure img{display:block;width:100%;height:auto;border-radius:12px}
+.manualFigure figcaption{margin-top:10px;font-size:12px;color:var(--muted);font-weight:700}
+.stoveSequence{margin-top:24px}
+.stoveGuide>.stoveSequence:first-of-type{margin-top:10px}
+.stoveSequence h3{margin:0 0 14px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.stepSequence{position:relative;display:grid;gap:14px;margin-top:10px;padding-left:0}
+.stepSequence::before{content:'';position:absolute;left:14px;top:12px;bottom:12px;width:2px;background:#eadbc5;border-radius:2px}
+.stepFlow{position:relative;display:grid;grid-template-columns:28px minmax(0,1fr);gap:14px;align-items:start;background:#fbf6ef;padding:14px 16px 14px 0;border:1px solid #ebdcc6;border-radius:16px}
+.stepFlow .stepNumber{position:relative;z-index:1}
+.stepFlow .stepContent p{margin:0;max-width:none}
+.stepWarn{background:#fff3df;border-color:#ead2a5}
+.stoveTips{display:grid;gap:10px;margin-top:12px;border-left:2px solid #eadbc5;padding-left:18px}
+.stoveTip{display:flex;gap:10px;align-items:flex-start;background:#fffaf3;padding:12px 14px;border:1px solid #efe0c8;border-radius:14px}
+.stoveTip p{margin:0;max-width:none}
+.stoveTipMarker{width:8px;height:8px;border-radius:999px;background:var(--accent);margin-top:8px;flex-shrink:0}
+.stoveTip.isNotice{background:#fff3df;border-color:#ead2a5}
+@media(max-width:760px){
+  .manualFigure{padding:11px 11px 10px}
+  .stepFlow{grid-template-columns:26px minmax(0,1fr);gap:12px;padding:13px 13px 13px 0}
+  .stepSequence::before{left:13px}
+  .stoveTips{padding-left:14px}
+}

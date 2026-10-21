@@ -71,6 +71,12 @@ const REVIEW_LINKS = {
   airbnb:'https://www.airbnb.com/trips'
 };
 
+const stoveManual = {
+  fr:{controls:'Tableau de commande du poêle', legend:'Légende des boutons et indicateurs'},
+  en:{controls:'Stove control panel', legend:'Legend of buttons and indicators'},
+  nl:{controls:'Bedieningspaneel van de kachel', legend:'Legenda van knoppen en indicatoren'}
+};
+
 const ROOM_ORDER = [['bathroom','bath'],['bedroom','bed'],['living','flame'],['kitchen','utensils'],['outdoor','tree'],['safety','shield']];
 const DISCOVER_GROUPS = [['ruins','home'],['abbeys','home'],['activities','sparkle'],['hikes','foot'],['food','utensils']];
 
@@ -177,18 +183,75 @@ function linkify(str) {
     .replace(/\n/g, '<br>');
 }
 
+function isBodyHeading(txt) {
+  return txt.length < 67 && !txt.includes(':') && !txt.startsWith('http') && !/^[+\d]/.test(txt) && !txt.includes('@') && !/[.!?]$/.test(txt);
+}
+
+function isNoticeLine(txt) {
+  return /^(Important|Attention|Warning|Belangrijk|Let op|Ne débranchez|Never unplug|Trek nooit)/i.test(txt);
+}
+
+function isCautionHeading(txt) {
+  return /(pr[ée]cautions?|veilig|voorzorg|safety|precaution)/i.test(txt);
+}
+
+function stoveFiguresHTML() {
+  const labels = stoveManual[state.lang];
+  return `<div class="manualFigures"><figure class="manualFigure"><img src="./assets/photos/stove-controls.png" alt="${escapeHTML(labels.controls)}" loading="lazy"><figcaption>${escapeHTML(labels.controls)}</figcaption></figure><figure class="manualFigure"><img src="./assets/photos/stove-legend.png" alt="${escapeHTML(labels.legend)}" loading="lazy"><figcaption>${escapeHTML(labels.legend)}</figcaption></figure></div>`;
+}
+
+function stoveBodyHTML(arr) {
+  const lines = (arr || []).map(line => line.trim()).filter(Boolean);
+  if (!lines.length) return '';
+
+  const intro = [];
+  const sections = [];
+  let current = null;
+
+  lines.forEach((txt, index) => {
+    if (index === 0 && !isBodyHeading(txt)) {
+      intro.push(txt);
+      return;
+    }
+    if (isBodyHeading(txt)) {
+      current = { title: txt, items: [], caution: isCautionHeading(txt) };
+      sections.push(current);
+      return;
+    }
+    if (!current) {
+      intro.push(txt);
+      return;
+    }
+    current.items.push(txt);
+  });
+
+  const introHTML = intro.map(txt => isNoticeLine(txt)
+    ? `<p class="notice">${linkify(txt)}</p>`
+    : `<p>${linkify(txt)}</p>`).join('');
+
+  const sectionsHTML = sections.map(section => {
+    if (!section.items.length) return '';
+    if (section.caution) {
+      return `<section class="stoveSequence stoveSafety"><h3>${escapeHTML(section.title)}</h3><div class="stoveTips">${section.items.map(item => `<div class="stoveTip${isNoticeLine(item) ? ' isNotice' : ''}"><span class="stoveTipMarker" aria-hidden="true"></span><p>${linkify(item)}</p></div>`).join('')}</div></section>`;
+    }
+    return `<section class="stoveSequence"><h3>${escapeHTML(section.title)}</h3><div class="stepSequence">${section.items.map((item, i) => `<div class="step stepFlow${isNoticeLine(item) ? ' stepWarn' : ''}"><span class="stepNumber">${i + 1}</span><div class="stepContent"><p>${linkify(item)}</p></div></div>`).join('')}</div></section>`;
+  }).join('');
+
+  return `<div class="stoveGuide">${introHTML}${stoveFiguresHTML()}${sectionsHTML}</div>`;
+}
+
 function bodyHTML(arr) {
   return (arr || []).map(line => {
     const txt = line.trim();
     if (!txt) return '';
     const isstep = /^\d+[.)]\s/.test(txt);
-    const notice = /^(Important|Attention|Warning|Belangrijk|Let op|Ne débranchez|Never unplug|Trek nooit)/i.test(txt);
+    const notice = isNoticeLine(txt);
     if (notice) return `<p class="notice">${linkify(txt)}</p>`;
     if (isstep) {
       const match = txt.match(/^(\d+)[.)]\s*(.*)$/);
       return `<div class="step"><span class="stepNumber">${match[1]}</span><p>${linkify(match[2])}</p></div>`;
     }
-    if (txt.length < 67 && !txt.includes(':') && !txt.startsWith('http') && !/^[+\d]/.test(txt) && !txt.includes('@')) {
+    if (isBodyHeading(txt)) {
       return `<h3>${escapeHTML(txt)}</h3>`;
     }
     return `<p>${linkify(txt)}</p>`;
@@ -360,7 +423,7 @@ function detailPage(id) {
   const images = topicPhotos(id, group);
   return pathnav([[parent, href(groupIsDiscover ? 'discover' : 'house')], [cleanTitle(state.data[group].title), backTarget], [cleanTitle(topic.title), null]]) +
     pageTitle(cleanTitle(topic.title)) +
-    `<div class="detailLayout detailFocus"><div>${galleryHTML(images, itemIcon[id] || 'sparkle', cleanTitle(topic.title))}<div class="paper article">${bodyHTML(topic.body)}</div><a class="backRoom pressable" href="${backTarget}">${iconText('back',17)} ${escapeHTML(t.backTo)} ${escapeHTML(cleanTitle(state.data[group].title))}</a>${related.length ? `<div class="morelist"><h3>${escapeHTML(w.quick)}</h3><div class="list">${related.map(([key, value]) => listrow(cleanTitle(value.title), '', itemIcon[key], href('guide', key), groupIsDiscover ? topicPhoto(key, group) : '')).join('')}</div></div>` : ''}</div></div>`;
+    `<div class="detailLayout detailFocus"><div>${galleryHTML(images, itemIcon[id] || 'sparkle', cleanTitle(topic.title))}<div class="paper article ${id === 'stove' ? 'manualArticle' : ''}">${id === 'stove' ? stoveBodyHTML(topic.body) : bodyHTML(topic.body)}</div><a class="backRoom pressable" href="${backTarget}">${iconText('back',17)} ${escapeHTML(t.backTo)} ${escapeHTML(cleanTitle(state.data[group].title))}</a>${related.length ? `<div class="morelist"><h3>${escapeHTML(w.quick)}</h3><div class="list">${related.map(([key, value]) => listrow(cleanTitle(value.title), '', itemIcon[key], href('guide', key), groupIsDiscover ? topicPhoto(key, group) : '')).join('')}</div></div>` : ''}</div></div>`;
 }
 
 function departureChecklist() {
