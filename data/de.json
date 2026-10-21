@@ -1,0 +1,591 @@
+{
+  "arrival": {
+    "title": "1. Ihre Anreise",
+    "body": [],
+    "topics": {
+      "times": {
+        "title": "Anreise und Abreise",
+        "body": [
+          "Anreise: ab 15:00 Uhr",
+          "Abreise: bis 11:00 Uhr"
+        ]
+      },
+      "parking": {
+        "title": "Parkmöglichkeiten",
+        "body": [
+          "Direkt vor der Ferienunterkunft steht Ihnen eine eigene geschotterte Zufahrt zum Parken zur Verfügung.",
+          "Hier können Sie zwei Autos kostenlos hintereinander abstellen und während Ihres gesamten Aufenthalts parken lassen."
+        ]
+      },
+      "keys": {
+        "title": "Zugang zur Unterkunft",
+        "body": [
+          "Sie können selbstständig einchecken. Der Schlüsseltresor befindet sich neben dem Eingang.",
+          "Den Zugangscode senden wir Ihnen vor Ihrer Anreise per Nachricht.",
+          "Entnehmen Sie einfach den Schlüssel und betreten Sie die Unterkunft.",
+          "Bitte schließen Sie den Schlüsseltresor nach der Benutzung wieder sorgfältig."
+        ]
+      }
+    }
+  },
+  "bathroom": {
+    "title": "2. Das Badezimmer",
+    "body": [],
+    "topics": {
+      "bath": {
+        "title": "Die Whirlpool-Badewanne",
+        "body": [
+          "Lust auf ein entspannendes Sprudelbad nach einem Spaziergang? Die Badewanne ist mit Massagedüsen ausgestattet.",
+          "So funktioniert es",
+          "Wichtig: Die Düsen dürfen ausschließlich mit klarem Wasser ohne Badezusätze betrieben werden.",
+          "1. Füllen Sie die Badewanne mit klarem Wasser bis zur erforderlichen Höhe.",
+          "2. Achten Sie darauf, dass alle Düsen vollständig unter Wasser liegen.",
+          "3. Drücken Sie den Knopf am Badewannenrand auf der Fußseite, um die Düsen einzuschalten.",
+          "Mit dem Drehregler neben dem Knopf können Sie die Stärke der Massagedüsen einstellen.",
+          "4. Drücken Sie denselben Knopf erneut, um die Düsen auszuschalten.",
+          "Verwenden Sie bei eingeschalteten Düsen keine Seife, keinen Badeschaum, keine Öle und keine anderen Badezusätze. Diese könnten die Technik beschädigen.",
+          "Natürlich können Sie mit Ihren gewohnten Badezusätzen ein normales Bad nehmen, solange die Düsen ausgeschaltet bleiben.",
+          "Schalten Sie das System niemals ein, wenn die Düsen nicht ausreichend mit Wasser bedeckt sind."
+        ]
+      },
+      "towel": {
+        "title": "Der Handtuchheizkörper",
+        "body": [
+          "Der elektrische Handtuchheizkörper wärmt das Badezimmer schnell auf und hilft beim Trocknen Ihrer Handtücher.",
+          "Um Energie zu sparen, nutzen Sie ihn bitte nur bei Bedarf und schalten Sie ihn danach aus.",
+          "Lassen Sie ihn möglichst nicht dauerhaft eingeschaltet oder während längerer Abwesenheit laufen.",
+          "Achtung: Legen Sie keine Handtücher oder anderen Gegenstände auf das obere Gitter des Geräts."
+        ]
+      }
+    }
+  },
+  "bedroom": {
+    "title": "3. Das Schlafzimmer",
+    "body": [],
+    "topics": {
+      "bed": {
+        "title": "Bett und Stauraum",
+        "body": [
+          "Das Schlafzimmer verfügt über ein Bett, zwei Nachttische und einen Kleiderschrank.",
+          "Bitte beachten Sie, dass Bettwäsche nicht bereitgestellt wird. Falls Sie Ihre vergessen haben oder ein Problem auftritt, sagen Sie uns Bescheid – wir finden eine Lösung."
+        ]
+      },
+      "charging": {
+        "title": "Geräte aufladen",
+        "body": [
+          "Unter den Nachttischen befinden sich USB- und USB-C-Anschlüsse zum Laden von Smartphones und anderen kleinen Geräten."
+        ]
+      },
+      "bedheating": {
+        "title": "Heizung",
+        "body": [
+          "Der Wandheizkörper funktioniert nicht, da die Ferienunterkunft keine Zentralheizung besitzt.",
+          "Die Hauptwärmequelle ist der Pelletofen im Wohnzimmer."
+        ]
+      },
+      "gardenaccess": {
+        "title": "Zugang zum Garten",
+        "body": [
+          "Vom Schlafzimmer gelangen Sie direkt in den privaten Garten. Vorsicht an der relativ hohen Stufe!",
+          "Mit einem Schalter können Sie außerdem die Außenbeleuchtung an der Fassade bedienen. Standardmäßig schaltet eine Zeitschaltuhr das Licht abends automatisch ein und aus."
+        ]
+      }
+    }
+  },
+  "living": {
+    "title": "4. Das Wohnzimmer",
+    "body": [],
+    "topics": {
+      "stove": {
+        "title": "Der Pelletofen",
+        "body": [
+          "Der Pelletofen beheizt die Ferienunterkunft. Er erwärmt die Räume rasch und sorgt selbst bei ungemütlichem Wetter für eine behagliche Atmosphäre.",
+          "Den Ofen einschalten",
+          "Prüfen Sie, ob die Glastür und der Deckel des Pelletbehälters richtig geschlossen sind.",
+          "Halten Sie die Taste P1 (Ein/Aus) am Bedienfeld einige Sekunden lang gedrückt.",
+          "Auf dem Display erscheint „ON“ zusammen mit einem blinkenden Flammensymbol.",
+          "Der Ofen startet automatisch den Zündvorgang. Bis die Flamme sichtbar wird, können einige Minuten vergehen.",
+          "Warten Sie diesen Vorgang ab, ohne die Taste erneut zu drücken.",
+          "Die Temperatur einstellen",
+          "Drücken Sie + oder −, um die Einstellungen aufzurufen.",
+          "Wählen Sie mit den Pfeiltasten „Conf T. Amb“ aus.",
+          "Bestätigen Sie mit der Menütaste.",
+          "Stellen Sie mit + und − die gewünschte Temperatur ein.",
+          "Bestätigen Sie mit Menü und verlassen Sie die Einstellung mit ESC.",
+          "Der Ofen passt seinen Betrieb automatisch an die gewählte Temperatur an.",
+          "Den Ofen ausschalten",
+          "Halten Sie P1 einige Sekunden lang gedrückt.",
+          "Der Ofen beginnt automatisch mit dem Abschaltvorgang.",
+          "Die Flamme erlischt allmählich, während die Ventilatoren weiterlaufen, um das Gerät abzukühlen.",
+          "Ziehen Sie niemals den Netzstecker, um den Ofen auszuschalten. Der Abkühlvorgang ist für einen sicheren Betrieb unerlässlich.",
+          "Pellets nachfüllen",
+          "Für Ihren Aufenthalt stehen Säcke mit Pellets bereit.",
+          "Füllen Sie möglichst nur nach, wenn der Ofen ausgeschaltet und ausreichend abgekühlt ist.",
+          "Öffnen Sie den Deckel des Pelletbehälters oben am Gerät.",
+          "Schütten Sie die Pellets vorsichtig hinein und halten Sie den Sack von heißen Teilen fern.",
+          "Schließen Sie den Deckel sorgfältig und achten Sie darauf, dass keine Pellets die Dichtung blockieren.",
+          "Verwenden Sie ausschließlich die bereitgestellten Pellets. Während des Betriebs muss der Deckel geschlossen bleiben.",
+          "Wichtige Vorsichtsmaßnahmen",
+          "Legen Sie keine Gegenstände auf den Ofen oder in die Nähe heißer Oberflächen.",
+          "Blockieren Sie niemals die Warmluftauslässe.",
+          "Bitte schalten Sie den Ofen aus, wenn Sie die Unterkunft für längere Zeit verlassen.",
+          "Berühren oder entfernen Sie weder die Asche noch die inneren Bauteile.",
+          "Bei Alarm, ungewöhnlicher Rauchentwicklung oder Zündproblemen kontaktieren Sie uns bitte. Versuchen Sie nicht, den Ofen wiederholt neu zu starten.",
+          "Der Ofen verfügt über Sicherheitseinrichtungen. Wenden Sie sich bei Problemen lieber an uns, statt selbst Reparaturen vorzunehmen."
+        ]
+      },
+      "tv": {
+        "title": "Fernseher",
+        "body": [
+          "Kabelfernsehen empfangen Sie über den VOO-Receiver auf dem HDMI1-Eingang (NOCH ZU BESTÄTIGEN).",
+          "Mit der Fernbedienung des Receivers können Sie zwischen Sendern und Programmen wechseln."
+        ]
+      },
+      "playstation": {
+        "title": "PlayStation 4",
+        "body": [
+          "Für Spiele- und Filmabende steht Ihnen eine PlayStation 4 zur Verfügung. Drücken Sie zum Einschalten die mittlere PS-Taste auf dem Controller und wählen Sie am Fernseher HDMI4 als Eingang.",
+          "Den Controller können Sie über ein Kabel an einem USB-Anschluss an der Vorderseite der Konsole laden.",
+          "Spielen",
+          "Sie können das eigens für die Unterkunft eingerichtete Profil „L’Andain“ verwenden.",
+          "Verschiedene Spiele stehen bereit und können auf der Konsole installiert werden.",
+          "Wenn Sie möchten, können Sie sich auch mit Ihrem eigenen PlayStation-Konto anmelden. Denken Sie bitte daran, sich vor der Abreise wieder abzumelden.",
+          "Filme und Serien ansehen",
+          "Auf der PlayStation sind Apps für Netflix, Amazon Prime Video, Disney+, HBO und weitere kompatible Plattformen verfügbar.",
+          "Gehen Sie auf der Konsole zu „Medien“ und wählen Sie die gewünschte App.",
+          "Abonnements für diese Dienste sind nicht im Mietpreis enthalten. Für die Nutzung benötigen Sie Ihre eigenen Zugangsdaten.",
+          "Bitte melden Sie sich aus Sicherheitsgründen vor Ihrer Abreise von Ihren Streaming-Konten ab."
+        ]
+      }
+    }
+  },
+  "kitchen": {
+    "title": "5. Die Küche",
+    "body": [
+      "In der Küche finden Sie alles, was Sie brauchen, um während Ihres Aufenthalts Mahlzeiten zuzubereiten."
+    ],
+    "topics": {
+      "oven": {
+        "title": "Der herkömmliche Backofen",
+        "body": [
+          "Mit dem linken Drehknopf wählen Sie die Back- oder Garfunktion aus.",
+          "Mit dem rechten Drehknopf stellen Sie die Temperatur ein.",
+          "Zum Ausschalten drehen Sie den linken Knopf auf 0."
+        ]
+      },
+      "microwave": {
+        "title": "Die Mikrowelle",
+        "body": [
+          "Die Mikrowelle befindet sich im Schrank oberhalb des herkömmlichen Backofens.",
+          "Verwenden Sie ausschließlich mikrowellengeeignetes Geschirr."
+        ]
+      },
+      "induction": {
+        "title": "Das Induktionskochfeld",
+        "body": [
+          "Das Kochfeld arbeitet mit Induktion. Deshalb benötigen Sie geeignete Töpfe und Pfannen, die in den Küchenschränken bereitstehen.",
+          "Eine Anleitung zum Einschalten, zur Leistungseinstellung und zur Entriegelung der Bedienelemente wird noch ergänzt.",
+          "Bitte beachten Sie, dass die Kochfläche nach der Benutzung noch heiß sein kann."
+        ]
+      },
+      "coffee": {
+        "title": "Die Dolce-Gusto-Kaffeemaschine",
+        "body": [
+          "Eine Dolce-Gusto-Kaffeemaschine steht Ihnen zur Verfügung, zusammen mit einigen Kapseln für einen guten Start in Ihren Aufenthalt.",
+          "Die Bedienung ist ganz einfach:",
+          "1. Füllen Sie bei Bedarf den Wassertank auf.",
+          "2. Legen Sie eine passende Dolce-Gusto-Kapsel ein.",
+          "3. Die Maschine schaltet sich automatisch ein.",
+          "4. Bereiten Sie Ihr Getränk mit den Bedienelementen der Maschine zu.",
+          "5. Entfernen Sie anschließend die gebrauchte Kapsel.",
+          "Es gibt keinen Ein-/Ausschalter: Die Maschine schaltet sich automatisch aus."
+        ]
+      },
+      "dishwasher": {
+        "title": "Die Spülmaschine",
+        "body": [
+          "Eine Spülmaschine und einige Spültabs stehen Ihnen zur Verfügung.",
+          "Sie können sie gerne benutzen, besonders vor Ihrer Abreise. So helfen Sie uns, die Unterkunft für die nächsten Gäste vorzubereiten."
+        ]
+      },
+      "otherappliances": {
+        "title": "Weitere Küchengeräte",
+        "body": [
+          "In den Schränken finden Sie außerdem:",
+          "Einen Toaster",
+          "Einen Wasserkocher",
+          "Ein Raclette-Gerät",
+          "Eine elektrische Aufschnittmaschine",
+          "Vorsicht mit den Fingern! Bedienen Sie die Aufschnittmaschine behutsam und ziehen Sie nach der Nutzung den Netzstecker."
+        ]
+      },
+      "waste": {
+        "title": "Mülltrennung",
+        "body": [
+          "Der Küchenmülleimer hat zwei Fächer:",
+          "PMK: Kunststoffverpackungen, Metallverpackungen und Getränkekartons",
+          "Restmüll: sonstiger gewöhnlicher Haushaltsabfall",
+          "Papier und Karton können Sie in die Kiste in der Schublade unter der Spüle legen.",
+          "Am Ende Ihres Aufenthalts",
+          "Wenn die Mülleimer noch nicht voll sind, können Sie sie so stehen lassen. Wir leeren sie nach Ihrer Abreise.",
+          "Sollten die Mülleimer während Ihres Aufenthalts voll werden, legen Sie gut verschlossene Restmüllsäcke in die schwarzen Tonnen in unserer privaten Einfahrt. Die gelbe Tonne ist für Papier und Karton. Verschlossene PMK-Säcke können Sie neben die Tonnen stellen."
+        ]
+      }
+    }
+  },
+  "outdoor": {
+    "title": "6. Der Garten und Außenbereich",
+    "body": [],
+    "topics": {
+      "garden": {
+        "title": "Privater Garten",
+        "body": [
+          "Der Garten vor der Ferienunterkunft steht ausschließlich Ihnen zur Verfügung.",
+          "Bitte beachten Sie, dass der Garten nicht eingezäunt ist.",
+          "Er liegt an einer Dorfstraße mit einer Geschwindigkeitsbegrenzung von 30 km/h. Wenn Ihr vierbeiniger Begleiter dabei ist, behalten Sie ihn bitte gut im Auge."
+        ]
+      },
+      "smoking": {
+        "title": "Rauchen im Freien",
+        "body": [
+          "L’Andain ist eine Nichtraucherunterkunft.",
+          "Draußen dürfen Sie rauchen. Neben der Eingangstür steht ein Aschenbecher.",
+          "Ein zweiter Aschenbecher befindet sich in einem Küchenschrank.",
+          "Bitte benutzen Sie die Aschenbecher und werfen Sie keine Zigarettenstummel in den Garten."
+        ]
+      },
+      "lighting": {
+        "title": "Außenbeleuchtung",
+        "body": [
+          "Eine Leuchte an der Fassade beleuchtet den Garten.",
+          "Der dazugehörige Schalter befindet sich im Schlafzimmer.",
+          "Bitte schalten Sie das Licht aus, wenn es nicht mehr benötigt wird."
+        ]
+      }
+    }
+  },
+  "safety": {
+    "title": "7. Sicherheit",
+    "body": [
+      "Eine Löschdecke und ein Feuerlöscher befinden sich im kleinen Abstellraum neben der Küche.",
+      "Bei einem Brand hat Ihre eigene Sicherheit und die anderer Personen immer Vorrang.",
+      "Breitet sich ein Feuer aus, verlassen Sie sofort die Unterkunft und wählen Sie 112. Informieren Sie anschließend bitte auch uns :D",
+      "Versuchen Sie nicht, ein Feuer zu löschen, das Sie nicht sicher beherrschen können.",
+      "Wenn ein Gerät defekt erscheint oder ungewöhnlich reagiert, benutzen Sie es nicht weiter und kontaktieren Sie uns."
+    ],
+    "topics": {}
+  },
+  "departure": {
+    "title": "8. Vor Ihrer Abreise",
+    "body": [
+      "Damit wir die nächsten Gäste unter besten Bedingungen empfangen können, bitten wir Sie, vor Ihrer Abreise ein paar Dinge zu überprüfen.",
+      "Schalten Sie den Pelletofen und alle noch laufenden Elektrogeräte aus.",
+      "Überprüfen Sie, ob Kochfeld und Backofen ausgeschaltet sind.",
+      "Spülen Sie das Geschirr oder starten Sie vor Ihrer Abreise die Spülmaschine.",
+      "Überprüfen Sie die Mülleimer und bringen Sie die Säcke bei Bedarf hinaus.",
+      "Melden Sie sich auf der PlayStation und in Streaming-Apps von Ihren persönlichen Konten ab.",
+      "Schließen und verriegeln Sie alle Fenster.",
+      "Schalten Sie das Licht aus.",
+      "Schließen Sie die Eingangstür ab.",
+      "Legen Sie den Schlüssel zurück in den Schlüsseltresor und verschließen Sie ihn sorgfältig.",
+      "Die Abreise muss spätestens um 11:00 Uhr erfolgen."
+    ],
+    "topics": {
+      "reviews": {
+        "title": "Hat Ihnen Ihr Aufenthalt gefallen?",
+        "body": [
+          "Über eine kleine Bewertung auf Airbnb oder Google würden wir uns sehr freuen!",
+          "L’Andain ist ein neues Abenteuer. Ihr Feedback hilft uns, uns weiterzuentwickeln und anderen Reisenden diese schöne Ecke der Wallonie näherzubringen."
+        ]
+      }
+    }
+  },
+  "nearby_intro": {
+    "title": "Was kann man in der Umgebung unternehmen?",
+    "body": [
+      "Willkommen im Tal der Molignée!",
+      "Zwischen Burgruinen, Abteien, charaktervollen Dörfern, Waldwegen und gutem Essen gibt es genug für mehrere abwechslungsreiche Tage zu entdecken. Und das Schöne an L’Andain: Manche Ausflüge beginnen praktisch direkt vor der Haustür.",
+      "Hier finden Sie eine Auswahl unserer Empfehlungen, um diese besondere Ecke der Wallonie kennenzulernen."
+    ],
+    "topics": {}
+  },
+  "ruins": {
+    "title": "1. Eine Reise in die Vergangenheit: Burgen und Ruinen",
+    "body": [],
+    "topics": {
+      "montaigle": {
+        "title": "Die Burg Montaigle",
+        "body": [
+          "Auf einem Felsvorsprung am Zusammenfluss von Molignée und Flavion thronen die Ruinen von Montaigle wie aus einer mittelalterlichen Geschichte.",
+          "Die einst mächtige Festung wurde 1554 von den Truppen des französischen Königs Heinrich II. zerstört. Sie wurde nie wieder aufgebaut, doch die Ruinen sind bis heute beeindruckend!",
+          "Besonders schön finden wir die Atmosphäre zwischen den alten Mauern und den umliegenden Wäldern. Ideal für einen Besuch mit anschließendem Spaziergang durch das Tal.",
+          "Praktische Informationen",
+          "Adresse: rue du Marteau 10, 5522 Falaën",
+          "Telefon: +32 (0)82 69 95 85",
+          "Weitere Kontaktmöglichkeit: +32 (0)478 06 30 68",
+          "E-Mail: info@chateau-fort-de-montaigle.be",
+          "Website: https://chateau-fort-de-montaigle.be"
+        ]
+      },
+      "poilvache": {
+        "title": "Die Festung Poilvache",
+        "body": [
+          "Hoch über der Maas lag in Poilvache einst eine ganze befestigte Stadt mit Burg, Stadtmauern und Wohnhäusern.",
+          "Heute entführen ihre Ruinen ins Mittelalter und bieten vor allem einen herrlichen Blick auf das Maastal.",
+          "Nehmen Sie sich hier Zeit: Die Überreste sind beeindruckend, doch schon die Aussicht allein lohnt den Ausflug.",
+          "Praktische Informationen",
+          "Zugang: chemin de Poilvache, 5530 Houx (Yvoir)",
+          "Telefon vor Ort: +32 (0)460 95 91 64",
+          "Informationen: +32 (0)82 61 36 82",
+          "E-Mail: info@poilvache.com",
+          "Website: https://poilvache.com",
+          "Saisonale Öffnungszeiten: Prüfen Sie diese bitte vor Ihrem Besuch. Hunde sind an der Leine willkommen."
+        ]
+      }
+    }
+  },
+  "abbeys": {
+    "title": "2. Abteien: Kulturerbe, Traditionen und Genuss",
+    "body": [],
+    "topics": {
+      "maredsous": {
+        "title": "Die Abtei Maredsous",
+        "body": [
+          "Wer im Tal der Molignée Urlaub macht, sollte Maredsous unbedingt besuchen!",
+          "Die große Benediktinerabtei aus dem 19. Jahrhundert liegt mitten im Grünen. Ihre neugotische Basilika beeindruckt mit ihrer Größe und Architektur.",
+          "Machen Sie nach der Besichtigung einen Abstecher ins Besucherzentrum Saint-Joseph und probieren Sie die Spezialitäten der Abtei: Käse, Bier und andere Köstlichkeiten.",
+          "Unser Tipp: Nehmen Sie sich auch Zeit für die Wanderwege rund um die Abtei und fahren Sie weiter nach Maredret, wenn Sie hübsche Dörfer und schöne alte Steinhäuser mögen.",
+          "Praktische Informationen",
+          "Adresse: rue de Maredsous 11, 5537 Denée (Anhée)",
+          "Telefon: +32 (0)82 69 82 11",
+          "E-Mail: info@maredsous.com",
+          "Website: https://www.maredsous.com"
+        ]
+      },
+      "leffe": {
+        "title": "Die Abtei Notre-Dame de Leffe",
+        "body": [
+          "Die Abtei Leffe in Dinant ist vor allem ein Ort des Gemeinschaftslebens und der Spiritualität. Seit Jahrhunderten leben hier Prämonstratenser-Chorherren.",
+          "Ihre Geschichte ist eng mit dem berühmten Leffe-Bier verbunden, auch wenn die Abtei selbst keine touristische Brauerei ist.",
+          "Die Kirche kann besichtigt werden. Zu bestimmten Zeiten werden auch Führungen durch die Abtei angeboten.",
+          "Praktische Informationen",
+          "Adresse: place de l’Abbaye 1, 5500 Dinant",
+          "Telefon: +32 (0)82 22 23 77",
+          "E-Mail: secretariat@abbaye-de-leffe.be",
+          "Website: https://www.abbaye-de-leffe.be"
+        ]
+      },
+      "maisonleffe": {
+        "title": "Das Maison Leffe",
+        "body": [
+          "Wer die Geschichte des Leffe-Biers kennenlernen möchte, ist hier genau richtig!",
+          "Das Maison Leffe befindet sich in einem ehemaligen Kloster, das zu einem Hotel umgebaut wurde. Es bietet eine interaktive Entdeckungsreise durch die Brautradition, das Kulturerbe und die verschiedenen Biere der Marke.",
+          "Zur Besichtigung gehört auch eine Verkostung, mit einem schönen Blick auf Dinant und die Maas.",
+          "Praktische Informationen",
+          "Adresse: charreau des Capucins 23, 5500 Dinant",
+          "Telefon: +32 (0)82 22 91 91",
+          "E-Mail: hotel@infiniti-resort.be",
+          "Website: https://www.leffe.com/fr-be/maison-leffe",
+          "Eine Reservierung wird empfohlen."
+        ]
+      }
+    }
+  },
+  "activities": {
+    "title": "3. Lust auf Bewegung? Ausflüge und Aktivitäten",
+    "body": [],
+    "topics": {
+      "draisines": {
+        "title": "Die Schienenfahrräder im Molignée-Tal",
+        "body": [
+          "Eine ziemlich außergewöhnliche Art, das Tal zu entdecken!",
+          "Steigen Sie in ein pedalbetriebenes Fahrzeug auf den Schienen einer alten Eisenbahnstrecke und fahren Sie durch Wälder, Dörfer und die Landschaft der Molignée.",
+          "Es stehen mehrere Strecken zur Wahl, darunter eine Hin- und Rückfahrt zwischen Falaën und dem ehemaligen Bahnhof Maredsous.",
+          "Ein lustiger, unkomplizierter Ausflug, bei dem man die Gegend einmal anders erlebt. Ein bisschen treten müssen Sie allerdings schon!",
+          "Praktische Informationen",
+          "Abfahrt in Falaën: rue de la Gare 82, 5522 Falaën",
+          "Weiterer Startpunkt: rue de la Molignée 116, 5537 Warnant",
+          "Telefon: +32 (0)82 69 90 79",
+          "E-Mail: info@draisines.online",
+          "Reservierung: https://draisines.online",
+          "Eine Reservierung ist dringend zu empfehlen. Einige Strecken werden nur saisonal angeboten."
+        ]
+      },
+      "dinantevasion": {
+        "title": "Dinant Évasion",
+        "body": [
+          "Wer Abenteuer lieber mag als alte Steine, findet bei Dinant Évasion verschiedene Aktivitäten in der Umgebung.",
+          "Sie können mit dem Kajak die Lesse hinunterfahren, einen Abenteuerparcours ausprobieren oder eine Bootsfahrt auf der Maas unternehmen.",
+          "So entdecken Sie die Region aus einer anderen Perspektive – vom Wasser aus oder sogar hoch oben in der Luft!",
+          "Praktische Informationen",
+          "Empfang und Kajaks: rue du Vélodrome 15, 5500 Anseremme",
+          "Abenteuerpark: rue de la Carrière 1, 5500 Dinant",
+          "Bootsfahrten: avenue Winston Churchill, 5500 Dinant",
+          "Telefon: +32 (0)82 22 43 97",
+          "E-Mail: info@dinant-evasion.be",
+          "Website: https://www.dinant-evasion.be",
+          "Die Verfügbarkeit hängt von der Aktivität, der Jahreszeit und manchmal vom Wetter ab."
+        ]
+      },
+      "dinant": {
+        "title": "Dinant und seine Zitadelle",
+        "body": [
+          "Dinant ist nur eine kurze Autofahrt entfernt und auf jeden Fall einen Besuch wert.",
+          "Spazieren Sie an der Maas entlang, bewundern Sie die berühmte Stiftskirche, steigen Sie zur Zitadelle hinauf und genießen Sie die Aussicht – am besten mit einer Pause auf einer Terrasse.",
+          "Wer gerne fotografiert, wird hier bestimmt viele schöne Motive finden!"
+        ]
+      }
+    }
+  },
+  "hikes": {
+    "title": "4. Spaziergänge und Wanderungen: Wanderschuhe an!",
+    "body": [
+      "Das Tal der Molignée ist ein kleines Paradies für Wanderfreunde. Felder, Wälder, Bäche und Dörfer wechseln sich auf oft wunderbar ruhigen Wegen ab.",
+      "Mehrere Rundwege starten direkt in Sommière!"
+    ],
+    "topics": {
+      "tokyowalk": {
+        "title": "Tokyos Spaziergang 😉",
+        "body": [
+          "Startpunkt: die Ferienunterkunft",
+          "Hinter den Häusern auf der gegenüberliegenden Straßenseite führen Wege und Wiesen zu einer kurzen Runde von etwa 30 Minuten um die Felder. Verlassen Sie die Unterkunft, biegen Sie links ab, gehen Sie 150 Meter und überqueren Sie die Straße am Fußgängerüberweg (gleiche Startrichtung wie der Spaziergang Fonds de Vau).",
+          "Strecke: 2 km oder mehr",
+          "Dauer: etwa 30 Minuten",
+          "Schwierigkeit: leicht",
+          "Start und Ziel: Sommière"
+        ]
+      },
+      "fondsvau": {
+        "title": "Les Fonds de Vau – 5 km",
+        "body": [
+          "Startpunkt: place du Jeu de Balle, Sommière",
+          "Eine schöne, leichte Rundwanderung, auf der Sie die Landschaft rund um unser Dorf entdecken.",
+          "Der Weg führt hauptsächlich über Feldwege, vorbei an der alten Römerstraße und Chestruvin, bevor er nach Sommière zurückkehrt.",
+          "Strecke: 5 km",
+          "Dauer: etwa 1 Stunde 30 Minuten",
+          "Schwierigkeit: leicht",
+          "Start und Ziel: Sommière",
+          "Route: https://fr-fr.trails-viewer.com/trail-fnrf3/ONHAYE-SOMMIERE-Les-fonds-de-Vau/"
+        ]
+      },
+      "weillen": {
+        "title": "Das Flavion-Tal und Schloss Weillen – 8,3 km",
+        "body": [
+          "Startpunkt: Sommière",
+          "Eine etwas längere Runde durch die hügelige Landschaft der Region, die durch das Flavion-Tal in Richtung Weillen führt.",
+          "Ideal, um die Landschaft und die Wege rund um unsere Gemeinde zu erkunden.",
+          "Strecke: 8,3 km",
+          "Dauer: etwa 2 Stunden 15 Minuten",
+          "Schwierigkeit: mittel",
+          "Start und Ziel: Sommière",
+          "Route auf Komoot: https://www.komoot.com/fr-fr/guide/654129/hiking-around-onhaye"
+        ]
+      },
+      "flavionmontaigle": {
+        "title": "Das Flavion-Tal und Montaigle – 14 km",
+        "body": [
+          "Startpunkt: Sommière",
+          "Für alle, die Lust auf eine längere Wanderung und einige Stunden an der frischen Luft haben.",
+          "Diese Rundwanderung führt in Richtung Flavion-Tal und Burg Montaigle und verbindet Feldwege mit Waldabschnitten.",
+          "Strecke: 14 km",
+          "Dauer: etwa 3 Stunden 50 Minuten",
+          "Schwierigkeit: mittel",
+          "Start und Ziel: Sommière",
+          "Route auf Komoot: https://www.komoot.com/fr-fr/guide/654129/hiking-around-onhaye"
+        ]
+      },
+      "falaenwalk": {
+        "title": "Falaën und die Ruinen von Montaigle – etwa 9 km",
+        "body": [
+          "Startpunkt: Kirche Saint-Léger in Falaën",
+          "Eine unserer Empfehlungen, um sowohl das Kulturerbe des Dorfes als auch die Landschaft des Tals kennenzulernen.",
+          "Nachdem Sie Falaën durchquert haben, das offiziell zu den schönsten Dörfern der Wallonie zählt, führen die Wege zur mittelalterlichen Festung Montaigle.",
+          "Strecke: etwa 9 km",
+          "Dauer: etwa 2 Stunden 40 Minuten",
+          "Schwierigkeit: mittel",
+          "Start und Ziel: Falaën",
+          "Route: https://fr.ardennes-etape.be/experience/balade/promenade-vers-les-ruines-de-montaigle",
+          "Unser Tipp: Nehmen Sie geeignetes Schuhwerk mit, besonders nach Regen. Wenn Ihr vierbeiniger Freund mitkommt, führen Sie ihn in der Nähe von Straßen und Weidetieren sowie überall dort an der Leine, wo es vorgeschrieben ist."
+        ]
+      }
+    }
+  },
+  "food": {
+    "title": "5. Essen und Trinken: unsere Lieblingsadressen",
+    "body": [
+      "Weil zu einem schönen Ausflug auch ein gutes Essen gehört, möchten wir Ihnen ein paar unserer Lieblingsadressen vorstellen."
+    ],
+    "topics": {
+      "vitoulet": {
+        "title": "Au Vitoulet",
+        "body": [
+          "Ein Aufenthalt in Belgien wäre ohne gute Pommes doch nicht komplett!",
+          "Au Vitoulet ist die Frittenbude des Dorfes. Hier gibt es die Klassiker und Hausspezialitäten sowie bei schönem Wetter eine kleine Terrasse.",
+          "Eine einfache, sympathische Adresse für einen schnellen Happen oder um sich etwas Leckeres mit in die Ferienunterkunft zu nehmen.",
+          "Praktische Informationen",
+          "Adresse: rue Abbé Hector Dujardin 3, 5520 Onhaye",
+          "Telefon: +32 (0)82 61 56 43",
+          "E-Mail: julietalmasse@live.be",
+          "Normalerweise geöffnet: Dienstag, Mittwoch, Freitag, Samstag und Sonntag, mittags und abends",
+          "Geschlossen: Montag und Donnerstag",
+          "Die Öffnungszeiten können sich ändern. Prüfen Sie sie bitte vor Ihrem Besuch."
+        ]
+      },
+      "walhere": {
+        "title": "Le Walhère Roi",
+        "body": [
+          "Mitten im Dorf Onhaye serviert das Le Walhère Roi großzügige, sorgfältig zubereitete Brasserie-Gerichte mit regionalen Zutaten und saisonalen Spezialitäten.",
+          "Ein gemütlicher, einladender Ort für eine gute Mahlzeit – bei schönem Wetter auch auf der Terrasse.",
+          "Im Winter sollten Sie sich das „Chalet Roi“ nicht entgehen lassen: Hier gibt es Spezialitäten aus den Bergen wie Raclette, Fondue und weitere herzhafte Gerichte.",
+          "Praktische Informationen",
+          "Adresse: place Henri Collignon 11, 5520 Onhaye",
+          "Telefon: +32 (0)82 69 97 19",
+          "E-Mail: info@le-walhere-roi.be",
+          "Website: https://www.le-walhere-roi.be",
+          "Reservierung empfohlen. Die Öffnungszeiten variieren. Bitte informieren Sie sich vor Ihrem Besuch auf der Website."
+        ]
+      },
+      "artiste": {
+        "title": "L'Artiste de Falaën",
+        "body": [
+          "Eine wunderbare Adresse für einen besonderen Genussmoment!",
+          "Im ehemaligen Bahnhof von Falaën bietet L’Artiste kreative gehobene Küche mit sorgfältig ausgewählten Zutaten und überraschenden Geschmackskombinationen.",
+          "Das Ambiente ist stilvoll und zugleich herzlich. Eine tolle Idee für ein Abendessen zu zweit oder einen besonderen Anlass.",
+          "In der warmen Jahreszeit gibt es außerdem das entspanntere Konzept „Ceci n’est pas l’Artiste“ mit Gerichten zum Teilen.",
+          "Praktische Informationen",
+          "Adresse: rue de la Gare 85, 5522 Falaën",
+          "Telefon: +32 (0)82 71 19 98",
+          "E-Mail: lartistedefalaen@gmail.com",
+          "Website: https://www.lartistedefalaen.be",
+          "Reservierung empfohlen. Montags und dienstags sowie normalerweise sonntagabends geschlossen."
+        ]
+      },
+      "forgetoi": {
+        "title": "Forge-Toi",
+        "body": [
+          "Ein ganz anderer Rahmen und eine andere Atmosphäre – aber genauso viele gute Gründe, hier essen zu gehen!",
+          "In der ehemaligen Dorfschmiede von Falaën bietet Forge-Toi großzügige, sorgfältig zubereitete Küche mit saisonalen Zutaten und regionalen Spezialitäten.",
+          "Ein authentischer Ort, der regionale Produkte und die Freude an gutem Essen in den Mittelpunkt stellt.",
+          "Unter der Woche gibt es auch ein Mittagsmenü.",
+          "Praktische Informationen",
+          "Adresse: rue de Chertin 2, 5522 Falaën",
+          "Telefon: +32 (0)82 69 92 79",
+          "Mobil: +32 (0)475 68 59 73",
+          "E-Mail: info@traiteurlawaree.be",
+          "Website: https://www.forge-toi.be",
+          "Bitte beachten: Montag bis Freitag geöffnet, am Wochenende geschlossen. Reservieren Sie telefonisch."
+        ]
+      }
+    }
+  },
+  "outro": {
+    "title": "Und es gibt noch so viel mehr zu entdecken …",
+    "body": [
+      "Dieser kleine Reiseführer erhebt natürlich keinen Anspruch darauf, alles zu zeigen, was unsere Region zu bieten hat!",
+      "Lassen Sie sich von den Dörfern unterwegs, von Ausblicken hinter der nächsten Kurve und von lokalen Erzeugern überraschen.",
+      "Wenn Sie einen Ort entdecken, der hier unbedingt erwähnt werden sollte, erzählen Sie uns davon! Wir erweitern unsere Sammlung von Empfehlungen sehr gerne.",
+      "Viel Spaß beim Entdecken und genießen Sie die Region!"
+    ],
+    "topics": {}
+  }
+}

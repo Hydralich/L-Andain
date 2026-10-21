@@ -31,6 +31,15 @@ function icon(name, size = 20) {
 }
 
 const words = {
+  de: {
+    guide:'Ihr Gästeführer', welcome:'Willkommen im L’Andain', hero:'Fühlen Sie sich wie zu Hause, mitten im Tal der Molignée.', place:'Sommière · Tal der Molignée',
+    sections:'Alles für Ihren Aufenthalt', sectionsSub:'Die wichtigsten Informationen auf einen Blick.', spaces:'In der Ferienunterkunft', spacesSub:'Fragen zu einem Gerät? Wir helfen Ihnen.', explore:'Die Umgebung entdecken',
+    exploreSub:'Spaziergänge, Kulturerbe und unsere Lieblingsadressen.', go:'Ausflugsziele entdecken', arrival:'Meine Anreise', house:'Die Unterkunft', discover:'Entdecken', departure:'Meine Abreise', all:'Alles anzeigen',
+    search:'Gerät oder Ausflugsziel suchen …', quick:'Weitere Informationen', tips:'Brauchen Sie Hilfe?', tipsText:'Wenn ein Gerät nicht wie erwartet funktioniert, wenden Sie sich bitte an uns, statt es selbst zu reparieren.',
+    back:'Zurück', share:'Link zu dieser Seite kopieren', copied:'Link kopiert!', photolater:'Foto folgt', areas:'Räume und Ausstattung', stays:'Damit Ihr Aufenthalt gut beginnt …', nearby:'Rund um L’Andain',
+    open:'Informationen ansehen', noresults:'Keine Ergebnisse. Versuchen Sie einen anderen Suchbegriff.', source:'Version 8.0 · Gästeführer', general:'Allgemeine Informationen', activities:'Ausflugsziele und Aktivitäten', trails:'Spaziergänge und Wanderungen',
+    restaurants:'Unsere Restauranttipps', intro:'Ein praktischer Gästeführer – keine technische Bedienungsanleitung.'
+  },
   fr: {
     guide:'Votre guide de séjour', welcome:'Bienvenue à l’Andain', hero:'Prenez le temps de vous sentir chez vous, au cœur de la vallée de la Molignée.', place:'Sommière · Vallée de la Molignée',
     sections:'Tout pour votre séjour', sectionsSub:'Les essentiels, à portée de main.', spaces:'À l’intérieur du gîte', spacesSub:'Une question sur un équipement ? On vous guide.', explore:'Explorer les environs',
@@ -61,6 +70,7 @@ const words = {
 };
 
 const v3 = {
+  de:{home:'Startseite',help:'Nützliche Informationen',reviews:'Hat Ihnen Ihr Aufenthalt gefallen?',reviewNote:'Mit einer kurzen Bewertung helfen Sie unserer kleinen Ferienunterkunft, bekannter zu werden. Vielen Dank!',google:'Google-Bewertung schreiben',googlePending:'Google-Link folgt',airbnb:'Auf Airbnb bewerten',airbnbHint:'Über Ihre Buchung, nach der Abreise',checklist:'Ihre Checkliste für die Abreise',progress:'Aufgaben erledigt',reset:'Alle Häkchen entfernen',saved:'Ihr Fortschritt wird auf diesem Gerät gespeichert.',roomsHelp:'Wählen Sie einen Raum',discoverHelp:'Wählen Sie aus, was Sie interessiert',step:'Schritt',backTo:'Zurück zu',contact:'Kontakt',wifi:'Das WLAN-Passwort finden Sie in der Unterkunft',cleaning:'Die Endreinigung ist im Mietpreis enthalten. Wir übernehmen sie nach Ihrer Abreise.'},
   fr:{home:'Accueil',help:'Informations utiles',reviews:'Votre séjour vous a plu ?',reviewNote:'Un petit avis aide notre jeune gîte à se faire connaître. Merci !',google:'Donner un avis Google',googlePending:'Lien Google à ajouter',airbnb:'Évaluer sur Airbnb',airbnbHint:'Depuis la réservation, après le départ',checklist:'Votre checklist de départ',progress:'tâches terminées',reset:'Tout décocher',saved:'Votre progression reste enregistrée sur cet appareil.',roomsHelp:'Choisissez une pièce',discoverHelp:'Choisissez ce qui vous fait envie',step:'Étape',backTo:'Retour vers',contact:'Contact',wifi:'Code Wi-Fi imprimé dans le gîte',cleaning:'Le nettoyage est compris dans la location, nous nous en occuperons après votre départ.'},
   en:{home:'Home',help:'Useful information',reviews:'Enjoyed your stay?',reviewNote:'A short review helps our little cottage grow. Thank you!',google:'Leave a Google review',googlePending:'Google review link coming soon',airbnb:'Review on Airbnb',airbnbHint:'From your booking, after check-out',checklist:'Your check-out checklist',progress:'tasks completed',reset:'Uncheck all',saved:'Your progress is saved on this device.',roomsHelp:'Choose a room',discoverHelp:'Choose what interests you',step:'Step',backTo:'Back to',contact:'Contact',wifi:'Wi-Fi code printed inside the cottage',cleaning:'Cleaning is included in your stay. We will take care of it after you leave.'},
   nl:{home:'Start',help:'Praktische info',reviews:'Genoten van uw verblijf?',reviewNote:'Een beoordeling helpt ons nieuwe vakantiehuisje groeien. Dank u!',google:'Google-review schrijven',googlePending:'Google-reviewlink volgt',airbnb:'Beoordelen op Airbnb',airbnbHint:'Via uw reservering, na vertrek',checklist:'Checklist voor vertrek',progress:'taken voltooid',reset:'Alles uitvinken',saved:'Uw voortgang wordt op dit toestel bewaard.',roomsHelp:'Kies een ruimte',discoverHelp:'Kies uw thema',step:'Stap',backTo:'Terug naar',contact:'Contact',wifi:'Wifi-code is in het verblijf afgedrukt',cleaning:'De schoonmaak is inbegrepen in uw verblijf. Wij zorgen hiervoor na uw vertrek.'}
@@ -72,6 +82,7 @@ const REVIEW_LINKS = {
 };
 
 const stoveManual = {
+  de:{controls:'Bedienfeld des Pelletofens', legend:'Erklärung der Tasten und Anzeigen'},
   fr:{controls:'Tableau de commande du poêle', legend:'Légende des boutons et indicateurs'},
   en:{controls:'Stove control panel', legend:'Legend of buttons and indicators'},
   nl:{controls:'Bedieningspaneel van de kachel', legend:'Legenda van knoppen en indicatoren'}
@@ -193,11 +204,11 @@ function isBodyHeading(txt) {
 }
 
 function isNoticeLine(txt) {
-  return /^(Important|Attention|Warning|Belangrijk|Let op|Ne débranchez|Never unplug|Trek nooit)/i.test(txt);
+  return /^(Important|Attention|Warning|Belangrijk|Let op|Ne débranchez|Never unplug|Trek nooit|Wichtig|Achtung|Ziehen Sie niemals)/i.test(txt);
 }
 
 function isCautionHeading(txt) {
-  return /(pr[ée]cautions?|veilig|voorzorg|safety|precaution)/i.test(txt);
+  return /(pr[ée]cautions?|veilig|voorzorg|safety|precaution|vorsichtsmaßnahme|sicherheit)/i.test(txt);
 }
 
 function stoveFiguresHTML() {
@@ -315,13 +326,13 @@ function desktopNav() {
 
 function topline() {
   const w = words[state.lang];
-  return `<header class="topbar"><a href="${href('home')}" class="brand"><div class="brandmark">A</div><span><strong class="brandname">L’Andain</strong><span class="brandsub">${escapeHTML(w.guide)}</span></span></a>${desktopNav()}<div class="langselect" aria-label="Languages">${['fr','en','nl'].map(l => `<button type="button" class="${state.lang === l ? 'active' : ''}" data-lang="${l}" aria-label="${l.toUpperCase()}">${l.toUpperCase()}</button>`).join('')}</div></header>`;
+  return `<header class="topbar"><a href="${href('home')}" class="brand"><div class="brandmark">A</div><span><strong class="brandname">L’Andain</strong><span class="brandsub">${escapeHTML(w.guide)}</span></span></a>${desktopNav()}<div class="langselect" aria-label="Languages">${['fr','en','nl','de'].map(l => `<button type="button" class="${state.lang === l ? 'active' : ''}" data-lang="${l}" aria-label="${l.toUpperCase()}">${l.toUpperCase()}</button>`).join('')}</div></header>`;
 }
 
 function nav() {
   const w = words[state.lang];
   const guideGroup = state.section === 'guide' ? findTopic(state.id)?.group : '';
-  const entries = [['home','home',state.lang === 'fr' ? 'Accueil' : state.lang === 'nl' ? 'Start' : 'Home'], ['house','bed',w.house], ['discover','map',w.discover]];
+  const entries = [['home','home',state.lang === 'fr' ? 'Accueil' : state.lang === 'nl' ? 'Start' : state.lang === 'de' ? 'Start' : 'Home'], ['house','bed',w.house], ['discover','map',w.discover]];
   return `<nav class="mobiletab" aria-label="Navigation">${entries.map(([section, ico, label]) => {
     const selected = state.section === section || (section === 'house' && ['room','guide'].includes(state.section) && !isDiscoverGroup(guideGroup));
     return `<button data-go="${section}" class="${selected ? 'sel' : ''}">${iconText(ico)}<span>${escapeHTML(label)}</span></button>`;
@@ -423,7 +434,7 @@ function housePage() {
   const w = words[state.lang];
   const d = state.data;
   return pageTitle(w.house, v3[state.lang].roomsHelp) +
-    `<div class="roomsGrid">${ROOM_ORDER.filter(([section]) => section !== 'safety').map(([section, ico]) => `<a class="roomTile photoTile pressable room-${section}" href="${href('room',section)}" ${photoStyle(roomTilePhoto(section))}><span class="roomIcon">${iconText(ico,35)}</span><strong>${escapeHTML(d[section].title.replace(/^\d+\.\s*/,''))}</strong><small>${Object.keys(d[section].topics).length} ${labelTopics()}</small>${iconText('arrow',18)}</a>`).join('')}</div><div class="sectionhead"><div><h2>${state.lang === 'fr' ? 'Vous cherchez quelque chose ?' : state.lang === 'nl' ? 'Op zoek naar iets?' : 'Looking for something?'}</h2></div></div><input class="search" id="search" placeholder="${escapeHTML(w.search)}" value="${escapeHTML(state.query)}"><div class="list" id="results">${state.query ? houseResults() : ''}</div>`;
+    `<div class="roomsGrid">${ROOM_ORDER.filter(([section]) => section !== 'safety').map(([section, ico]) => `<a class="roomTile photoTile pressable room-${section}" href="${href('room',section)}" ${photoStyle(roomTilePhoto(section))}><span class="roomIcon">${iconText(ico,35)}</span><strong>${escapeHTML(d[section].title.replace(/^\d+\.\s*/,''))}</strong><small>${Object.keys(d[section].topics).length} ${labelTopics()}</small>${iconText('arrow',18)}</a>`).join('')}</div><div class="sectionhead"><div><h2>${state.lang === 'fr' ? 'Vous cherchez quelque chose ?' : state.lang === 'nl' ? 'Op zoek naar iets?' : state.lang === 'de' ? 'Suchen Sie etwas?' : 'Looking for something?'}</h2></div></div><input class="search" id="search" placeholder="${escapeHTML(w.search)}" value="${escapeHTML(state.query)}"><div class="list" id="results">${state.query ? houseResults() : ''}</div>`;
 }
 
 function discoverPage() {
@@ -486,7 +497,7 @@ function generalPage(id) {
 }
 
 async function loadData(lang) {
-  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=7.9')).json());
+  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=8.0')).json());
 }
 
 function wire() {
@@ -556,7 +567,7 @@ function wire() {
 
 function router() {
   const parts = decodeURIComponent(location.hash || '').replace(/^#\/?/, '').split('/').filter(Boolean);
-  const lang = ['fr','en','nl'].includes(parts[0]) ? parts[0] : 'fr';
+  const lang = ['fr','en','nl','de'].includes(parts[0]) ? parts[0] : 'fr';
   state.lang = lang;
   state.section = parts[1] || 'home';
   state.id = parts[2] || '';

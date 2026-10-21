@@ -46,3 +46,20 @@
 .bathAdvice p{margin:0;padding:13px 16px;border-radius:13px;background:#faf6ee;line-height:1.65}
 .bathAdvice .bathCaution{background:#fff3df;border-left:3px solid #b48a40}
 @media(max-width:760px){.bathImportant{padding:14px;gap:11px}.bathImportantIcon{width:30px;height:30px;font-size:20px}}
+
+/* V8.0: four language buttons (FR / EN / NL / DE) remain accessible on phones */
+.langselect{flex-shrink:0}
+@media(max-width:760px){
+  .langselect{gap:1px;padding:3px}
+  .langselect button{padding:6px 7px;font-size:11px;min-width:31px}
+  .brand{min-width:0;gap:7px}
+  .brandmark{flex-shrink:0;width:36px;height:36px;font-size:19px}
+  .brandname{font-size:16px}
+  .brandsub{font-size:8px;letter-spacing:.7px}
+}
+@media(max-width:390px){
+  .brandsub{display:none}
+  .topbar{gap:5px}
+  .brandname{font-size:15px}
+  .langselect button{padding:6px 5px;min-width:29px}
+}
