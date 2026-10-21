@@ -72,3 +72,8 @@ Pour mettre à jour le dépôt GitHub, transférer le contenu de ce dossier à l
 - Checklist de départ interactive mémorisée via localStorage sur l’appareil utilisé (aucune synchronisation entre appareils, aucune donnée transmise).
 - Section avis sur l’accueil : Airbnb ouvre les voyages/réservations ; pour activer l'avis Google, remplacer la chaîne vide `google` dans `REVIEW_LINKS` en tête du fichier `app.js` par le lien direct d'avis Google Business Profile.
 - Aucune nouvelle photographie ajoutée en V3.
+
+
+## V4 light — images optimisées
+
+Les 11 photographies sont au format WebP et redimensionnées pour l'affichage dans les cartes et en-têtes. Les chemins `assets/photos/*.webp` doivent être conservés à la racine du dépôt. Les URL de navigation `#/fr/...` ne changent pas.
