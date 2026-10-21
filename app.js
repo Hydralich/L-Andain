@@ -37,7 +37,7 @@ const words = {
     exploreSub:'Balades, patrimoine et bonnes adresses.', go:'Voir les idées de sorties', arrival:'Mon arrivée', house:'Le logement', discover:'Découvrir', departure:'Mon départ', all:'Tout voir',
     search:'Rechercher un équipement ou une activité…', quick:'Accès rapide', tips:'Besoin d’aide ?', tipsText:'Si un appareil ne fonctionne pas comme prévu, contactez-nous plutôt que de tenter une réparation.',
     back:'Retour', share:'Copier le lien de cette fiche', copied:'Lien copié !', photolater:'Photo à ajouter', areas:'Les pièces et équipements', stays:'Pour bien commencer…', nearby:'Autour de l’Andain',
-    open:'Consulter la fiche', noresults:'Aucun résultat. Essayez un autre mot.', source:'Version 5 · Équipements illustrés', general:'Informations générales', activities:'Sites & activités', trails:'Balades et randonnées',
+    open:'Consulter la fiche', noresults:'Aucun résultat. Essayez un autre mot.', source:'Version 6 · Équipements & sites illustrés', general:'Informations générales', activities:'Sites & activités', trails:'Balades et randonnées',
     restaurants:'Nos adresses gourmandes', intro:'Un petit guide pensé pour les voyageurs, pas une notice technique.'
   },
   en: {
@@ -46,7 +46,7 @@ const words = {
     exploreSub:'Walks, heritage and our favourite places.', go:'Explore the area', arrival:'Check-in', house:'The cottage', discover:'Explore', departure:'Check-out', all:'See all',
     search:'Search for an appliance or activity…', quick:'Quick access', tips:'Need a hand?', tipsText:'If something is not working as expected, please contact us rather than trying to repair it.',
     back:'Back', share:'Copy link to this guide', copied:'Link copied!', photolater:'Photo coming soon', areas:'Rooms and appliances', stays:'Make yourself at home…', nearby:'Around L’Andain',
-    open:'Open guide', noresults:'No results. Try another search.', source:'Version 5 · Equipment photos added', general:'General information', activities:'Places & activities', trails:'Walks and hikes',
+    open:'Open guide', noresults:'No results. Try another search.', source:'Version 6 · Equipment & tourism photos', general:'General information', activities:'Places & activities', trails:'Walks and hikes',
     restaurants:'Our favourite restaurants', intro:'A friendly guide for guests, not a technical manual.'
   },
   nl: {
@@ -55,7 +55,7 @@ const words = {
     exploreSub:'Wandelingen, erfgoed en onze favoriete adresjes.', go:'Ontdek de streek', arrival:'Aankomst', house:'Het verblijf', discover:'Ontdekken', departure:'Vertrek', all:'Alles bekijken',
     search:'Zoek een toestel of activiteit…', quick:'Snelle toegang', tips:'Hulp nodig?', tipsText:'Werkt er iets niet zoals verwacht? Neem dan contact op in plaats van zelf te repareren.',
     back:'Terug', share:'Link naar deze fiche kopiëren', copied:'Link gekopieerd!', photolater:'Foto volgt', areas:'Kamers en toestellen', stays:'Geniet van uw verblijf…', nearby:'Rond L’Andain',
-    open:'Open de fiche', noresults:'Geen resultaten. Probeer een andere zoekterm.', source:'Versie 5 · Foto’s van toestellen toegevoegd', general:'Praktische informatie', activities:'Bezienswaardigheden & activiteiten', trails:'Wandelingen',
+    open:'Open de fiche', noresults:'Geen resultaten. Probeer een andere zoekterm.', source:'Versie 6 · Foto’s van toestellen & uitstappen', general:'Praktische informatie', activities:'Bezienswaardigheden & activiteiten', trails:'Wandelingen',
     restaurants:'Onze eetadresjes', intro:'Een gastvriendelijke gids, geen technische handleiding.'
   }
 };
@@ -115,6 +115,17 @@ const TOPIC_IMAGES = {
   lighting:'./assets/photos/outdoor-main.webp'
 };
 
+const DISCOVER_GALLERIES = {
+  montaigle:['./assets/photos/montaigle-1.webp','./assets/photos/montaigle-2.webp','./assets/photos/montaigle-3.webp'],
+  poilvache:['./assets/photos/poilvache-1.webp'],
+  maredsous:['./assets/photos/maredsous-1.webp','./assets/photos/maredsous-2.webp','./assets/photos/maredsous-3.webp'],
+  leffe:['./assets/photos/leffe-1.webp','./assets/photos/leffe-2.webp','./assets/photos/leffe-3.webp'],
+  maisonleffe:['./assets/photos/maisonleffe-1.webp','./assets/photos/maisonleffe-2.webp'],
+  draisines:['./assets/photos/draisines-1.webp','./assets/photos/draisines-2.webp','./assets/photos/draisines-3.webp'],
+  dinantevasion:['./assets/photos/dinantevasion-1.webp','./assets/photos/dinantevasion-2.webp','./assets/photos/dinantevasion-3.webp'],
+  dinant:['./assets/photos/dinant-1.webp']
+};
+
 const itemIcon = {
   times:'clock', parking:'door', keys:'key', bath:'bath', towel:'sun', bed:'bed', charging:'phone', bedheating:'flame', gardenaccess:'tree',
   stove:'flame', tv:'tv', playstation:'tv', oven:'utensils', microwave:'utensils', induction:'flame', coffee:'coffee', dishwasher:'utensils', otherappliances:'utensils', waste:'list',
@@ -133,7 +144,8 @@ const isDiscoverGroup = group => ['ruins','abbeys','activities','hikes','food'].
 const labelTopics = () => state.lang === 'fr' ? 'équipements et infos' : state.lang === 'nl' ? 'onderwerpen' : 'topics';
 const roomTilePhoto = id => ROOM_TILE_IMAGES[id] || ROOM_HEADER_IMAGES[id] || '';
 const roomPhoto = id => ROOM_HEADER_IMAGES[id] || ROOM_TILE_IMAGES[id] || '';
-const topicPhoto = (id, group) => TOPIC_IMAGES[id] || roomPhoto(group);
+const topicPhotos = (id, group) => DISCOVER_GALLERIES[id]?.length ? DISCOVER_GALLERIES[id] : (TOPIC_IMAGES[id] ? [TOPIC_IMAGES[id]] : (roomPhoto(group) ? [roomPhoto(group)] : []));
+const topicPhoto = (id, group) => topicPhotos(id, group)[0] || '';
 const photoStyle = (path, overlay='dark') => {
   if (!path) return '';
   const gradient = overlay === 'light'
@@ -141,6 +153,16 @@ const photoStyle = (path, overlay='dark') => {
     : 'linear-gradient(180deg, rgba(39,17,20,0.16), rgba(39,17,20,0.78))';
   return `style="background-image:${gradient}, url('${path}');"`;
 };
+
+function galleryHTML(images, iconName, label) {
+  if (!images.length) {
+    return `<div class="detailHero">${iconText(iconName || 'sparkle', 85)}<span>${escapeHTML(words[state.lang].photolater)}</span></div>`;
+  }
+  if (images.length === 1) {
+    return `<div class="detailHero photoHero" ${photoStyle(images[0])}><div class="photoOverlayContent">${iconText(iconName || 'sparkle', 85)}</div></div>`;
+  }
+  return `<div class="galleryHero" data-gallery><div class="galleryTrack">${images.map((img, i) => `<div class="gallerySlide${i===0 ? ' active' : ''}"><img src="${img}" alt="${escapeHTML(label)} ${i+1}" loading="lazy"></div>`).join('')}</div><button class="galleryNav prev pressable" type="button" data-gallery-prev aria-label="Previous image">${iconText('back',18)}</button><button class="galleryNav next pressable" type="button" data-gallery-next aria-label="Next image">${iconText('arrow',18)}</button><div class="galleryBadge">${iconText(iconName || 'sparkle',16)} <span>${images.length}</span></div><div class="galleryDots">${images.map((_, i) => `<button type="button" class="galleryDot${i===0 ? ' active' : ''}" data-gallery-dot="${i}" aria-label="Image ${i+1}"></button>`).join('')}</div></div>`;
+}
 
 function iconText(name, size = 20) {
   return icon(name, size);
@@ -330,10 +352,10 @@ function detailPage(id) {
   const parent = groupIsDiscover ? w.discover : w.house;
   const backTarget = groupIsDiscover ? href('discover') : group === 'safety' ? href('home') : href('room', group);
   const related = Object.entries(state.data[group]?.topics || {}).filter(([key]) => key !== id).slice(0,4);
-  const image = topicPhoto(id, group);
+  const images = topicPhotos(id, group);
   return pathnav([[parent, href(groupIsDiscover ? 'discover' : 'house')], [cleanTitle(state.data[group].title), backTarget], [cleanTitle(topic.title), null]]) +
     pageTitle(cleanTitle(topic.title)) +
-    `<div class="detailLayout detailFocus"><div><div class="detailHero photoHero" ${photoStyle(image)}>${image ? `<div class="photoOverlayContent">${iconText(itemIcon[id] || 'sparkle', 85)}</div>` : `${iconText(itemIcon[id] || 'sparkle', 85)}<span>${escapeHTML(w.photolater)}</span>`}</div><div class="paper article">${bodyHTML(topic.body)}</div><a class="backRoom pressable" href="${backTarget}">${iconText('back',17)} ${escapeHTML(t.backTo)} ${escapeHTML(cleanTitle(state.data[group].title))}</a>${related.length ? `<div class="morelist"><h3>${escapeHTML(w.quick)}</h3><div class="list">${related.map(([key, value]) => listrow(cleanTitle(value.title), '', itemIcon[key], href('guide', key))).join('')}</div></div>` : ''}</div></div>`;
+    `<div class="detailLayout detailFocus"><div>${galleryHTML(images, itemIcon[id] || 'sparkle', cleanTitle(topic.title))}<div class="paper article">${bodyHTML(topic.body)}</div><a class="backRoom pressable" href="${backTarget}">${iconText('back',17)} ${escapeHTML(t.backTo)} ${escapeHTML(cleanTitle(state.data[group].title))}</a>${related.length ? `<div class="morelist"><h3>${escapeHTML(w.quick)}</h3><div class="list">${related.map(([key, value]) => listrow(cleanTitle(value.title), '', itemIcon[key], href('guide', key))).join('')}</div></div>` : ''}</div></div>`;
 }
 
 function departureChecklist() {
@@ -402,6 +424,28 @@ function wire() {
     checks.forEach(c => c.checked = false);
     updateChecks();
   };
+
+  document.querySelectorAll('[data-gallery]').forEach(gallery => {
+    const track = gallery.querySelector('.galleryTrack');
+    const slides = [...gallery.querySelectorAll('.gallerySlide')];
+    const dots = [...gallery.querySelectorAll('[data-gallery-dot]')];
+    let index = 0;
+    const refresh = () => {
+      track.style.transform = `translateX(-${index * 100}%)`;
+      slides.forEach((slide, i) => slide.classList.toggle('active', i === index));
+      dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
+    };
+    gallery.querySelector('[data-gallery-prev]')?.addEventListener('click', () => {
+      index = (index - 1 + slides.length) % slides.length;
+      refresh();
+    });
+    gallery.querySelector('[data-gallery-next]')?.addEventListener('click', () => {
+      index = (index + 1) % slides.length;
+      refresh();
+    });
+    dots.forEach((dot, i) => dot.addEventListener('click', () => { index = i; refresh(); }));
+    refresh();
+  });
 }
 
 function router() {
