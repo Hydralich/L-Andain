@@ -61,3 +61,14 @@ Les fichiers JSON sont chargés via `fetch`, ce qui nécessite un petit serveur 
 - Photos réelles à intégrer ultérieurement.
 
 Pour mettre à jour le dépôt GitHub, transférer le contenu de ce dossier à la racine, en remplaçant les fichiers déjà présents.
+
+
+## V3 (octobre 2026)
+
+- Navigation desktop avec Accueil, Le logement et Découvrir.
+- Rubriques d’activités présentées en cartes avant leur liste.
+- Suppression des encarts Besoin d'aide et de la commande de copie du lien. Les routes directes des fiches restent inchangées.
+- Mise en page des étapes plus visuelle et meilleure navigation de retour.
+- Checklist de départ interactive mémorisée via localStorage sur l’appareil utilisé (aucune synchronisation entre appareils, aucune donnée transmise).
+- Section avis sur l’accueil : Airbnb ouvre les voyages/réservations ; pour activer l'avis Google, remplacer la chaîne vide `google` dans `REVIEW_LINKS` en tête du fichier `app.js` par le lien direct d'avis Google Business Profile.
+- Aucune nouvelle photographie ajoutée en V3.
