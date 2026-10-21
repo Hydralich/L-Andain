@@ -166,11 +166,11 @@
     ],
     "topics": {
       "oven": {
-        "title": "Traditionele Bosch-oven",
+        "title": "De traditionele oven",
         "body": [
-          "De oven is geschikt voor gewone bereidingen en beschikt over verschillende functies.",
-          "Gebruiksaanwijzing nog aan te vullen zodra het exacte model en de bediening bekend zijn.",
-          "Vergeet de oven niet uit te schakelen na gebruik en laat hem afkoelen voordat u hem schoonmaakt."
+          "Met de linker draaiknop kiest u de bereidingsmodus.",
+          "Met de rechter draaiknop stelt u de temperatuur in.",
+          "Om de oven uit te schakelen, zet u de linker draaiknop op 0."
         ]
       },
       "microwave": {

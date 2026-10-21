@@ -164,11 +164,11 @@
     ],
     "topics": {
       "oven": {
-        "title": "Le four traditionnel Bosch",
+        "title": "Le four traditionnel",
         "body": [
-          "Le four permet les cuissons classiques et dispose de plusieurs modes de fonctionnement.",
-          "Instructions à compléter après identification du modèle et de ses commandes.",
-          "Pensez à éteindre le four après utilisation et à le laisser refroidir avant de le nettoyer."
+          "La molette de gauche permet de sélectionner le mode de cuisson.",
+          "La molette de droite permet de définir la température.",
+          "Pour couper le four, placez la molette de gauche sur 0."
         ]
       },
       "microwave": {

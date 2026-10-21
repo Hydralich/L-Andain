@@ -166,11 +166,11 @@
     ],
     "topics": {
       "oven": {
-        "title": "Bosch conventional oven",
+        "title": "The conventional oven",
         "body": [
-          "The oven supports standard cooking and offers several operating modes.",
-          "Instructions to be completed after identifying the exact model and controls.",
-          "Remember to switch off the oven after use and allow it to cool before cleaning."
+          "The left knob is used to select the cooking mode.",
+          "The right knob is used to set the temperature.",
+          "To switch the oven off, turn the left knob to 0."
         ]
       },
       "microwave": {

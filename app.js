@@ -121,6 +121,11 @@ const TOPIC_IMAGES = {
   lighting:'./assets/photos/outdoor-main.webp'
 };
 
+const GUIDE_GALLERIES = {
+  oven:['./assets/photos/kitchen-oven.webp','./assets/photos/kitchen-oven-controls.webp'],
+  microwave:['./assets/photos/kitchen-microwave.webp']
+};
+
 const DISCOVER_GALLERIES = {
   montaigle:['./assets/photos/montaigle-1.webp','./assets/photos/montaigle-2.webp','./assets/photos/montaigle-3.webp'],
   poilvache:['./assets/photos/poilvache-1.webp','./assets/photos/poilvache-2.webp'],
@@ -150,7 +155,7 @@ const isDiscoverGroup = group => ['ruins','abbeys','activities','hikes','food'].
 const labelTopics = () => state.lang === 'fr' ? 'équipements et infos' : state.lang === 'nl' ? 'onderwerpen' : 'topics';
 const roomTilePhoto = id => ROOM_TILE_IMAGES[id] || ROOM_HEADER_IMAGES[id] || '';
 const roomPhoto = id => ROOM_HEADER_IMAGES[id] || ROOM_TILE_IMAGES[id] || '';
-const topicPhotos = (id, group) => DISCOVER_GALLERIES[id]?.length ? DISCOVER_GALLERIES[id] : (TOPIC_IMAGES[id] ? [TOPIC_IMAGES[id]] : (roomPhoto(group) ? [roomPhoto(group)] : []));
+const topicPhotos = (id, group) => GUIDE_GALLERIES[id]?.length ? GUIDE_GALLERIES[id] : (DISCOVER_GALLERIES[id]?.length ? DISCOVER_GALLERIES[id] : (TOPIC_IMAGES[id] ? [TOPIC_IMAGES[id]] : (roomPhoto(group) ? [roomPhoto(group)] : [])));
 const topicPhoto = (id, group) => topicPhotos(id, group)[0] || '';
 const photoStyle = (path, overlay='dark') => {
   if (!path) return '';
