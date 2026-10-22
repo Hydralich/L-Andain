@@ -182,8 +182,13 @@
         "title": "Les plaques à induction",
         "body": [
           "Les plaques de cuisson fonctionnent par induction. Elles nécessitent donc des casseroles et poêles compatibles. Elles sont fournies dans les armoires.",
-          "Instructions d'allumage, de réglage de la puissance et de déverrouillage à compléter.",
-          "Attention, la surface peut rester chaude après utilisation."
+          "Il semblerait qu’actuellement les deux plaques de droite aient un défaut de fonctionnement. Elles ne semblent pas détecter de contact et ne chauffent donc pas. Nous tâchons de régler le problème rapidement. Nous sommes désolés pour le désagrément.",
+          "Appuyez sur le bouton marche/arrêt : les quatre zones s’allument.",
+          "Réglez la puissance de la zone souhaitée avec ses boutons + et − sur le panneau de commande.",
+          "Réglez le minuteur à l’aide du bouton horloge si nécessaire.",
+          "Vous pouvez verrouiller le panneau de commande en appuyant sur le bouton cadenas.",
+          "Vous pouvez suspendre le fonctionnement des plaques en appuyant sur le bouton pause.",
+          "Attention : la surface peut rester chaude après utilisation."
         ]
       },
       "coffee": {

@@ -63,3 +63,10 @@
   .brandname{font-size:15px}
   .langselect button{padding:6px 5px;min-width:29px}
 }
+
+
+/* V8.4 – Induction hob: photo within article, no crop */
+.inductionPanel{margin:4px 0 18px;overflow:hidden;border-radius:16px;background:#f5f0e8;border:1px solid var(--line)}
+.inductionPanel img{display:block;width:100%;height:auto;object-fit:contain}
+.inductionGuide .bathImportant{margin:14px 0 22px}
+.inductionGuide .inductionSequence{margin:18px 0 22px}

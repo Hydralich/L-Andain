@@ -184,8 +184,13 @@
         "title": "Das Induktionskochfeld",
         "body": [
           "Das Kochfeld arbeitet mit Induktion. Deshalb benötigen Sie geeignete Töpfe und Pfannen, die in den Küchenschränken bereitstehen.",
-          "Eine Anleitung zum Einschalten, zur Leistungseinstellung und zur Entriegelung der Bedienelemente wird noch ergänzt.",
-          "Bitte beachten Sie, dass die Kochfläche nach der Benutzung noch heiß sein kann."
+          "Derzeit scheinen die beiden rechten Kochzonen nicht richtig zu funktionieren. Sie erkennen das Kochgeschirr offenbar nicht und werden daher nicht warm. Wir bemühen uns, das Problem schnellstmöglich zu beheben. Bitte entschuldigen Sie die Unannehmlichkeiten.",
+          "Drücken Sie die Ein-/Aus-Taste: die Anzeigen aller vier Kochzonen leuchten auf.",
+          "Stellen Sie die Leistung der gewünschten Kochzone mit den zugehörigen + und − Tasten am Bedienfeld ein.",
+          "Stellen Sie bei Bedarf den Timer über die Uhrtaste ein.",
+          "Sie können das Bedienfeld durch Drücken der Schlosstaste sperren.",
+          "Sie können die Kochzonen durch Drücken der Pausentaste vorübergehend pausieren.",
+          "Achtung: die Kochfläche kann nach der Benutzung noch heiß sein."
         ]
       },
       "coffee": {
