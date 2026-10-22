@@ -35,7 +35,7 @@ const words = {
     guide:'Ihr Gästeführer', welcome:'Willkommen im L’Andain', hero:'Fühlen Sie sich wie zu Hause, mitten im Tal der Molignée.', place:'Sommière · Tal der Molignée',
     sections:'Alles für Ihren Aufenthalt', sectionsSub:'Die wichtigsten Informationen auf einen Blick.', spaces:'In der Ferienunterkunft', spacesSub:'Fragen zu einem Gerät? Wir helfen Ihnen.', explore:'Die Umgebung entdecken',
     exploreSub:'Spaziergänge, Kulturerbe und unsere Lieblingsadressen.', go:'Ausflugsziele entdecken', arrival:'Meine Anreise', house:'Die Unterkunft', discover:'Entdecken', departure:'Meine Abreise', all:'Alles anzeigen',
-    search:'Gerät oder Ausflugsziel suchen …', quick:'Weitere Informationen', tips:'Brauchen Sie Hilfe?', tipsText:'Wenn ein Gerät nicht wie erwartet funktioniert, wenden Sie sich bitte an uns, statt es selbst zu reparieren.',
+    search:'Gerät oder Ausstattung suchen …', quick:'Weitere Informationen', tips:'Brauchen Sie Hilfe?', tipsText:'Wenn ein Gerät nicht wie erwartet funktioniert, wenden Sie sich bitte an uns, statt es selbst zu reparieren.',
     back:'Zurück', share:'Link zu dieser Seite kopieren', copied:'Link kopiert!', photolater:'Foto folgt', areas:'Räume und Ausstattung', stays:'Damit Ihr Aufenthalt gut beginnt …', nearby:'Rund um L’Andain',
     open:'Informationen ansehen', noresults:'Keine Ergebnisse. Versuchen Sie einen anderen Suchbegriff.', source:'Version 8.1 · Gästeführer', general:'Allgemeine Informationen', activities:'Ausflugsziele und Aktivitäten', trails:'Spaziergänge und Wanderungen',
     restaurants:'Unsere Restauranttipps', intro:'Ein praktischer Gästeführer – keine technische Bedienungsanleitung.'
@@ -44,7 +44,7 @@ const words = {
     guide:'Votre guide de séjour', welcome:'Bienvenue à l’Andain', hero:'Prenez le temps de vous sentir chez vous, au cœur de la vallée de la Molignée.', place:'Sommière · Vallée de la Molignée',
     sections:'Tout pour votre séjour', sectionsSub:'Les essentiels, à portée de main.', spaces:'À l’intérieur du gîte', spacesSub:'Une question sur un équipement ? On vous guide.', explore:'Explorer les environs',
     exploreSub:'Balades, patrimoine et bonnes adresses.', go:'Voir les idées de sorties', arrival:'Mon arrivée', house:'Le logement', discover:'Découvrir', departure:'Mon départ', all:'Tout voir',
-    search:'Rechercher un équipement ou une activité…', quick:'Accès rapide', tips:'Besoin d’aide ?', tipsText:'Si un appareil ne fonctionne pas comme prévu, contactez-nous plutôt que de tenter une réparation.',
+    search:'Rechercher un équipement…', quick:'Accès rapide', tips:'Besoin d’aide ?', tipsText:'Si un appareil ne fonctionne pas comme prévu, contactez-nous plutôt que de tenter une réparation.',
     back:'Retour', share:'Copier le lien de cette fiche', copied:'Lien copié !', photolater:'Photo à ajouter', areas:'Les pièces et équipements', stays:'Pour bien commencer…', nearby:'Autour de l’Andain',
     open:'Consulter la fiche', noresults:'Aucun résultat. Essayez un autre mot.', source:'Version 8.1 · Guide illustré', general:'Informations générales', activities:'Sites & activités', trails:'Balades et randonnées',
     restaurants:'Nos adresses gourmandes', intro:'Un petit guide pensé pour les voyageurs, pas une notice technique.'
@@ -53,7 +53,7 @@ const words = {
     guide:'Your stay guide', welcome:'Welcome to L’Andain', hero:'Make yourself at home in the heart of the Molignée Valley.', place:'Sommière · Molignée Valley',
     sections:'Everything for your stay', sectionsSub:'All the essentials at your fingertips.', spaces:'Inside the cottage', spacesSub:'Questions about an appliance? We can help.', explore:'Explore the area',
     exploreSub:'Walks, heritage and our favourite places.', go:'Explore the area', arrival:'Check-in', house:'The cottage', discover:'Explore', departure:'Check-out', all:'See all',
-    search:'Search for an appliance or activity…', quick:'Quick access', tips:'Need a hand?', tipsText:'If something is not working as expected, please contact us rather than trying to repair it.',
+    search:'Search for an appliance…', quick:'Quick access', tips:'Need a hand?', tipsText:'If something is not working as expected, please contact us rather than trying to repair it.',
     back:'Back', share:'Copy link to this guide', copied:'Link copied!', photolater:'Photo coming soon', areas:'Rooms and appliances', stays:'Make yourself at home…', nearby:'Around L’Andain',
     open:'Open guide', noresults:'No results. Try another search.', source:'Version 8.1 · Illustrated guest guide', general:'General information', activities:'Places & activities', trails:'Walks and hikes',
     restaurants:'Our favourite restaurants', intro:'A friendly guide for guests, not a technical manual.'
@@ -62,7 +62,7 @@ const words = {
     guide:'Uw verblijfgids', welcome:'Welkom in L’Andain', hero:'Voel u helemaal thuis in het hart van de Molignéevallei.', place:'Sommière · Molignéevallei',
     sections:'Alles voor uw verblijf', sectionsSub:'Alle praktische informatie binnen handbereik.', spaces:'In het vakantieverblijf', spacesSub:'Vraag over een toestel? Wij helpen u.', explore:'Ontdek de streek',
     exploreSub:'Wandelingen, erfgoed en onze favoriete adresjes.', go:'Ontdek de streek', arrival:'Aankomst', house:'Het verblijf', discover:'Ontdekken', departure:'Vertrek', all:'Alles bekijken',
-    search:'Zoek een toestel of activiteit…', quick:'Snelle toegang', tips:'Hulp nodig?', tipsText:'Werkt er iets niet zoals verwacht? Neem dan contact op in plaats van zelf te repareren.',
+    search:'Zoek een toestel…', quick:'Snelle toegang', tips:'Hulp nodig?', tipsText:'Werkt er iets niet zoals verwacht? Neem dan contact op in plaats van zelf te repareren.',
     back:'Terug', share:'Link naar deze fiche kopiëren', copied:'Link gekopieerd!', photolater:'Foto volgt', areas:'Kamers en toestellen', stays:'Geniet van uw verblijf…', nearby:'Rond L’Andain',
     open:'Open de fiche', noresults:'Geen resultaten. Probeer een andere zoekterm.', source:'Versie 8.1 · Geïllustreerde gids', general:'Praktische informatie', activities:'Bezienswaardigheden & activiteiten', trails:'Wandelingen',
     restaurants:'Onze eetadresjes', intro:'Een gastvriendelijke gids, geen technische handleiding.'
@@ -511,7 +511,7 @@ function generalPage(id) {
 }
 
 async function loadData(lang) {
-  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=8.2')).json());
+  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=8.3')).json());
 }
 
 function wire() {
