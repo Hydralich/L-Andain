@@ -157,7 +157,7 @@ const DISCOVER_CARD_IMAGES = {
   abbeys:'./assets/photos/maredsous-1.webp',
   activities:'./assets/photos/dinantevasion-2.webp',
   hikes:'./assets/photos/poilvache-1.webp',
-  food:'./assets/photos/food-artiste-2.webp'
+  food:'./assets/photos/food-artiste-interior-card.webp'
 };
 
 const itemIcon = {
@@ -481,7 +481,7 @@ function detailPage(id) {
   const { t:topic, group } = found;
   const groupIsDiscover = isDiscoverGroup(group);
   const parent = groupIsDiscover ? w.discover : w.house;
-  const backTarget = groupIsDiscover ? href('discover') : group === 'safety' ? href('home') : href('room', group);
+  const backTarget = groupIsDiscover ? href('discover', group) : group === 'safety' ? href('home') : href('room', group);
   const related = Object.entries(state.data[group]?.topics || {}).filter(([key]) => key !== id).slice(0,4);
   const images = topicPhotos(id, group);
   return pathnav([[parent, href(groupIsDiscover ? 'discover' : 'house')], [cleanTitle(state.data[group].title), backTarget], [cleanTitle(topic.title), null]]) +
@@ -511,7 +511,7 @@ function generalPage(id) {
 }
 
 async function loadData(lang) {
-  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=8.1')).json());
+  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=8.2')).json());
 }
 
 function wire() {
@@ -527,8 +527,8 @@ function wire() {
   });
 
   document.querySelectorAll('[data-filter]').forEach(button => button.onclick = () => {
-    state.filter = button.dataset.filter;
-    router();
+    const filter = button.dataset.filter;
+    location.hash = href('discover', filter === 'all' ? '' : filter);
   });
 
   const search = $('#search');
@@ -585,6 +585,7 @@ function router() {
   state.lang = lang;
   state.section = parts[1] || 'home';
   state.id = parts[2] || '';
+  state.filter = state.section === 'discover' && DISCOVER_GROUPS.some(([group]) => group === state.id) ? state.id : 'all';
 
   loadData(lang).then(() => {
     const output = state.section === 'home' ? home()
