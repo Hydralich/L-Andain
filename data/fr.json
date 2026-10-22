@@ -66,7 +66,8 @@
         "title": "Le lit et les rangements",
         "body": [
           "La chambre dispose d'un lit, de deux tables de nuit et d'une penderie.",
-          "Pour rappel, le linge de lit n'est pas fourni. Si vous avez un oubli ou un problème à ce niveau-là, prévenez-nous et nous trouverons une solution."
+          "Pour rappel, le linge de lit n'est pas fourni. Si vous avez un oubli ou un problème à ce niveau-là, prévenez-nous et nous trouverons une solution.",
+          "Un lit bébé est disponible sur demande."
         ]
       },
       "charging": {
@@ -225,9 +226,10 @@
       "waste": {
         "title": "Le tri des déchets",
         "body": [
-          "Les poubelles de la cuisine comportent deux compartiments :",
+          "Les poubelles de la cuisine comportent trois compartiments :",
           "PMC : emballages plastiques, métalliques et cartons à boissons",
           "Déchets ménagers résiduels : les autres déchets habituels",
+          "Déchets organiques : épluchures et restes alimentaires compostables.",
           "Les cartons et papiers peuvent être déposés dans la boîte prévue à cet effet, située dans le tiroir sous l'évier.",
           "En fin de séjour",
           "Si les poubelles ne sont pas pleines, vous pouvez les laisser telles quelles, nous les viderons après votre départ.",
@@ -261,8 +263,7 @@
         "title": "Éclairage extérieur",
         "body": [
           "Un éclairage de façade permet d'illuminer le jardin.",
-          "Son interrupteur se trouve dans la chambre à coucher.",
-          "Pensez à l'éteindre lorsque vous n'en avez plus besoin."
+          "Son interrupteur se trouve dans la chambre à coucher."
         ]
       }
     }

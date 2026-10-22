@@ -67,7 +67,8 @@
         "title": "Bed en opbergruimte",
         "body": [
           "De slaapkamer beschikt over een bed, twee nachtkastjes en een kleerkast.",
-          "Ter herinnering: beddengoed is niet inbegrepen. Bent u iets vergeten of hebt u daardoor een probleem, laat het ons weten. Dan zoeken we samen een oplossing."
+          "Ter herinnering: beddengoed is niet inbegrepen. Bent u iets vergeten of hebt u daardoor een probleem, laat het ons weten. Dan zoeken we samen een oplossing.",
+          "Een babybedje is op aanvraag beschikbaar."
         ]
       },
       "charging": {
@@ -227,9 +228,10 @@
       "waste": {
         "title": "Afval sorteren",
         "body": [
-          "De afvalbak in de keuken heeft twee vakken:",
+          "De afvalbak in de keuken heeft drie vakken:",
           "PMD: plastic verpakkingen, metalen verpakkingen en drankkartons",
           "Restafval: het overige gewone huishoudelijke afval",
+          "Gft-afval: schillen en composteerbare etensresten.",
           "Papier en karton kunt u in de doos in de lade onder de gootsteen leggen.",
           "Aan het einde van uw verblijf",
           "Als de vuilnisbakken niet vol zijn, mag u ze laten staan. Wij legen ze na uw vertrek.",
@@ -263,8 +265,7 @@
         "title": "Buitenverlichting",
         "body": [
           "Een lamp aan de gevel verlicht de tuin.",
-          "De schakelaar bevindt zich in de slaapkamer.",
-          "Schakel het licht uit wanneer u het niet meer nodig hebt."
+          "De schakelaar bevindt zich in de slaapkamer."
         ]
       }
     }

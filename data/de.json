@@ -67,7 +67,8 @@
         "title": "Bett und Stauraum",
         "body": [
           "Das Schlafzimmer verfügt über ein Bett, zwei Nachttische und einen Kleiderschrank.",
-          "Bitte beachten Sie, dass Bettwäsche nicht bereitgestellt wird. Falls Sie Ihre vergessen haben oder ein Problem auftritt, sagen Sie uns Bescheid – wir finden eine Lösung."
+          "Bitte beachten Sie, dass Bettwäsche nicht bereitgestellt wird. Falls Sie Ihre vergessen haben oder ein Problem auftritt, sagen Sie uns Bescheid – wir finden eine Lösung.",
+          "Ein Babybett ist auf Anfrage verfügbar."
         ]
       },
       "charging": {
@@ -227,9 +228,10 @@
       "waste": {
         "title": "Mülltrennung",
         "body": [
-          "Der Küchenmülleimer hat zwei Fächer:",
+          "Der Küchenmülleimer hat drei Fächer:",
           "PMK: Kunststoffverpackungen, Metallverpackungen und Getränkekartons",
           "Restmüll: sonstiger gewöhnlicher Haushaltsabfall",
+          "Bioabfall: Schalen und kompostierbare Lebensmittelreste.",
           "Papier und Karton können Sie in die Kiste in der Schublade unter der Spüle legen.",
           "Am Ende Ihres Aufenthalts",
           "Wenn die Mülleimer noch nicht voll sind, können Sie sie so stehen lassen. Wir leeren sie nach Ihrer Abreise.",
@@ -263,8 +265,7 @@
         "title": "Außenbeleuchtung",
         "body": [
           "Eine Leuchte an der Fassade beleuchtet den Garten.",
-          "Der dazugehörige Schalter befindet sich im Schlafzimmer.",
-          "Bitte schalten Sie das Licht aus, wenn es nicht mehr benötigt wird."
+          "Der dazugehörige Schalter befindet sich im Schlafzimmer."
         ]
       }
     }

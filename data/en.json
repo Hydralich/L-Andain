@@ -67,7 +67,8 @@
         "title": "Bed and storage",
         "body": [
           "The bedroom has a bed, two bedside tables and a wardrobe.",
-          "Please remember that bed linen is not provided. If you have forgotten yours or have any difficulty with this, let us know and we will find a solution."
+          "Please remember that bed linen is not provided. If you have forgotten yours or have any difficulty with this, let us know and we will find a solution.",
+          "A baby cot is available on request."
         ]
       },
       "charging": {
@@ -227,9 +228,10 @@
       "waste": {
         "title": "Sorting waste",
         "body": [
-          "The kitchen bin has two compartments:",
+          "The kitchen bin has three compartments:",
           "PMC: plastic packaging, metal packaging and drink cartons",
           "Residual household waste: other everyday waste",
+          "Organic waste: fruit and vegetable peelings and compostable food scraps.",
           "Paper and cardboard can be placed in the box in the drawer beneath the sink.",
           "At the end of your stay",
           "If the bins are not full, you can leave them as they are: we will empty them after your departure.",
@@ -263,8 +265,7 @@
         "title": "Outdoor lighting",
         "body": [
           "A light mounted on the façade illuminates the garden.",
-          "Its switch is in the bedroom.",
-          "Please turn it off when it is no longer needed."
+          "Its switch is in the bedroom."
         ]
       }
     }
