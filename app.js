@@ -37,7 +37,7 @@ const words = {
     exploreSub:'Spaziergänge, Kulturerbe und unsere Lieblingsadressen.', go:'Ausflugsziele entdecken', arrival:'Meine Anreise', house:'Die Unterkunft', discover:'Entdecken', departure:'Meine Abreise', all:'Alles anzeigen',
     search:'Gerät oder Ausflugsziel suchen …', quick:'Weitere Informationen', tips:'Brauchen Sie Hilfe?', tipsText:'Wenn ein Gerät nicht wie erwartet funktioniert, wenden Sie sich bitte an uns, statt es selbst zu reparieren.',
     back:'Zurück', share:'Link zu dieser Seite kopieren', copied:'Link kopiert!', photolater:'Foto folgt', areas:'Räume und Ausstattung', stays:'Damit Ihr Aufenthalt gut beginnt …', nearby:'Rund um L’Andain',
-    open:'Informationen ansehen', noresults:'Keine Ergebnisse. Versuchen Sie einen anderen Suchbegriff.', source:'Version 8.0 · Gästeführer', general:'Allgemeine Informationen', activities:'Ausflugsziele und Aktivitäten', trails:'Spaziergänge und Wanderungen',
+    open:'Informationen ansehen', noresults:'Keine Ergebnisse. Versuchen Sie einen anderen Suchbegriff.', source:'Version 8.1 · Gästeführer', general:'Allgemeine Informationen', activities:'Ausflugsziele und Aktivitäten', trails:'Spaziergänge und Wanderungen',
     restaurants:'Unsere Restauranttipps', intro:'Ein praktischer Gästeführer – keine technische Bedienungsanleitung.'
   },
   fr: {
@@ -46,7 +46,7 @@ const words = {
     exploreSub:'Balades, patrimoine et bonnes adresses.', go:'Voir les idées de sorties', arrival:'Mon arrivée', house:'Le logement', discover:'Découvrir', departure:'Mon départ', all:'Tout voir',
     search:'Rechercher un équipement ou une activité…', quick:'Accès rapide', tips:'Besoin d’aide ?', tipsText:'Si un appareil ne fonctionne pas comme prévu, contactez-nous plutôt que de tenter une réparation.',
     back:'Retour', share:'Copier le lien de cette fiche', copied:'Lien copié !', photolater:'Photo à ajouter', areas:'Les pièces et équipements', stays:'Pour bien commencer…', nearby:'Autour de l’Andain',
-    open:'Consulter la fiche', noresults:'Aucun résultat. Essayez un autre mot.', source:'Version 6 · Équipements & sites illustrés', general:'Informations générales', activities:'Sites & activités', trails:'Balades et randonnées',
+    open:'Consulter la fiche', noresults:'Aucun résultat. Essayez un autre mot.', source:'Version 8.1 · Guide illustré', general:'Informations générales', activities:'Sites & activités', trails:'Balades et randonnées',
     restaurants:'Nos adresses gourmandes', intro:'Un petit guide pensé pour les voyageurs, pas une notice technique.'
   },
   en: {
@@ -55,7 +55,7 @@ const words = {
     exploreSub:'Walks, heritage and our favourite places.', go:'Explore the area', arrival:'Check-in', house:'The cottage', discover:'Explore', departure:'Check-out', all:'See all',
     search:'Search for an appliance or activity…', quick:'Quick access', tips:'Need a hand?', tipsText:'If something is not working as expected, please contact us rather than trying to repair it.',
     back:'Back', share:'Copy link to this guide', copied:'Link copied!', photolater:'Photo coming soon', areas:'Rooms and appliances', stays:'Make yourself at home…', nearby:'Around L’Andain',
-    open:'Open guide', noresults:'No results. Try another search.', source:'Version 6 · Equipment & tourism photos', general:'General information', activities:'Places & activities', trails:'Walks and hikes',
+    open:'Open guide', noresults:'No results. Try another search.', source:'Version 8.1 · Illustrated guest guide', general:'General information', activities:'Places & activities', trails:'Walks and hikes',
     restaurants:'Our favourite restaurants', intro:'A friendly guide for guests, not a technical manual.'
   },
   nl: {
@@ -64,7 +64,7 @@ const words = {
     exploreSub:'Wandelingen, erfgoed en onze favoriete adresjes.', go:'Ontdek de streek', arrival:'Aankomst', house:'Het verblijf', discover:'Ontdekken', departure:'Vertrek', all:'Alles bekijken',
     search:'Zoek een toestel of activiteit…', quick:'Snelle toegang', tips:'Hulp nodig?', tipsText:'Werkt er iets niet zoals verwacht? Neem dan contact op in plaats van zelf te repareren.',
     back:'Terug', share:'Link naar deze fiche kopiëren', copied:'Link gekopieerd!', photolater:'Foto volgt', areas:'Kamers en toestellen', stays:'Geniet van uw verblijf…', nearby:'Rond L’Andain',
-    open:'Open de fiche', noresults:'Geen resultaten. Probeer een andere zoekterm.', source:'Versie 6 · Foto’s van toestellen & uitstappen', general:'Praktische informatie', activities:'Bezienswaardigheden & activiteiten', trails:'Wandelingen',
+    open:'Open de fiche', noresults:'Geen resultaten. Probeer een andere zoekterm.', source:'Versie 8.1 · Geïllustreerde gids', general:'Praktische informatie', activities:'Bezienswaardigheden & activiteiten', trails:'Wandelingen',
     restaurants:'Onze eetadresjes', intro:'Een gastvriendelijke gids, geen technische handleiding.'
   }
 };
@@ -145,7 +145,19 @@ const DISCOVER_GALLERIES = {
   maisonleffe:['./assets/photos/leffe-3.webp','./assets/photos/maisonleffe-1.webp','./assets/photos/maisonleffe-2.webp'],
   draisines:['./assets/photos/draisines-1.webp','./assets/photos/draisines-2.webp','./assets/photos/draisines-3.webp'],
   dinantevasion:['./assets/photos/dinantevasion-1.webp','./assets/photos/dinantevasion-2.webp','./assets/photos/dinantevasion-3.webp'],
-  dinant:['./assets/photos/dinant-1.webp']
+  dinant:['./assets/photos/dinant-1.webp'],
+  vitoulet:['./assets/photos/food-vitoulet-1.webp','./assets/photos/food-vitoulet-2.webp'],
+  walhere:['./assets/photos/food-walhere-1.webp','./assets/photos/food-walhere-2.webp'],
+  artiste:['./assets/photos/food-artiste-1.webp','./assets/photos/food-artiste-2.webp'],
+  forgetoi:['./assets/photos/food-forgetoi-1.webp','./assets/photos/food-forgetoi-2.webp']
+};
+
+const DISCOVER_CARD_IMAGES = {
+  ruins:'./assets/photos/montaigle-1.webp',
+  abbeys:'./assets/photos/maredsous-1.webp',
+  activities:'./assets/photos/dinantevasion-2.webp',
+  hikes:'./assets/photos/poilvache-1.webp',
+  food:'./assets/photos/food-artiste-2.webp'
 };
 
 const itemIcon = {
@@ -168,6 +180,7 @@ const roomTilePhoto = id => ROOM_TILE_IMAGES[id] || ROOM_HEADER_IMAGES[id] || ''
 const roomPhoto = id => ROOM_HEADER_IMAGES[id] || ROOM_TILE_IMAGES[id] || '';
 const topicPhotos = (id, group) => GUIDE_GALLERIES[id]?.length ? GUIDE_GALLERIES[id] : (DISCOVER_GALLERIES[id]?.length ? DISCOVER_GALLERIES[id] : (TOPIC_IMAGES[id] ? [TOPIC_IMAGES[id]] : (roomPhoto(group) ? [roomPhoto(group)] : [])));
 const topicPhoto = (id, group) => topicPhotos(id, group)[0] || '';
+const discoverCardPhoto = group => DISCOVER_CARD_IMAGES[group] || '';
 const photoStyle = (path, overlay='dark') => {
   if (!path) return '';
   const gradient = overlay === 'light'
@@ -340,7 +353,7 @@ function nav() {
 }
 
 function footer() {
-  return `<footer class="footer"><span>© L’Andain · Sommière, Onhaye</span><span>${escapeHTML(words[state.lang].source)}</span></footer>`;
+  return `<footer class="footer"><span>© L’Andain · Sommière, Onhaye</span></footer>`;
 }
 
 function reviewPanel() {
@@ -433,20 +446,21 @@ function houseResults() {
 function housePage() {
   const w = words[state.lang];
   const d = state.data;
-  return pageTitle(w.house, v3[state.lang].roomsHelp) +
-    `<div class="roomsGrid">${ROOM_ORDER.filter(([section]) => section !== 'safety').map(([section, ico]) => `<a class="roomTile photoTile pressable room-${section}" href="${href('room',section)}" ${photoStyle(roomTilePhoto(section))}><span class="roomIcon">${iconText(ico,35)}</span><strong>${escapeHTML(d[section].title.replace(/^\d+\.\s*/,''))}</strong><small>${Object.keys(d[section].topics).length} ${labelTopics()}</small>${iconText('arrow',18)}</a>`).join('')}</div><div class="sectionhead"><div><h2>${state.lang === 'fr' ? 'Vous cherchez quelque chose ?' : state.lang === 'nl' ? 'Op zoek naar iets?' : state.lang === 'de' ? 'Suchen Sie etwas?' : 'Looking for something?'}</h2></div></div><input class="search" id="search" placeholder="${escapeHTML(w.search)}" value="${escapeHTML(state.query)}"><div class="list" id="results">${state.query ? houseResults() : ''}</div>`;
+  return `<input class="search" id="search" placeholder="${escapeHTML(w.search)}" value="${escapeHTML(state.query)}"><div class="list" id="results">${state.query ? houseResults() : ''}</div>` +
+    pageTitle(w.house) +
+    `<div class="roomsGrid">${ROOM_ORDER.filter(([section]) => section !== 'safety').map(([section, ico]) => `<a class="roomTile photoTile pressable room-${section}" href="${href('room',section)}" ${photoStyle(roomTilePhoto(section))}><span class="roomIcon">${iconText(ico,35)}</span><strong>${escapeHTML(d[section].title.replace(/^\d+\.\s*/,''))}</strong><small>${Object.keys(d[section].topics).length} ${labelTopics()}</small>${iconText('arrow',18)}</a>`).join('')}</div>`;
 }
 
 function discoverPage() {
   const d = state.data;
-  const t = v3[state.lang];
   const sel = state.filter;
-  const cards = `<div class="topicCards">${DISCOVER_GROUPS.map(([group, ico]) => `<button class="topicCard pressable ${sel === group ? 'selected' : ''}" data-filter="${group}"><span class="topicIcon">${iconText(ico,29)}</span><strong>${escapeHTML(cleanTitle(d[group].title))}</strong>${iconText('arrow',16)}</button>`).join('')}</div>`;
+  const backCategories = state.lang === 'fr' ? 'Retour aux catégories' : state.lang === 'nl' ? 'Terug naar categorieën' : state.lang === 'de' ? 'Zurück zu den Kategorien' : 'Back to categories';
+  const cards = `<div class="topicCards">${DISCOVER_GROUPS.map(([group, ico]) => `<button class="topicCard photoTopicCard pressable ${sel === group ? 'selected' : ''}" data-filter="${group}" ${photoStyle(discoverCardPhoto(group))}><span class="topicIcon">${iconText(ico,29)}</span><strong>${escapeHTML(cleanTitle(d[group].title))}</strong>${iconText('arrow',16)}</button>`).join('')}</div>`;
   const content = sel === 'all'
     ? cards
-    : `<button class="backCategory pressable" data-filter="all">${iconText('back',17)} ${escapeHTML(t.discoverHelp)}</button><div class="selectedCategory">${escapeHTML(cleanTitle(d[sel]?.title || ''))}</div>`;
+    : `<button class="backCategory pressable" data-filter="all">${iconText('back',17)} ${escapeHTML(backCategories)}</button><div class="selectedCategory">${escapeHTML(cleanTitle(d[sel]?.title || ''))}</div>`;
   const groups = sel === 'all' ? '' : `<div class="topicGroups">${DISCOVER_GROUPS.filter(([group]) => sel === group).map(([group, ico]) => `<div class="list">${Object.entries(d[group].topics).map(([id, v]) => listrow(cleanTitle(v.title), v.body[0]?.slice(0,95), itemIcon[id] || ico, href('guide', id), topicPhoto(id, group))).join('')}</div>`).join('')}</div>`;
-  return pageTitle(d.nearby_intro.title, t.discoverHelp) + content + groups;
+  return pageTitle(d.nearby_intro.title) + content + groups;
 }
 
 function findTopic(id) {
@@ -497,7 +511,7 @@ function generalPage(id) {
 }
 
 async function loadData(lang) {
-  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=8.0')).json());
+  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=8.1')).json());
 }
 
 function wire() {
