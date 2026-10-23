@@ -137,8 +137,8 @@
       "tv": {
         "title": "La télévision",
         "body": [
-          "Les chaînes de télévision par câble sont accessibles via le décodeur VOO, sur la source HDM1 (A COMPLETER)",
-          "Utilisez la télécommande du décodeur pour naviguer entre les chaînes et les programmes."
+          "Les chaînes de télévision traditionnelles ne sont pas disponibles au gîte.",
+          "Envie d’une soirée cinéma ou séries ? Un compte Netflix et un compte Disney+ sont à votre disposition sur la PlayStation 4. Retrouvez toutes les explications dans la fiche PlayStation 4."
         ]
       },
       "playstation": {
@@ -150,10 +150,12 @@
           "Plusieurs jeux sont disponibles et peuvent être installés sur la console.",
           "Vous pouvez également vous connecter avec votre propre compte PlayStation si vous le souhaitez. Pensez simplement à vous déconnecter avant votre départ.",
           "Pour regarder des films et séries",
-          "La PlayStation donne accès aux applications Netflix, Amazon Prime Video, Disney+, HBO et autres plateformes compatibles.",
-          "Depuis la console, rendez-vous dans la rubrique Média, puis sélectionnez l'application souhaitée.",
-          "Les abonnements aux plateformes ne sont pas compris dans la location. Vous devrez utiliser vos propres identifiants pour accéder aux contenus.",
-          "Pour votre sécurité, pensez à vous déconnecter de vos comptes de streaming avant de quitter le gîte."
+          "La PlayStation 4 permet de regarder des films et des séries grâce à ses applications de streaming.",
+          "Nous mettons à votre disposition des comptes Netflix et Disney+ que vous pouvez utiliser librement.",
+          "Depuis le profil « L’Andain » sur la PlayStation, rendez-vous dans la rubrique TV & VIDÉO, puis sélectionnez l’application souhaitée.",
+          "En dehors de Netflix et Disney+, les autres abonnements ne sont pas fournis. Vous pouvez toutefois utiliser vos propres identifiants pour accéder à vos contenus.",
+          "Pensez à vous déconnecter de vos comptes personnels avant de quitter le logement.",
+          "Des films DVD sont également disponibles : il suffit d’insérer le disque dans la PlayStation 4."
         ]
       }
     }

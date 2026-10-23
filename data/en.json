@@ -138,8 +138,8 @@
       "tv": {
         "title": "Television",
         "body": [
-          "Cable TV channels are available through the VOO set-top box, on the HDMI1 input (TO BE CONFIRMED).",
-          "Use the set-top box remote control to browse channels and programmes."
+          "Traditional TV channels are not available in the cottage.",
+          "Fancy a movie or series night? Netflix and Disney+ accounts are available on the PlayStation 4. For instructions, see the PlayStation 4 guide."
         ]
       },
       "playstation": {
@@ -152,10 +152,12 @@
           "Several games are available and can be installed on the console.",
           "You may also sign in with your own PlayStation account if you wish. Just remember to sign out before leaving.",
           "Watching films and series",
-          "The PlayStation offers apps for Netflix, Amazon Prime Video, Disney+, HBO and other compatible platforms.",
-          "On the console, go to Media and select the app you wish to use.",
-          "Subscriptions to these services are not included in the rental. You will need to sign in using your own account to watch content.",
-          "For your security, please sign out of your streaming accounts before checking out."
+          "The PlayStation 4 also lets you watch films and series using streaming apps.",
+          "We provide Netflix and Disney+ accounts that you are welcome to use.",
+          "From the “L’Andain” profile on the PlayStation, go to TV & VIDEO and select the app you want.",
+          "Subscriptions other than Netflix and Disney+ are not provided. You can, however, sign in with your own credentials to access those services.",
+          "Please remember to sign out of your personal accounts before leaving the cottage.",
+          "DVD films are also available. Simply insert a disc into the PlayStation 4."
         ]
       }
     }

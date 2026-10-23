@@ -492,6 +492,16 @@ function findTopic(id) {
   return null;
 }
 
+function tvBodyHTML(arr) {
+  const guideLabel = {
+    fr:'Voir la fiche PlayStation 4',
+    en:'Open the PlayStation 4 guide',
+    nl:'Bekijk de PlayStation 4-handleiding',
+    de:'Zur PlayStation 4-Anleitung'
+  }[state.lang];
+  return bodyHTML(arr) + `<p><a href="${href('guide','playstation')}" class="tvPs4Link">${iconText('arrow',16)} ${escapeHTML(guideLabel)}</a></p>`;
+}
+
 function detailPage(id) {
   const found = findTopic(id);
   const w = words[state.lang];
@@ -505,7 +515,7 @@ function detailPage(id) {
   const images = topicPhotos(id, group);
   return pathnav([[parent, href(groupIsDiscover ? 'discover' : 'house')], [cleanTitle(state.data[group].title), backTarget], [cleanTitle(topic.title), null]]) +
     pageTitle(cleanTitle(topic.title)) +
-    `<div class="detailLayout detailFocus"><div>${galleryHTML(images, itemIcon[id] || 'sparkle', cleanTitle(topic.title))}<div class="paper article ${id === 'stove' ? 'manualArticle' : ''}">${id === 'stove' ? stoveBodyHTML(topic.body) : id === 'bath' ? bathBodyHTML(topic.body) : id === 'coffee' ? coffeeBodyHTML(topic.body) : id === 'induction' ? inductionBodyHTML(topic.body) : bodyHTML(topic.body)}</div><a class="backRoom pressable" href="${backTarget}">${iconText('back',17)} ${escapeHTML(t.backTo)} ${escapeHTML(cleanTitle(state.data[group].title))}</a>${related.length ? `<div class="morelist"><h3>${escapeHTML(w.quick)}</h3><div class="list">${related.map(([key, value]) => listrow(cleanTitle(value.title), '', itemIcon[key], href('guide', key), groupIsDiscover ? topicPhoto(key, group) : '')).join('')}</div></div>` : ''}</div></div>`;
+    `<div class="detailLayout detailFocus"><div>${galleryHTML(images, itemIcon[id] || 'sparkle', cleanTitle(topic.title))}<div class="paper article ${id === 'stove' ? 'manualArticle' : ''}">${id === 'stove' ? stoveBodyHTML(topic.body) : id === 'bath' ? bathBodyHTML(topic.body) : id === 'coffee' ? coffeeBodyHTML(topic.body) : id === 'induction' ? inductionBodyHTML(topic.body) : id === 'tv' ? tvBodyHTML(topic.body) : bodyHTML(topic.body)}</div><a class="backRoom pressable" href="${backTarget}">${iconText('back',17)} ${escapeHTML(t.backTo)} ${escapeHTML(cleanTitle(state.data[group].title))}</a>${related.length ? `<div class="morelist"><h3>${escapeHTML(w.quick)}</h3><div class="list">${related.map(([key, value]) => listrow(cleanTitle(value.title), '', itemIcon[key], href('guide', key), groupIsDiscover ? topicPhoto(key, group) : '')).join('')}</div></div>` : ''}</div></div>`;
 }
 
 function departureChecklist() {
@@ -530,7 +540,7 @@ function generalPage(id) {
 }
 
 async function loadData(lang) {
-  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=8.5')).json());
+  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=8.6')).json());
 }
 
 function wire() {
