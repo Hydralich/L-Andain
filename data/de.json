@@ -96,6 +96,7 @@
         "title": "Der Pelletofen",
         "body": [
           "Der Pelletofen beheizt die Ferienunterkunft. Er erwärmt die Räume rasch und sorgt selbst bei ungemütlichem Wetter für eine behagliche Atmosphäre.",
+          "Ein Vorrat an Säcken befindet sich im kleinen Holzschrank im Wohnzimmer.",
           "Den Ofen einschalten",
           "Prüfen Sie, ob die Glastür und der Deckel des Pelletbehälters richtig geschlossen sind.",
           "Halten Sie die Taste P1 (Ein/Aus) am Bedienfeld einige Sekunden lang gedrückt.",
@@ -428,6 +429,21 @@
           "Telefon: +32 (0)71 79 99 43",
           "E-Mail: info@chateaudebioul.com",
           "Website: https://www.chateaudebioul.be"
+        ]
+      },
+      "escargotiere": {
+        "title": "L’Escargotière de Warnant",
+        "body": [
+          "Ein origineller und genussvoller Zwischenstopp im Herzen des Molignée-Tals.",
+          "L’Escargotière de Warnant züchtet und verarbeitet seit vielen Jahren Schnecken in handwerklicher Qualität. Hier entdecken Sie lokales Know-how, regionale Produkte und eine belgische Spezialität zum Probieren oder Mitnehmen.",
+          "Im Laden finden Sie verschiedene Schneckenspezialitäten sowie eine Auswahl regionaler Produkte. Führungen sind ebenfalls nach Reservierung möglich.",
+          "Praktische Informationen",
+          "Adresse: Rue de la Gare 1, 5537 Warnant",
+          "Telefon: +32 (0)82 61 23 52",
+          "E-Mail: info@escargotiere.be",
+          "Website: https://www.escargotiere.be",
+          "Das Geschäft ist das ganze Jahr über von Dienstag bis Samstag von 9:00 bis 12:30 Uhr und von 13:30 bis 18:00 Uhr geöffnet.",
+          "Besichtigungen sind nach Reservierung möglich. Prüfen Sie die Öffnungszeiten am besten vor Ihrem Besuch."
         ]
       }
     }

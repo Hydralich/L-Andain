@@ -95,6 +95,7 @@
         "title": "Le poêle à pellets",
         "body": [
           "Le poêle à pellets assure le chauffage du gîte. Il chauffe rapidement les pièces et permet de profiter d'une ambiance chaleureuse, même lorsque la météo est moins clémente.",
+          "Une réserve de sacs est disponible dans le petit meuble en bois du salon.",
           "Allumer le poêle",
           "Vérifiez que la porte vitrée et le couvercle du réservoir à pellets sont bien fermés.",
           "Sur le panneau de commande, maintenez le bouton P1 (marche/arrêt) enfoncé quelques instants.",
@@ -426,6 +427,21 @@
           "Téléphone : +32 (0)71 79 99 43",
           "E-mail : info@chateaudebioul.com",
           "Site : https://www.chateaudebioul.be"
+        ]
+      },
+      "escargotiere": {
+        "title": "L'Escargotière de Warnant",
+        "body": [
+          "Une belle halte gourmande et originale au cœur de la vallée de la Molignée.",
+          "L’Escargotière de Warnant élève et prépare artisanalement des escargots depuis de nombreuses années. On y découvre un savoir-faire local, des produits du terroir et une spécialité bien belge à déguster ou à emporter.",
+          "Le magasin propose différentes préparations d’escargots, ainsi qu’une sélection de produits régionaux. Des visites sont également organisées sur réservation.",
+          "Informations pratiques",
+          "Adresse : rue de la Gare 1, 5537 Warnant",
+          "Téléphone : +32 (0)82 61 23 52",
+          "E-mail : info@escargotiere.be",
+          "Site : https://www.escargotiere.be",
+          "Magasin ouvert toute l’année du mardi au samedi, de 9h à 12h30 et de 13h30 à 18h.",
+          "Visites sur réservation. Il est conseillé de vérifier les horaires avant votre visite."
         ]
       }
     }

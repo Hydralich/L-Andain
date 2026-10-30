@@ -96,6 +96,7 @@
         "title": "Pelletkachel",
         "body": [
           "De pelletkachel verwarmt het vakantieverblijf. Hij warmt de kamers snel op en zorgt voor een gezellige sfeer, ook wanneer het weer wat minder meezit.",
+          "Een voorraad zakken is beschikbaar in het kleine houten kastje in de woonkamer.",
           "De kachel aanzetten",
           "Controleer of de glazen deur en het deksel van het pelletreservoir goed gesloten zijn.",
           "Houd de knop P1 (aan/uit) op het bedieningspaneel enkele ogenblikken ingedrukt.",
@@ -428,6 +429,21 @@
           "Telefoon: +32 (0)71 79 99 43",
           "E-mail: info@chateaudebioul.com",
           "Website: https://www.chateaudebioul.be"
+        ]
+      },
+      "escargotiere": {
+        "title": "L’Escargotière de Warnant",
+        "body": [
+          "Een originele en smakelijke halte in het hart van de Molignéevallei.",
+          "L’Escargotière de Warnant kweekt en bereidt al jarenlang op ambachtelijke wijze slakken. U ontdekt er lokaal vakmanschap, streekproducten en een Belgische specialiteit die u ter plaatse kunt proeven of mee naar huis nemen.",
+          "In de winkel vindt u verschillende slakkenbereidingen en een selectie streekproducten. Bezoeken zijn ook mogelijk op reservatie.",
+          "Praktische informatie",
+          "Adres: Rue de la Gare 1, 5537 Warnant",
+          "Telefoon: +32 (0)82 61 23 52",
+          "E-mail: info@escargotiere.be",
+          "Website: https://www.escargotiere.be",
+          "De winkel is het hele jaar open van dinsdag tot zaterdag, van 9.00 tot 12.30 uur en van 13.30 tot 18.00 uur.",
+          "Bezoeken zijn op reservatie. Het is aan te raden de openingsuren vooraf even te controleren."
         ]
       }
     }

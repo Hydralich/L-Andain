@@ -146,6 +146,7 @@ const DISCOVER_GALLERIES = {
   bocq:['./assets/photos/bocq-1.webp','./assets/photos/bocq-2.webp'],
   bioul:['./assets/photos/bioul-1.webp','./assets/photos/bioul-2.webp'],
   veves:['./assets/photos/veves-1.webp','./assets/photos/veves-2.webp','./assets/photos/veves-3.webp'],
+  escargotiere:['./assets/photos/escargotiere-1.webp','./assets/photos/escargotiere-2.webp','./assets/photos/escargotiere-3.webp','./assets/photos/escargotiere-4.webp'],
   draisines:['./assets/photos/draisines-1.webp','./assets/photos/draisines-2.webp','./assets/photos/draisines-3.webp'],
   dinantevasion:['./assets/photos/dinantevasion-1.webp','./assets/photos/dinantevasion-2.webp','./assets/photos/dinantevasion-3.webp'],
   dinant:['./assets/photos/dinant-1.webp'],
@@ -166,7 +167,7 @@ const DISCOVER_CARD_IMAGES = {
 const itemIcon = {
   times:'clock', parking:'door', keys:'key', bath:'bath', towel:'sun', bed:'bed', charging:'phone', bedheating:'flame', gardenaccess:'tree',
   stove:'flame', tv:'tv', playstation:'tv', oven:'utensils', microwave:'utensils', induction:'flame', coffee:'coffee', dishwasher:'utensils', otherappliances:'utensils', waste:'list',
-  garden:'tree', smoking:'tree', lighting:'sun', reviews:'sparkle', montaigle:'home', poilvache:'home', maredsous:'home', leffe:'home', maisonleffe:'home', bocq:'home', bioul:'home', veves:'home', draisines:'foot',
+  garden:'tree', smoking:'tree', lighting:'sun', reviews:'sparkle', montaigle:'home', poilvache:'home', maredsous:'home', leffe:'home', maisonleffe:'home', bocq:'home', bioul:'home', veves:'home', escargotiere:'home', draisines:'foot',
   dinantevasion:'sparkle', dinant:'map', tokyowalk:'foot', fondsvau:'foot', weillen:'foot', flavionmontaigle:'foot', falaenwalk:'foot', vitoulet:'utensils', walhere:'utensils', artiste:'utensils', forgetoi:'utensils'
 };
 
@@ -543,7 +544,7 @@ function generalPage(id) {
 }
 
 async function loadData(lang) {
-  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=9.0')).json());
+  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=9.1')).json());
 }
 
 function wire() {

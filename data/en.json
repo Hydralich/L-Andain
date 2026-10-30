@@ -96,6 +96,7 @@
         "title": "Pellet stove",
         "body": [
           "The pellet stove heats the cottage. It warms up the rooms quickly and creates a cosy atmosphere, even when the weather is less inviting.",
+          "A spare stock of bags is available in the small wooden cabinet in the living room.",
           "Switching on the stove",
           "Check that the glass door and pellet hopper lid are properly closed.",
           "Press and hold the P1 (on/off) button on the control panel for a few moments.",
@@ -428,6 +429,21 @@
           "Phone: +32 (0)71 79 99 43",
           "Email: info@chateaudebioul.com",
           "Website: https://www.chateaudebioul.be"
+        ]
+      },
+      "escargotiere": {
+        "title": "L’Escargotière de Warnant",
+        "body": [
+          "A delightful and original gourmet stop in the heart of the Molignée valley.",
+          "L’Escargotière de Warnant has been breeding and preparing snails by hand for many years. It is a great place to discover local know-how, regional products and a Belgian speciality to taste on site or take away.",
+          "The shop offers a range of snail specialities as well as a selection of local products. Guided visits are also available by reservation.",
+          "Practical information",
+          "Address: Rue de la Gare 1, 5537 Warnant",
+          "Phone: +32 (0)82 61 23 52",
+          "Email: info@escargotiere.be",
+          "Website: https://www.escargotiere.be",
+          "The shop is open all year round from Tuesday to Saturday, 9:00 am to 12:30 pm and 1:30 pm to 6:00 pm.",
+          "Visits are by reservation. Opening times may change, so it is worth checking before you go."
         ]
       }
     }
