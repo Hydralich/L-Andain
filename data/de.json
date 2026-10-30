@@ -355,6 +355,21 @@
           "Website: https://chateau-veves.be",
           "Saisonabhängige Besuchszeiten: Bitte prüfen Sie vorab die offizielle Website. Haustiere sind im Schloss nicht erlaubt, es sei denn, sie können auf dem Arm getragen werden."
         ]
+      },
+      "annevoie": {
+        "title": "Die Gärten von Annevoie",
+        "body": [
+          "Die Gärten von Annevoie stammen aus dem 18. Jahrhundert und laden zu einem Spaziergang zwischen Wasserspielen, reizvollen Gartenansichten und historischem Erbe ein.",
+          "Die Anlage verbindet französische, italienische und englische Gartenkunst. Das Besondere: Brunnen, Kaskaden und Teiche werden durch die natürliche Strömung des Wassers betrieben – ganz ohne mechanische Pumpen.",
+          "Auf den Wegen entdecken Sie das Schloss, beeindruckende Bäume und immer neue Ausblicke. In den Gärten finden außerdem saisonale Veranstaltungen statt, darunter Kostümfeste und winterliche Events.",
+          "Ein schöner Ort, um in Ruhe die Landschaft zu genießen und ein außergewöhnliches Stück regionaler Gartenkultur kennenzulernen.",
+          "Praktische Informationen",
+          "Adresse: rue des Jardins 37A, 5537 Annevoie",
+          "Telefon: +32 (0)82 67 97 97",
+          "E-Mail: info@annevoie.be",
+          "Website: https://www.annevoie.be",
+          "Saisonale Öffnung: Informieren Sie sich vor Ihrem Besuch auf der Website über Öffnungszeiten und Veranstaltungen."
+        ]
       }
     }
   },
@@ -444,21 +459,6 @@
           "Website: https://www.escargotiere.be",
           "Das Geschäft ist das ganze Jahr über von Dienstag bis Samstag von 9:00 bis 12:30 Uhr und von 13:30 bis 18:00 Uhr geöffnet.",
           "Besichtigungen sind nach Reservierung möglich. Prüfen Sie die Öffnungszeiten am besten vor Ihrem Besuch."
-        ]
-      },
-      "annevoie": {
-        "title": "Die Gärten von Annevoie",
-        "body": [
-          "Die Gärten von Annevoie stammen aus dem 18. Jahrhundert und laden zu einem Spaziergang zwischen Wasserspielen, reizvollen Gartenansichten und historischem Erbe ein.",
-          "Die Anlage verbindet französische, italienische und englische Gartenkunst. Das Besondere: Brunnen, Kaskaden und Teiche werden durch die natürliche Strömung des Wassers betrieben – ganz ohne mechanische Pumpen.",
-          "Auf den Wegen entdecken Sie das Schloss, beeindruckende Bäume und immer neue Ausblicke. In den Gärten finden außerdem saisonale Veranstaltungen statt, darunter Kostümfeste und winterliche Events.",
-          "Ein schöner Ort, um in Ruhe die Landschaft zu genießen und ein außergewöhnliches Stück regionaler Gartenkultur kennenzulernen.",
-          "Praktische Informationen",
-          "Adresse: rue des Jardins 37A, 5537 Annevoie",
-          "Telefon: +32 (0)82 67 97 97",
-          "E-Mail: info@annevoie.be",
-          "Website: https://www.annevoie.be",
-          "Saisonale Öffnung: Informieren Sie sich vor Ihrem Besuch auf der Website über Öffnungszeiten und Veranstaltungen."
         ]
       }
     }

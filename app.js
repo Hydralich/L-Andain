@@ -545,7 +545,7 @@ function generalPage(id) {
 }
 
 async function loadData(lang) {
-  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=9.2')).json());
+  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=9.3')).json());
 }
 
 function wire() {

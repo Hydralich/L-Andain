@@ -353,6 +353,21 @@
           "Site : https://chateau-veves.be",
           "Visites selon la saison : vérifiez les horaires sur le site officiel. Les animaux ne sont pas admis à l'intérieur, sauf s'ils peuvent être portés dans les bras."
         ]
+      },
+      "annevoie": {
+        "title": "Les Jardins d’Annevoie",
+        "body": [
+          "Depuis le XVIIIe siècle, les Jardins d’Annevoie offrent une promenade entre jeux d’eau, perspectives végétales et patrimoine historique.",
+          "Le domaine réunit les styles français, italien et anglais. Sa particularité ? Fontaines, cascades et bassins fonctionnent grâce à la circulation naturelle de l’eau, sans pompe mécanique.",
+          "Au fil des allées, on découvre le château, de magnifiques arbres et des points de vue très différents. Le jardin accueille aussi des événements saisonniers, notamment des rendez-vous costumés et des animations de fin d’année.",
+          "Une jolie découverte pour prendre son temps, profiter du calme et admirer un patrimoine paysager assez unique dans la région.",
+          "Informations pratiques",
+          "Adresse : rue des Jardins 37A, 5537 Annevoie",
+          "Téléphone : +32 (0)82 67 97 97",
+          "E-mail : info@annevoie.be",
+          "Site : https://www.annevoie.be",
+          "Ouverture saisonnière : consultez le site pour les horaires et les événements avant votre visite."
+        ]
       }
     }
   },
@@ -442,21 +457,6 @@
           "Site : https://www.escargotiere.be",
           "Magasin ouvert toute l’année du mardi au samedi, de 9h à 12h30 et de 13h30 à 18h.",
           "Visites sur réservation. Il est conseillé de vérifier les horaires avant votre visite."
-        ]
-      },
-      "annevoie": {
-        "title": "Les Jardins d’Annevoie",
-        "body": [
-          "Depuis le XVIIIe siècle, les Jardins d’Annevoie offrent une promenade entre jeux d’eau, perspectives végétales et patrimoine historique.",
-          "Le domaine réunit les styles français, italien et anglais. Sa particularité ? Fontaines, cascades et bassins fonctionnent grâce à la circulation naturelle de l’eau, sans pompe mécanique.",
-          "Au fil des allées, on découvre le château, de magnifiques arbres et des points de vue très différents. Le jardin accueille aussi des événements saisonniers, notamment des rendez-vous costumés et des animations de fin d’année.",
-          "Une jolie découverte pour prendre son temps, profiter du calme et admirer un patrimoine paysager assez unique dans la région.",
-          "Informations pratiques",
-          "Adresse : rue des Jardins 37A, 5537 Annevoie",
-          "Téléphone : +32 (0)82 67 97 97",
-          "E-mail : info@annevoie.be",
-          "Site : https://www.annevoie.be",
-          "Ouverture saisonnière : consultez le site pour les horaires et les événements avant votre visite."
         ]
       }
     }
