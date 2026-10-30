@@ -217,6 +217,31 @@ function linkify(str) {
     .replace(/\n/g, '<br>');
 }
 
+// Make physical addresses in tourist listings open Google Maps.
+// The addresses remain maintained in the original language JSON files.
+const DISCOVER_ADDRESS_LABELS = new Set([
+  'adresse', 'address', 'adres', 'accès', 'access', 'toegang', 'zugang',
+  'départ de falaën', 'autre départ', 'falaën departure', 'other departure',
+  'vertrek falaën', 'ander vertrekpunt', 'abfahrt in falaën', 'weiterer startpunkt',
+  'parc aventure', 'croisières', 'adventure park', 'river cruises',
+  'avonturenpark', 'boottochten', 'abenteuerpark', 'bootsfahrten',
+  'départ', 'starting point', 'vertrek', 'startpunkt'
+]);
+
+function discoverLineHTML(txt) {
+  const match = txt.match(/^([^:]+):\\s*(.+)$/u);
+  if (!match) return linkify(txt);
+  const label = match[1].trim();
+  const address = match[2].trim();
+  if (!DISCOVER_ADDRESS_LABELS.has(label.toLocaleLowerCase('fr'))) return linkify(txt);
+  // Do not create misleading directions to vague places such as "the cottage".
+  const specificPlace = /\\b\\d{4}\\b|\\b(rue|place|avenue|chaussée|chemin|kerk|église|church|kirche)\\b/iu.test(address);
+  if (!specificPlace) return linkify(txt);
+  const mapsURL = 'https://www.google.com/maps/search/?api=1&query=' +
+    encodeURIComponent(address + ', Belgique');
+  return `${escapeHTML(label)} : <a href="${mapsURL}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHTML(label + ': ' + address)} — Google Maps">${escapeHTML(address)}</a>`;
+}
+
 function isBodyHeading(txt) {
   return txt.length < 67 && !txt.includes(':') && !txt.startsWith('http') && !/^[+\d]/.test(txt) && !txt.includes('@') && !/[.!?]$/.test(txt);
 }
@@ -326,13 +351,13 @@ function inductionBodyHTML(arr) {
   </div>`;
 }
 
-function bodyHTML(arr) {
+function bodyHTML(arr, isDiscover = false) {
   return (arr || []).map(line => {
     const txt = line.trim();
     if (!txt) return '';
     const isstep = /^\d+[.)]\s/.test(txt);
     const notice = isNoticeLine(txt);
-    if (notice) return `<p class="notice">${linkify(txt)}</p>`;
+    if (notice) return `<p class="notice">${(isDiscover ? discoverLineHTML(txt) : linkify(txt))}</p>`;
     if (isstep) {
       const match = txt.match(/^(\d+)[.)]\s*(.*)$/);
       return `<div class="step"><span class="stepNumber">${match[1]}</span><p>${linkify(match[2])}</p></div>`;
@@ -340,7 +365,7 @@ function bodyHTML(arr) {
     if (isBodyHeading(txt)) {
       return `<h3>${escapeHTML(txt)}</h3>`;
     }
-    return `<p>${linkify(txt)}</p>`;
+    return `<p>${(isDiscover ? discoverLineHTML(txt) : linkify(txt))}</p>`;
   }).join('');
 }
 
@@ -520,7 +545,7 @@ function detailPage(id) {
   const images = topicPhotos(id, group);
   return pathnav([[parent, href(groupIsDiscover ? 'discover' : 'house')], [cleanTitle(state.data[group].title), backTarget], [cleanTitle(topic.title), null]]) +
     pageTitle(cleanTitle(topic.title)) +
-    `<div class="detailLayout detailFocus"><div>${galleryHTML(images, itemIcon[id] || 'sparkle', cleanTitle(topic.title))}<div class="paper article ${id === 'stove' ? 'manualArticle' : ''}">${id === 'stove' ? stoveBodyHTML(topic.body) : id === 'bath' ? bathBodyHTML(topic.body) : id === 'coffee' ? coffeeBodyHTML(topic.body) : id === 'induction' ? inductionBodyHTML(topic.body) : id === 'tv' ? tvBodyHTML(topic.body) : bodyHTML(topic.body)}</div><a class="backRoom pressable" href="${backTarget}">${iconText('back',17)} ${escapeHTML(t.backTo)} ${escapeHTML(cleanTitle(state.data[group].title))}</a>${related.length ? `<div class="morelist"><h3>${escapeHTML(w.quick)}</h3><div class="list">${related.map(([key, value]) => listrow(cleanTitle(value.title), '', itemIcon[key], href('guide', key), groupIsDiscover ? topicPhoto(key, group) : '')).join('')}</div></div>` : ''}</div></div>`;
+    `<div class="detailLayout detailFocus"><div>${galleryHTML(images, itemIcon[id] || 'sparkle', cleanTitle(topic.title))}<div class="paper article ${id === 'stove' ? 'manualArticle' : ''}">${id === 'stove' ? stoveBodyHTML(topic.body) : id === 'bath' ? bathBodyHTML(topic.body) : id === 'coffee' ? coffeeBodyHTML(topic.body) : id === 'induction' ? inductionBodyHTML(topic.body) : id === 'tv' ? tvBodyHTML(topic.body) : bodyHTML(topic.body, groupIsDiscover)}</div><a class="backRoom pressable" href="${backTarget}">${iconText('back',17)} ${escapeHTML(t.backTo)} ${escapeHTML(cleanTitle(state.data[group].title))}</a>${related.length ? `<div class="morelist"><h3>${escapeHTML(w.quick)}</h3><div class="list">${related.map(([key, value]) => listrow(cleanTitle(value.title), '', itemIcon[key], href('guide', key), groupIsDiscover ? topicPhoto(key, group) : '')).join('')}</div></div>` : ''}</div></div>`;
 }
 
 function departureChecklist() {
@@ -545,7 +570,7 @@ function generalPage(id) {
 }
 
 async function loadData(lang) {
-  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=9.3')).json());
+  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=9.4')).json());
 }
 
 function wire() {
