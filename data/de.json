@@ -21,9 +21,7 @@
         "title": "Zugang zur Unterkunft",
         "body": [
           "Sie können selbstständig einchecken. Der Schlüsseltresor befindet sich neben dem Eingang.",
-          "Den Zugangscode senden wir Ihnen vor Ihrer Anreise per Nachricht.",
-          "Entnehmen Sie einfach den Schlüssel und betreten Sie die Unterkunft.",
-          "Bitte schließen Sie den Schlüsseltresor nach der Benutzung wieder sorgfältig."
+          "Den Zugangscode senden wir Ihnen vor Ihrer Anreise per Nachricht."
         ]
       }
     }
@@ -44,7 +42,6 @@
           "Mit dem Drehregler neben dem Knopf können Sie die Stärke der Massagedüsen einstellen.",
           "4. Drücken Sie denselben Knopf erneut, um die Düsen auszuschalten.",
           "Verwenden Sie bei eingeschalteten Düsen keine Seife, keinen Badeschaum, keine Öle und keine anderen Badezusätze. Diese könnten die Technik beschädigen.",
-          "Natürlich können Sie mit Ihren gewohnten Badezusätzen ein normales Bad nehmen, solange die Düsen ausgeschaltet bleiben.",
           "Schalten Sie das System niemals ein, wenn die Düsen nicht ausreichend mit Wasser bedeckt sind."
         ]
       },
@@ -52,8 +49,6 @@
         "title": "Der Handtuchheizkörper",
         "body": [
           "Der elektrische Handtuchheizkörper wärmt das Badezimmer schnell auf und hilft beim Trocknen Ihrer Handtücher.",
-          "Um Energie zu sparen, nutzen Sie ihn bitte nur bei Bedarf und schalten Sie ihn danach aus.",
-          "Lassen Sie ihn möglichst nicht dauerhaft eingeschaltet oder während längerer Abwesenheit laufen.",
           "Achtung: Legen Sie keine Handtücher oder anderen Gegenstände auf das obere Gitter des Geräts."
         ]
       }
@@ -67,7 +62,7 @@
         "title": "Bett und Stauraum",
         "body": [
           "Das Schlafzimmer verfügt über ein Bett, zwei Nachttische und einen Kleiderschrank.",
-          "Bitte beachten Sie, dass Bettwäsche nicht bereitgestellt wird. Falls Sie Ihre vergessen haben oder ein Problem auftritt, sagen Sie uns Bescheid – wir finden eine Lösung.",
+          "Bettwäsche wird nicht bereitgestellt. Falls Sie Ihre vergessen haben, kontaktieren Sie uns.",
           "Ein Babybett ist auf Anfrage verfügbar."
         ]
       },
@@ -129,10 +124,8 @@
           "Wichtige Vorsichtsmaßnahmen",
           "Legen Sie keine Gegenstände auf den Ofen oder in die Nähe heißer Oberflächen.",
           "Blockieren Sie niemals die Warmluftauslässe.",
-          "Bitte schalten Sie den Ofen aus, wenn Sie die Unterkunft für längere Zeit verlassen.",
           "Berühren oder entfernen Sie weder die Asche noch die inneren Bauteile.",
-          "Bei Alarm, ungewöhnlicher Rauchentwicklung oder Zündproblemen kontaktieren Sie uns bitte. Versuchen Sie nicht, den Ofen wiederholt neu zu starten.",
-          "Der Ofen verfügt über Sicherheitseinrichtungen. Wenden Sie sich bei Problemen lieber an uns, statt selbst Reparaturen vorzunehmen."
+          "Bei Alarm, ungewöhnlicher Rauchentwicklung oder Zündproblemen kontaktieren Sie uns bitte. Versuchen Sie nicht, den Ofen wiederholt neu zu starten."
         ]
       },
       "tv": {
@@ -150,7 +143,7 @@
           "Spielen",
           "Sie können das eigens für die Unterkunft eingerichtete Profil „L’Andain“ verwenden.",
           "Verschiedene Spiele stehen bereit und können auf der Konsole installiert werden.",
-          "Wenn Sie möchten, können Sie sich auch mit Ihrem eigenen PlayStation-Konto anmelden. Denken Sie bitte daran, sich vor der Abreise wieder abzumelden.",
+          "Sie können sich auch mit Ihrem eigenen PlayStation-Konto anmelden.",
           "Filme und Serien ansehen",
           "Mit der PlayStation 4 können Sie über Streaming-Apps Filme und Serien ansehen.",
           "Wir stellen Ihnen Netflix- und Disney+-Konten zur freien Nutzung zur Verfügung.",
@@ -212,8 +205,7 @@
       "dishwasher": {
         "title": "Die Spülmaschine",
         "body": [
-          "Eine Spülmaschine und einige Spültabs stehen Ihnen zur Verfügung.",
-          "Sie können sie gerne benutzen, besonders vor Ihrer Abreise. So helfen Sie uns, die Unterkunft für die nächsten Gäste vorzubereiten."
+          "Eine Spülmaschine und einige Spültabs stehen Ihnen zur Verfügung."
         ]
       },
       "otherappliances": {
@@ -259,8 +251,7 @@
         "body": [
           "L’Andain ist eine Nichtraucherunterkunft.",
           "Draußen dürfen Sie rauchen. Neben der Eingangstür steht ein Aschenbecher.",
-          "Ein zweiter Aschenbecher befindet sich in einem Küchenschrank.",
-          "Bitte benutzen Sie die Aschenbecher und werfen Sie keine Zigarettenstummel in den Garten."
+          "Ein zweiter Aschenbecher befindet sich in einem Küchenschrank."
         ]
       },
       "lighting": {

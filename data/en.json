@@ -21,9 +21,7 @@
         "title": "Access to the cottage",
         "body": [
           "You can check in independently using the key lockbox near the entrance.",
-          "We will send you the access code in a message before you arrive.",
-          "Simply collect the key to open the accommodation.",
-          "Please close the lockbox properly after using it."
+          "We will send you the access code in a message before you arrive."
         ]
       }
     }
@@ -44,7 +42,6 @@
           "Next to the button, a dial lets you adjust the intensity of the jets.",
           "4. Press the same button again to switch them off.",
           "Do not add soap, bubble bath, oil or any other product while using the jets. These products could damage the mechanism.",
-          "You are, of course, welcome to take an ordinary bath with your usual products, as long as you do not activate the jets.",
           "Never operate the system unless the jets are sufficiently submerged."
         ]
       },
@@ -52,8 +49,6 @@
         "title": "The heated towel rail",
         "body": [
           "The electric towel rail can quickly warm up the bathroom and dry your towels.",
-          "To save energy, please use it only when needed and switch it off afterwards.",
-          "Avoid leaving it on continuously or when you are away from the cottage for an extended period.",
           "Warning: do not place towels or other objects on the upper grille of the appliance."
         ]
       }
@@ -67,7 +62,7 @@
         "title": "Bed and storage",
         "body": [
           "The bedroom has a bed, two bedside tables and a wardrobe.",
-          "Please remember that bed linen is not provided. If you have forgotten yours or have any difficulty with this, let us know and we will find a solution.",
+          "Bed linen is not provided. Contact us if you have forgotten yours.",
           "A baby cot is available on request."
         ]
       },
@@ -129,10 +124,8 @@
           "A few precautions",
           "Do not put anything on the stove or close to hot surfaces.",
           "Never obstruct the hot-air outlets.",
-          "Please turn the stove off if you leave the cottage for an extended period.",
           "Do not handle the ashes or internal components.",
-          "In the event of an alarm, unusual smoke or ignition problem, contact us. Do not attempt repeated restarts.",
-          "The stove has built-in safety devices. If there is a problem, please let us know rather than attempting repairs yourself."
+          "In the event of an alarm, unusual smoke or ignition problem, contact us. Do not attempt repeated restarts."
         ]
       },
       "tv": {
@@ -150,7 +143,7 @@
           "Playing games",
           "You can use the “L'Andain” profile created for the cottage.",
           "Several games are available and can be installed on the console.",
-          "You may also sign in with your own PlayStation account if you wish. Just remember to sign out before leaving.",
+          "You may also sign in with your own PlayStation account.",
           "Watching films and series",
           "The PlayStation 4 also lets you watch films and series using streaming apps.",
           "We provide Netflix and Disney+ accounts that you are welcome to use.",
@@ -212,8 +205,7 @@
       "dishwasher": {
         "title": "Dishwasher",
         "body": [
-          "A dishwasher is available, along with a few dishwasher tablets.",
-          "Please feel free to use it, especially before leaving, to help us prepare the cottage for the next guests."
+          "A dishwasher is available, along with a few dishwasher tablets."
         ]
       },
       "otherappliances": {
@@ -259,8 +251,7 @@
         "body": [
           "L'Andain is a non-smoking property.",
           "You may smoke outside. An ashtray is available beside the entrance door.",
-          "A second ashtray is kept in a kitchen cupboard.",
-          "Please use the ashtrays and do not throw cigarette ends into the garden."
+          "A second ashtray is kept in a kitchen cupboard."
         ]
       },
       "lighting": {

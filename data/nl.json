@@ -21,9 +21,7 @@
         "title": "Toegang tot het vakantieverblijf",
         "body": [
           "U kunt zelfstandig inchecken via het sleutelkastje bij de ingang.",
-          "Voor uw aankomst ontvangt u de toegangscode in een bericht.",
-          "Haal de sleutel uit het kastje om de deur te openen.",
-          "Vergeet niet het sleutelkastje na gebruik goed te sluiten."
+          "Voor uw aankomst ontvangt u de toegangscode in een bericht."
         ]
       }
     }
@@ -44,7 +42,6 @@
           "Naast de knop kunt u met een draaiknop de kracht van de waterjets regelen.",
           "4. Druk nogmaals op dezelfde knop om de functie uit te schakelen.",
           "Voeg geen zeep, badschuim, olie of andere producten toe zolang u de jets gebruikt. Die kunnen het mechanisme beschadigen.",
-          "U mag natuurlijk een gewoon bad nemen met uw vertrouwde badproducten, zolang u de jets niet inschakelt.",
           "Gebruik het systeem nooit wanneer de jets onvoldoende onder water staan."
         ]
       },
@@ -52,8 +49,6 @@
         "title": "De elektrische handdoekradiator",
         "body": [
           "De elektrische handdoekradiator verwarmt de badkamer snel en helpt uw handdoeken te drogen.",
-          "Om energie te besparen, vragen we u hem alleen te gebruiken wanneer dat nodig is en nadien uit te schakelen.",
-          "Laat hem niet voortdurend aanstaan en schakel hem ook uit wanneer u langere tijd weggaat.",
           "Let op: leg geen handdoeken of andere voorwerpen op het bovenste rooster van het toestel."
         ]
       }
@@ -67,7 +62,7 @@
         "title": "Bed en opbergruimte",
         "body": [
           "De slaapkamer beschikt over een bed, twee nachtkastjes en een kleerkast.",
-          "Ter herinnering: beddengoed is niet inbegrepen. Bent u iets vergeten of hebt u daardoor een probleem, laat het ons weten. Dan zoeken we samen een oplossing.",
+          "Beddengoed is niet inbegrepen. Neem contact met ons op als u het vergeten bent.",
           "Een babybedje is op aanvraag beschikbaar."
         ]
       },
@@ -129,10 +124,8 @@
           "Enkele voorzorgsmaatregelen",
           "Zet geen voorwerpen op de kachel of dicht bij hete oppervlakken.",
           "Blokkeer de uitblaasopeningen voor warme lucht nooit.",
-          "Schakel de kachel uit wanneer u het verblijf voor langere tijd verlaat.",
           "Raak de as of interne onderdelen niet aan.",
-          "Neem bij een alarm, ongebruikelijke rook of een ontstekingsprobleem contact met ons op. Probeer niet herhaaldelijk opnieuw te starten.",
-          "De kachel heeft ingebouwde beveiligingen. Laat het ons bij problemen weten in plaats van zelf herstellingen uit te voeren."
+          "Neem bij een alarm, ongebruikelijke rook of een ontstekingsprobleem contact met ons op. Probeer niet herhaaldelijk opnieuw te starten."
         ]
       },
       "tv": {
@@ -150,7 +143,7 @@
           "Gamen",
           "U kunt het profiel “L'Andain” gebruiken dat speciaal voor het vakantieverblijf is aangemaakt.",
           "Er zijn verschillende spellen beschikbaar die op de console kunnen worden geïnstalleerd.",
-          "U mag ook met uw eigen PlayStation-account inloggen. Vergeet dan niet om vóór uw vertrek uit te loggen.",
+          "U kunt ook met uw eigen PlayStation-account inloggen.",
           "Films en series kijken",
           "Met de PlayStation 4 kunt u via streamingapps films en series bekijken.",
           "Wij stellen Netflix- en Disney+-accounts ter beschikking die u vrij mag gebruiken.",
@@ -212,8 +205,7 @@
       "dishwasher": {
         "title": "Vaatwasser",
         "body": [
-          "Er staat een vaatwasser ter beschikking, samen met enkele vaatwastabletten.",
-          "Gebruik hem gerust, ook vlak voor uw vertrek. Zo helpt u ons het vakantieverblijf klaar te maken voor de volgende gasten."
+          "Er staat een vaatwasser ter beschikking, samen met enkele vaatwastabletten."
         ]
       },
       "otherappliances": {
@@ -259,8 +251,7 @@
         "body": [
           "L'Andain is een rookvrij vakantieverblijf.",
           "Buiten mag u roken. Er staat een asbak naast de voordeur.",
-          "Een tweede asbak vindt u in een keukenkast.",
-          "Gebruik de asbakken en gooi geen sigarettenpeuken in de tuin."
+          "Een tweede asbak vindt u in een keukenkast."
         ]
       },
       "lighting": {

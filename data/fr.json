@@ -21,9 +21,7 @@
         "title": "Accès au gîte",
         "body": [
           "L'arrivée se fait en autonomie grâce à une boîte à clés située près de l'entrée.",
-          "Vous recevrez le code d'ouverture dans un message avant votre arrivée.",
-          "Il vous suffira de récupérer la clé pour accéder au logement.",
-          "Pensez à bien refermer la boîte après utilisation."
+          "Vous recevrez le code d'ouverture dans un message avant votre arrivée."
         ]
       }
     }
@@ -43,7 +41,6 @@
           "À côté du bouton, une molette vous permet de régler l’intensité des jets.",
           "Appuyez à nouveau sur ce bouton pour les arrêter.",
           "N'ajoutez pas de savon, bain moussant, huile ou autre produit dans l'eau lorsque le système de jets est utilisé. Ces produits risquent d'endommager le mécanisme.",
-          "Vous pouvez bien entendu prendre un bain classique avec vos produits habituels, à condition de ne pas activer les remous.",
           "N'actionnez jamais le système lorsque les buses ne sont pas suffisamment immergées."
         ]
       },
@@ -51,8 +48,6 @@
         "title": "Le sèche-serviettes",
         "body": [
           "Le sèche-serviettes électrique permet de réchauffer rapidement la salle de bain et de sécher vos serviettes.",
-          "Pour limiter la consommation d'énergie, merci de l'utiliser uniquement lorsque c'est nécessaire et de l'éteindre après utilisation.",
-          "Évitez de le laisser fonctionner en permanence ou lorsque vous quittez le gîte pour une longue période.",
           "Attention : ne déposez pas de serviettes ou d'objets sur la grille supérieure de l'appareil."
         ]
       }
@@ -66,7 +61,7 @@
         "title": "Le lit et les rangements",
         "body": [
           "La chambre dispose d'un lit, de deux tables de nuit et d'une penderie.",
-          "Pour rappel, le linge de lit n'est pas fourni. Si vous avez un oubli ou un problème à ce niveau-là, prévenez-nous et nous trouverons une solution.",
+          "Le linge de lit n'est pas fourni. En cas d'oubli, contactez-nous.",
           "Un lit bébé est disponible sur demande."
         ]
       },
@@ -128,10 +123,8 @@
           "Quelques précautions",
           "Ne posez aucun objet sur le poêle ou à proximité des surfaces chaudes.",
           "Ne bloquez jamais les sorties d'air chaud.",
-          "Pensez à éteindre le poêle lorsque vous quittez le gîte pour une longue période.",
           "Ne manipulez pas les cendres ou les éléments internes.",
-          "En cas d'alarme, de fumée inhabituelle ou de problème d'allumage, contactez-nous. Ne tentez pas de redémarrages répétés.",
-          "Le poêle est équipé de dispositifs de sécurité. En cas de problème, mieux vaut nous prévenir plutôt que d'essayer de le réparer vous-même."
+          "En cas d'alarme, de fumée inhabituelle ou de problème d'allumage, contactez-nous. Ne tentez pas de redémarrages répétés."
         ]
       },
       "tv": {
@@ -148,7 +141,7 @@
           "Pour jouer",
           "Vous pouvez utiliser le profil « L'Andain » créé pour le gîte.",
           "Plusieurs jeux sont disponibles et peuvent être installés sur la console.",
-          "Vous pouvez également vous connecter avec votre propre compte PlayStation si vous le souhaitez. Pensez simplement à vous déconnecter avant votre départ.",
+          "Vous pouvez également vous connecter avec votre propre compte PlayStation.",
           "Pour regarder des films et séries",
           "La PlayStation 4 permet de regarder des films et des séries grâce à ses applications de streaming.",
           "Nous mettons à votre disposition des comptes Netflix et Disney+ que vous pouvez utiliser librement.",
@@ -210,8 +203,7 @@
       "dishwasher": {
         "title": "Le lave-vaisselle",
         "body": [
-          "Un lave-vaisselle est à votre disposition, ainsi que quelques capsules de lavage.",
-          "N'hésitez pas à l'utiliser, notamment avant votre départ, pour nous aider à préparer le gîte pour les prochains voyageurs."
+          "Un lave-vaisselle est à votre disposition, ainsi que quelques capsules de lavage."
         ]
       },
       "otherappliances": {
@@ -257,8 +249,7 @@
         "body": [
           "L'Andain est un logement non-fumeur.",
           "Vous pouvez fumer à l'extérieur, où un cendrier est disponible près de la porte d'entrée.",
-          "Un second cendrier est rangé dans une armoire de la cuisine.",
-          "Merci de les utiliser et de ne pas jeter vos mégots dans le jardin."
+          "Un second cendrier est rangé dans une armoire de la cuisine."
         ]
       },
       "lighting": {
