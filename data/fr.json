@@ -399,6 +399,20 @@
           "E-mail : brasserie@bocq.be",
           "Site : https://www.bocq.be"
         ]
+      },
+      "bioul": {
+        "title": "Le château et vignoble de Bioul",
+        "body": [
+          "À une vingtaine de minutes du gîte, le Château de Bioul est un lieu élégant où se mêlent patrimoine, nature et culture du vin.",
+          "Ce domaine familial abrite un vignoble bio au cœur d'un cadre historique remarquable. On y découvre le château, les vignes et l'univers de la vinification à travers différentes formules de visite et de dégustation.",
+          "C'est une belle idée de sortie pour alterner promenade, découverte du terroir et moment gourmand, dans une ambiance à la fois raffinée et accessible.",
+          "Le site accueille aussi régulièrement des événements, ce qui en fait une destination vivante au fil des saisons.",
+          "Informations pratiques",
+          "Adresse : place Vaxelaire 1, 5537 Bioul",
+          "Téléphone : +32 (0)71 79 99 43",
+          "E-mail : info@chateaudebioul.com",
+          "Site : https://www.chateaudebioul.be"
+        ]
       }
     }
   },
