@@ -344,7 +344,7 @@
     }
   },
   "abbeys": {
-    "title": "2. Abteien: Kulturerbe, Traditionen und Genuss",
+    "title": "2. Abteien, Kulturerbe, Traditionen und Genuss",
     "body": [],
     "topics": {
       "maredsous": {
@@ -386,6 +386,20 @@
           "E-Mail: hotel@infiniti-resort.be",
           "Website: https://www.leffe.com/fr-be/maison-leffe",
           "Eine Reservierung wird empfohlen."
+        ]
+      },
+      "bocq": {
+        "title": "Brasserie du Bocq",
+        "body": [
+          "In Purnode pflegt die Brasserie du Bocq seit 1858 eine lange Brautradition.",
+          "Die Brauerei ist bis heute unabhängig und familiengeführt und bekannt für ihre Spezialbiere wie Blanche de Namur, Gauloise und Triple Moine.",
+          "Hier treffen Kulturerbe, Handwerkskunst und Genuss aufeinander. Es ist ein schöner Zwischenstopp, um eine andere Seite des Tals zwischen Ortsgeschichte und Bierkultur zu entdecken.",
+          "Wenn Sie Bier mögen oder einfach charaktervolle Orte schätzen, lohnt sich der Abstecher auf jeden Fall.",
+          "Praktische Informationen",
+          "Adresse: rue de la Brasserie 4, 5530 Purnode (Yvoir)",
+          "Telefon: +32 (0)82 61 07 80",
+          "E-Mail: brasserie@bocq.be",
+          "Website: https://www.bocq.be"
         ]
       }
     }

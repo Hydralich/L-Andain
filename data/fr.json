@@ -342,7 +342,7 @@
     }
   },
   "abbeys": {
-    "title": "2. Les abbayes : patrimoine, traditions et gourmandises",
+    "title": "2. Abbayes, patrimoine, traditions et gourmandises",
     "body": [],
     "topics": {
       "maredsous": {
@@ -384,6 +384,20 @@
           "E-mail : hotel@infiniti-resort.be",
           "Site : https://www.leffe.com/fr-be/maison-leffe",
           "Réservation conseillée."
+        ]
+      },
+      "bocq": {
+        "title": "La Brasserie du Bocq",
+        "body": [
+          "À Purnode, la Brasserie du Bocq fait vivre une tradition brassicole depuis 1858.",
+          "Toujours indépendante et familiale, elle est connue pour ses bières spéciales, parmi lesquelles la Blanche de Namur, la Gauloise ou encore la Triple Moine.",
+          "Le lieu mêle patrimoine, savoir-faire et gourmandise. C'est une belle halte pour découvrir une autre facette de la vallée, entre histoire locale et culture brassicole.",
+          "Si vous aimez la bière ou simplement les lieux de caractère, l'endroit mérite clairement le détour.",
+          "Informations pratiques",
+          "Adresse : rue de la Brasserie 4, 5530 Purnode (Yvoir)",
+          "Téléphone : +32 (0)82 61 07 80",
+          "E-mail : brasserie@bocq.be",
+          "Site : https://www.bocq.be"
         ]
       }
     }

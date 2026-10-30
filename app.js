@@ -143,6 +143,7 @@ const DISCOVER_GALLERIES = {
   maredsous:['./assets/photos/maredsous-1.webp','./assets/photos/maredsous-2.webp','./assets/photos/maredsous-3.webp'],
   leffe:['./assets/photos/leffe-1.webp','./assets/photos/leffe-2.webp'],
   maisonleffe:['./assets/photos/leffe-3.webp','./assets/photos/maisonleffe-1.webp','./assets/photos/maisonleffe-2.webp'],
+  bocq:['./assets/photos/bocq-1.webp','./assets/photos/bocq-2.webp'],
   draisines:['./assets/photos/draisines-1.webp','./assets/photos/draisines-2.webp','./assets/photos/draisines-3.webp'],
   dinantevasion:['./assets/photos/dinantevasion-1.webp','./assets/photos/dinantevasion-2.webp','./assets/photos/dinantevasion-3.webp'],
   dinant:['./assets/photos/dinant-1.webp'],
@@ -163,7 +164,7 @@ const DISCOVER_CARD_IMAGES = {
 const itemIcon = {
   times:'clock', parking:'door', keys:'key', bath:'bath', towel:'sun', bed:'bed', charging:'phone', bedheating:'flame', gardenaccess:'tree',
   stove:'flame', tv:'tv', playstation:'tv', oven:'utensils', microwave:'utensils', induction:'flame', coffee:'coffee', dishwasher:'utensils', otherappliances:'utensils', waste:'list',
-  garden:'tree', smoking:'tree', lighting:'sun', reviews:'sparkle', montaigle:'home', poilvache:'home', maredsous:'home', leffe:'home', maisonleffe:'home', draisines:'foot',
+  garden:'tree', smoking:'tree', lighting:'sun', reviews:'sparkle', montaigle:'home', poilvache:'home', maredsous:'home', leffe:'home', maisonleffe:'home', bocq:'home', draisines:'foot',
   dinantevasion:'sparkle', dinant:'map', tokyowalk:'foot', fondsvau:'foot', weillen:'foot', flavionmontaigle:'foot', falaenwalk:'foot', vitoulet:'utensils', walhere:'utensils', artiste:'utensils', forgetoi:'utensils'
 };
 
@@ -540,7 +541,7 @@ function generalPage(id) {
 }
 
 async function loadData(lang) {
-  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=8.7')).json());
+  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=8.8')).json());
 }
 
 function wire() {

@@ -344,7 +344,7 @@
     }
   },
   "abbeys": {
-    "title": "2. Abdijen: erfgoed, tradities en lekkernijen",
+    "title": "2. Abdijen, erfgoed, tradities en lekkernijen",
     "body": [],
     "topics": {
       "maredsous": {
@@ -386,6 +386,20 @@
           "E-mail: hotel@infiniti-resort.be",
           "Website: https://www.leffe.com/fr-be/maison-leffe",
           "Reserveren is aanbevolen."
+        ]
+      },
+      "bocq": {
+        "title": "Brasserie du Bocq",
+        "body": [
+          "In Purnode houdt Brasserie du Bocq al sinds 1858 een rijke brouwtraditie levend.",
+          "De brouwerij is nog altijd onafhankelijk en familiaal, en staat bekend om haar speciaalbieren zoals Blanche de Namur, Gauloise en Triple Moine.",
+          "Deze plek combineert erfgoed, vakmanschap en lekkernijen. Het is een mooie tussenstop om een andere kant van de vallei te ontdekken, tussen lokale geschiedenis en biercultuur.",
+          "Als u van bier houdt, of gewoon van plekken met karakter, is dit zeker een omweg waard.",
+          "Praktische informatie",
+          "Adres: rue de la Brasserie 4, 5530 Purnode (Yvoir)",
+          "Telefoon: +32 (0)82 61 07 80",
+          "E-mail: brasserie@bocq.be",
+          "Website: https://www.bocq.be"
         ]
       }
     }
