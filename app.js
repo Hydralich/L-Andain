@@ -221,21 +221,23 @@ function linkify(str) {
 // The addresses remain maintained in the original language JSON files.
 const DISCOVER_ADDRESS_LABELS = new Set([
   'adresse', 'address', 'adres', 'accès', 'access', 'toegang', 'zugang',
-  'départ de falaën', 'autre départ', 'falaën departure', 'other departure',
-  'vertrek falaën', 'ander vertrekpunt', 'abfahrt in falaën', 'weiterer startpunkt',
-  'parc aventure', 'croisières', 'adventure park', 'river cruises',
-  'avonturenpark', 'boottochten', 'abenteuerpark', 'bootsfahrten',
+  'départ de falaën', 'falaën departure', 'vertrek falaën', 'abfahrt in falaën',
+  'autre départ', 'other departure', 'ander vertrekpunt', 'weiterer startpunkt',
+  'accueil et kayaks', 'reception and kayaks', 'onthaal en kajaks', 'empfang und kajaks',
+  'parc aventure', 'adventure park', 'avonturenpark', 'abenteuerpark',
+  'croisières', 'river cruises', 'boottochten', 'bootsfahrten',
   'départ', 'starting point', 'vertrek', 'startpunkt'
 ]);
 
 function discoverLineHTML(txt) {
-  const match = txt.match(/^([^:]+):\\s*(.+)$/u);
+  // Match physical-address labels only; other text (phone, site, email) is unchanged.
+  const match = txt.match(/^([^:]+):\s*(.+)$/u);
   if (!match) return linkify(txt);
   const label = match[1].trim();
   const address = match[2].trim();
   if (!DISCOVER_ADDRESS_LABELS.has(label.toLocaleLowerCase('fr'))) return linkify(txt);
-  // Do not create misleading directions to vague places such as "the cottage".
-  const specificPlace = /\\b\\d{4}\\b|\\b(rue|place|avenue|chaussée|chemin|kerk|église|church|kirche)\\b/iu.test(address);
+  // Only link addresses with a street or recognizable landmark; no vague starts.
+  const specificPlace = /\b\d{4}\b|\b(rue|place|avenue|chaussée|chemin|église|church|kirche|kerk)\b/iu.test(address);
   if (!specificPlace) return linkify(txt);
   const mapsURL = 'https://www.google.com/maps/search/?api=1&query=' +
     encodeURIComponent(address + ', Belgique');
@@ -570,7 +572,7 @@ function generalPage(id) {
 }
 
 async function loadData(lang) {
-  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=9.4')).json());
+  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=9.5')).json());
 }
 
 function wire() {
