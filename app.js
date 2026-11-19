@@ -336,16 +336,14 @@ function coffeeBodyHTML(arr) {
 }
 
 function inductionBodyHTML(arr) {
-  // The photo and temporary warning belong inside the article, not its header.
+  // Introduction, five numbered steps and a separate residual-heat precaution.
   const lines = (arr || []).map(line => String(line).trim()).filter(Boolean);
-  const [intro = '', warning = '', ...remaining] = lines;
-  const steps = remaining.slice(0, 5).map(text => text.replace(/^\d+[.)]\s*/, ''));
-  const precautions = remaining.slice(5);
-  const noteHeading = {fr:'Attention',en:'Important',nl:'Let op',de:'Achtung'}[state.lang];
+  const [intro = '', ...instructions] = lines;
+  const steps = instructions.slice(0, 5).map(text => text.replace(/^\d+[.)]\s*/, ''));
+  const precautions = instructions.slice(5);
   const photoAlt = {fr:'Panneau de commande des plaques à induction',en:'Induction hob control panel',nl:'Bedieningspaneel van de inductiekookplaat',de:'Bedienfeld des Induktionskochfelds'}[state.lang];
   return `<div class="inductionGuide">
     <figure class="inductionPanel"><img src="./assets/photos/kitchen-induction-controls.webp" alt="${escapeHTML(photoAlt)}" loading="lazy"></figure>
-    <section class="bathImportant" role="note"><span class="bathImportantIcon" aria-hidden="true">!</span><p><strong>${escapeHTML(noteHeading)} :</strong> ${linkify(warning)}</p></section>
     <p>${linkify(intro)}</p>
     <section class="stoveSequence inductionSequence"><div class="stepSequence">
       ${steps.map((step, index) => `<div class="step stepFlow"><span class="stepNumber">${index+1}</span><div class="stepContent"><p>${linkify(step)}</p></div></div>`).join('')}
@@ -573,7 +571,7 @@ function generalPage(id) {
 }
 
 async function loadData(lang) {
-  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=9.7')).json());
+  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=9.8')).json());
 }
 
 function wire() {
