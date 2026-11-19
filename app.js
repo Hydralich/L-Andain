@@ -188,6 +188,8 @@ const roomPhoto = id => ROOM_HEADER_IMAGES[id] || ROOM_TILE_IMAGES[id] || '';
 const topicPhotos = (id, group) => GUIDE_GALLERIES[id]?.length ? GUIDE_GALLERIES[id] : (DISCOVER_GALLERIES[id]?.length ? DISCOVER_GALLERIES[id] : (TOPIC_IMAGES[id] ? [TOPIC_IMAGES[id]] : (roomPhoto(group) ? [roomPhoto(group)] : [])));
 const topicPhoto = (id, group) => topicPhotos(id, group)[0] || '';
 const DISCOVER_THUMBNAILS = { tokyowalk:'./assets/photos/tokyo-walk-thumb.webp' };
+const DETAIL_INLINE_MEDIA = { tokyowalk:'./assets/photos/tokyo-walk-map.webp' };
+const PLAIN_HERO_TOPICS = new Set(['tokyowalk']);
 const topicThumbnail = (id, group) => DISCOVER_THUMBNAILS[id] || topicPhoto(id, group);
 const discoverCardPhoto = group => DISCOVER_CARD_IMAGES[group] || '';
 const photoStyle = (path, overlay='dark') => {
@@ -197,14 +199,18 @@ const photoStyle = (path, overlay='dark') => {
     : 'linear-gradient(180deg, rgba(39,17,20,0.16), rgba(39,17,20,0.78))';
   return `style="background-image:${gradient}, url('${path}');"`;
 };
+const plainPhotoStyle = path => path ? `style="background-image:url('${path}');"` : '';
 
 const thumbStyle = path => path ? `style="background-image:linear-gradient(180deg, rgba(39,17,20,0.14), rgba(39,17,20,0.48)), url('${path}');"` : '';
 
-function galleryHTML(images, iconName, label) {
+function galleryHTML(images, iconName, label, options = {}) {
   if (!images.length) {
     return `<div class="detailHero">${iconText(iconName || 'sparkle', 85)}<span>${escapeHTML(words[state.lang].photolater)}</span></div>`;
   }
   if (images.length === 1) {
+    if (options.plainHero) {
+      return `<div class="detailHero photoHero" ${plainPhotoStyle(images[0])}></div>`;
+    }
     return `<div class="detailHero photoHero" ${photoStyle(images[0])}><div class="photoOverlayContent">${iconText(iconName || 'sparkle', 85)}</div></div>`;
   }
   return `<div class="galleryHero" data-gallery><div class="galleryTrack">${images.map((img, i) => `<div class="gallerySlide${i===0 ? ' active' : ''}"><img src="${img}" alt="${escapeHTML(label)} ${i+1}" loading="lazy"></div>`).join('')}</div><button class="galleryNav prev pressable" type="button" data-gallery-prev aria-label="Previous image">${iconText('back',18)}</button><button class="galleryNav next pressable" type="button" data-gallery-next aria-label="Next image">${iconText('arrow',18)}</button><div class="galleryBadge">${iconText(iconName || 'sparkle',16)} <span>${images.length}</span></div><div class="galleryDots">${images.map((_, i) => `<button type="button" class="galleryDot${i===0 ? ' active' : ''}" data-gallery-dot="${i}" aria-label="Image ${i+1}"></button>`).join('')}</div></div>`;
@@ -353,6 +359,17 @@ function inductionBodyHTML(arr) {
     </div></section>
     ${precautions.map(line => `<p class="notice">${linkify(line)}</p>`).join('')}
   </div>`;
+}
+
+function detailInlineMediaHTML(id) {
+  if (!DETAIL_INLINE_MEDIA[id]) return '';
+  const alt = {
+    fr:{tokyowalk:'Carte de la balade de Tokyo'},
+    en:{tokyowalk:'Map of the Tokyo walk'},
+    nl:{tokyowalk:'Kaart van de Tokyo-wandeling'},
+    de:{tokyowalk:'Karte des Tokyo-Spaziergangs'}
+  }[state.lang]?.[id] || 'Map';
+  return `<figure class="detailInlineMedia" style="margin:0 0 24px 0;"><img src="${DETAIL_INLINE_MEDIA[id]}" alt="${escapeHTML(alt)}" loading="lazy" style="width:100%;height:auto;display:block;border-radius:18px;"></figure>`;
 }
 
 function bodyHTML(arr, isDiscover = false) {
@@ -549,7 +566,7 @@ function detailPage(id) {
   const images = topicPhotos(id, group);
   return pathnav([[parent, href(groupIsDiscover ? 'discover' : 'house')], [cleanTitle(state.data[group].title), backTarget], [cleanTitle(topic.title), null]]) +
     pageTitle(cleanTitle(topic.title)) +
-    `<div class="detailLayout detailFocus"><div>${galleryHTML(images, itemIcon[id] || 'sparkle', cleanTitle(topic.title))}<div class="paper article ${id === 'stove' ? 'manualArticle' : ''}">${id === 'stove' ? stoveBodyHTML(topic.body) : id === 'bath' ? bathBodyHTML(topic.body) : id === 'coffee' ? coffeeBodyHTML(topic.body) : id === 'induction' ? inductionBodyHTML(topic.body) : id === 'tv' ? tvBodyHTML(topic.body) : bodyHTML(topic.body, groupIsDiscover)}</div><a class="backRoom pressable" href="${backTarget}">${iconText('back',17)} ${escapeHTML(t.backTo)} ${escapeHTML(cleanTitle(state.data[group].title))}</a>${related.length ? `<div class="morelist"><h3>${escapeHTML(w.quick)}</h3><div class="list">${related.map(([key, value]) => listrow(cleanTitle(value.title), '', itemIcon[key], href('guide', key), groupIsDiscover ? topicPhoto(key, group) : '')).join('')}</div></div>` : ''}</div></div>`;
+    `<div class="detailLayout detailFocus"><div>${galleryHTML(images, itemIcon[id] || 'sparkle', cleanTitle(topic.title), { plainHero: PLAIN_HERO_TOPICS.has(id) })}<div class="paper article ${id === 'stove' ? 'manualArticle' : ''}">${id === 'stove' ? stoveBodyHTML(topic.body) : id === 'bath' ? bathBodyHTML(topic.body) : id === 'coffee' ? coffeeBodyHTML(topic.body) : id === 'induction' ? inductionBodyHTML(topic.body) : id === 'tv' ? tvBodyHTML(topic.body) : `${detailInlineMediaHTML(id)}${bodyHTML(topic.body, groupIsDiscover)}`}</div><a class="backRoom pressable" href="${backTarget}">${iconText('back',17)} ${escapeHTML(t.backTo)} ${escapeHTML(cleanTitle(state.data[group].title))}</a>${related.length ? `<div class="morelist"><h3>${escapeHTML(w.quick)}</h3><div class="list">${related.map(([key, value]) => listrow(cleanTitle(value.title), '', itemIcon[key], href('guide', key), groupIsDiscover ? topicPhoto(key, group) : '')).join('')}</div></div>` : ''}</div></div>`;
 }
 
 function departureChecklist() {
