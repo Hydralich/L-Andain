@@ -152,6 +152,7 @@ const DISCOVER_GALLERIES = {
   dinantevasion:['./assets/photos/dinantevasion-1.webp','./assets/photos/dinantevasion-2.webp','./assets/photos/dinantevasion-3.webp'],
   dinant:['./assets/photos/dinant-1.webp'],
   furfooz:['./assets/photos/furfooz-1.webp','./assets/photos/furfooz-2.webp','./assets/photos/furfooz-3.webp','./assets/photos/furfooz-4.webp','./assets/photos/furfooz-5.webp'],
+  tokyowalk:['./assets/photos/tokyo-walk-banner.webp'],
   vitoulet:['./assets/photos/food-vitoulet-1.webp','./assets/photos/food-vitoulet-2.webp'],
   walhere:['./assets/photos/food-walhere-1.webp','./assets/photos/food-walhere-2.webp'],
   artiste:['./assets/photos/food-artiste-1.webp','./assets/photos/food-artiste-2.webp'],
@@ -186,6 +187,8 @@ const roomTilePhoto = id => ROOM_TILE_IMAGES[id] || ROOM_HEADER_IMAGES[id] || ''
 const roomPhoto = id => ROOM_HEADER_IMAGES[id] || ROOM_TILE_IMAGES[id] || '';
 const topicPhotos = (id, group) => GUIDE_GALLERIES[id]?.length ? GUIDE_GALLERIES[id] : (DISCOVER_GALLERIES[id]?.length ? DISCOVER_GALLERIES[id] : (TOPIC_IMAGES[id] ? [TOPIC_IMAGES[id]] : (roomPhoto(group) ? [roomPhoto(group)] : [])));
 const topicPhoto = (id, group) => topicPhotos(id, group)[0] || '';
+const DISCOVER_THUMBNAILS = { tokyowalk:'./assets/photos/tokyo-walk-thumb.webp' };
+const topicThumbnail = (id, group) => DISCOVER_THUMBNAILS[id] || topicPhoto(id, group);
 const discoverCardPhoto = group => DISCOVER_CARD_IMAGES[group] || '';
 const photoStyle = (path, overlay='dark') => {
   if (!path) return '';
@@ -509,7 +512,7 @@ function discoverPage() {
   const content = sel === 'all'
     ? cards
     : `<button class="backCategory pressable" data-filter="all">${iconText('back',17)} ${escapeHTML(backCategories)}</button><div class="selectedCategory">${escapeHTML(cleanTitle(d[sel]?.title || ''))}</div>`;
-  const groups = sel === 'all' ? '' : `<div class="topicGroups">${DISCOVER_GROUPS.filter(([group]) => sel === group).map(([group, ico]) => `<div class="list">${Object.entries(d[group].topics).map(([id, v]) => listrow(cleanTitle(v.title), v.body[0]?.slice(0,95), itemIcon[id] || ico, href('guide', id), topicPhoto(id, group))).join('')}</div>`).join('')}</div>`;
+  const groups = sel === 'all' ? '' : `<div class="topicGroups">${DISCOVER_GROUPS.filter(([group]) => sel === group).map(([group, ico]) => `<div class="list">${Object.entries(d[group].topics).map(([id, v]) => listrow(cleanTitle(v.title), v.body[0]?.slice(0,95), itemIcon[id] || ico, href('guide', id), topicThumbnail(id, group))).join('')}</div>`).join('')}</div>`;
   return pageTitle(d.nearby_intro.title) + content + groups;
 }
 
@@ -571,7 +574,7 @@ function generalPage(id) {
 }
 
 async function loadData(lang) {
-  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=9.8')).json());
+  state.data = cache[lang] ?? (cache[lang] = await (await fetch('./data/' + lang + '.json?v=9.9')).json());
 }
 
 function wire() {
